@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1049</name>
-	<rightascension>19 09 23</rightascension>
-	<declination>+47 46 23</declination>
+	<name>KOI-2006</name>
+	<name>KIC 10525027</name>
+	<distance errorminus="0.4238" errorplus="0.4238">162.768</distance>
+	<rightascension>19 09 23.2262</rightascension>
+	<declination>+47 46 22.5461</declination>
 	<star>
 		<name>Kepler-1049</name>
+		<name>KOI-2006</name>
+		<name>KIC 10525027</name>
+		<name>2MASS J19092321+4746226</name>
+		<name>Gaia DR2 2131059628640021120</name>
+		<magH errorminus="0.021" errorplus="0.021">11.348</magH>
+		<magJ errorminus="0.021" errorplus="0.021">11.971</magJ>
+		<magK errorminus="0.011" errorplus="0.011">11.180</magK>
 		<temperature errorminus="41.5" errorplus="42.0">3864.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">0.51</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.49</radius>
 		<metallicity errorminus="0.08" errorplus="0.08">-0.33</metallicity>
 		<planet>
 			<name>Kepler-1049 b</name>
+			<name>KOI-2006 b</name>
+			<name>KOI-2006.01</name>
+			<name>KIC 10525027 b</name>
+			<name>Gaia DR2 2131059628640021120 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000005310" errorplus="0.000005310">3.273460740</period>
 			<radius errorminus="0.014" errorplus="0.009">0.085</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

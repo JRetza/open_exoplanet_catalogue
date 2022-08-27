@@ -1,12 +1,15 @@
 <system>
 	<name>EPIC 206318379</name>
 	<name>K2-28</name>
-	<rightascension>22 22 29.85</rightascension>
-	<declination>-07 57 19.3</declination>
-	<distance errorminus="8" errorplus="8">53</distance>
+	<rightascension>22 22 29.8611</rightascension>
+	<declination>-07 57 19.8535</declination>
+	<distance errorminus="0.3" errorplus="0.3">63.1</distance>
 	<star>
 		<name>EPIC 206318379</name>
 		<name>2MASS J22222988-0757195</name>
+		<name>K2-28</name>
+		<name>Gaia DR2 2622296783699476864</name>
+		<magV>15.81</magV>
 		<magJ errorminus="0.03" errorplus="0.03">11.70</magJ>
 		<magH errorminus="0.02" errorplus="0.02">11.03</magH>
 		<magK errorminus="0.02" errorplus="0.02">10.75</magK>
@@ -18,6 +21,7 @@
 		<planet>
 			<name>EPIC 206318379 b</name>
 			<name>K2-28 b</name>
+			<name>Gaia DR2 2622296783699476864 b</name>
 			<eccentricity>0</eccentricity>
 			<inclination errorminus="0.88" errorplus="0.57">89.14</inclination>
 			<radius errorminus="0.022" errorplus="0.022">0.212</radius>
@@ -32,4 +36,5 @@
 			<list>Confirmed planets</list>
 		</planet>
 	</star>
+	<constellation>Aquarius</constellation>
 </system>

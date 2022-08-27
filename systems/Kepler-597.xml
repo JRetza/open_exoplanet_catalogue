@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-597</name>
-	<rightascension>19 33 53</rightascension>
-	<declination>+39 15 10</declination>
+	<name>KOI-550</name>
+	<name>KIC 4165473</name>
+	<distance errorminus="9.3742" errorplus="9.3742">676.224</distance>
+	<rightascension>19 33 52.8230</rightascension>
+	<declination>+39 15 10.0895</declination>
 	<star>
 		<name>Kepler-597</name>
+		<name>KOI-550</name>
+		<name>KIC 4165473</name>
+		<name>2MASS J19335282+3915101</name>
+		<name>Gaia DR2 2052450079180319744</name>
 		<temperature errorminus="59.3" errorplus="69.3">5683.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.97</mass>
 		<radius errorminus="0.05" errorplus="0.06">0.95</radius>
 		<metallicity errorminus="0.10" errorplus="0.10">-0.01</metallicity>
 		<planet>
 			<name>Kepler-597 b</name>
+			<name>KOI-550 b</name>
+			<name>KOI-550.01</name>
+			<name>KIC 4165473 b</name>
+			<name>Gaia DR2 2052450079180319744 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000027280" errorplus="0.000027280">13.023658610</period>
 			<radius errorminus="0.012" errorplus="0.029">0.211</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

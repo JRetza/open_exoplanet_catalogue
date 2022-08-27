@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-649</name>
-	<rightascension>19 02 37</rightascension>
-	<declination>+45 04 46</declination>
+	<name>KOI-695</name>
+	<name>KIC 8805348</name>
+	<distance errorminus="4.5682" errorplus="4.5682">521.458</distance>
+	<rightascension>19 02 37.4250</rightascension>
+	<declination>+45 04 46.3688</declination>
 	<star>
 		<name>Kepler-649</name>
+		<name>KOI-695</name>
+		<name>KIC 8805348</name>
+		<name>2MASS J19023742+4504464</name>
+		<name>Gaia DR2 2106384010732717184</name>
 		<temperature errorminus="54.7" errorplus="62.2">5871.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.97</mass>
 		<radius errorminus="0.05" errorplus="0.06">0.94</radius>
 		<metallicity errorminus="0.12" errorplus="0.11">-0.17</metallicity>
 		<planet>
 			<name>Kepler-649 b</name>
+			<name>KOI-695 b</name>
+			<name>KOI-695.01</name>
+			<name>KIC 8805348 b</name>
+			<name>Gaia DR2 2106384010732717184 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000053730" errorplus="0.000053730">29.907226740</period>
 			<radius errorminus="0.011" errorplus="0.012">0.202</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-512</name>
-	<rightascension>19 53 05</rightascension>
-	<declination>+48 55 00</declination>
+	<name>KOI-294</name>
+	<name>KIC 11259686</name>
+	<distance errorminus="4.9368" errorplus="4.9368">473.709</distance>
+	<rightascension>19 53 04.5482</rightascension>
+	<declination>+48 55 00.2096</declination>
 	<star>
 		<name>Kepler-512</name>
+		<name>KOI-294</name>
+		<name>KIC 11259686</name>
+		<name>2MASS J19530455+4855002</name>
+		<name>Gaia DR2 2086940448965828992</name>
+		<magH errorminus="0.017" errorplus="0.017">11.347</magH>
+		<magJ errorminus="0.022" errorplus="0.022">11.617</magJ>
+		<magK errorminus="0.022" errorplus="0.022">11.315</magK>
 		<temperature errorminus="67.8" errorplus="75.8">5997.0</temperature>
 		<mass errorminus="0.05" errorplus="0.07">1.17</mass>
 		<radius errorminus="0.15" errorplus="0.24">1.30</radius>
 		<metallicity errorminus="0.08" errorplus="0.08">0.22</metallicity>
 		<planet>
 			<name>Kepler-512 b</name>
+			<name>KOI-294 b</name>
+			<name>KOI-294.01</name>
+			<name>KIC 11259686 b</name>
+			<name>Gaia DR2 2086940448965828992 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000082580" errorplus="0.000082580">34.435879750</period>
 			<radius errorminus="0.028" errorplus="0.044">0.240</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

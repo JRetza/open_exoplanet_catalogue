@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1467</name>
-	<rightascension>19 40 12</rightascension>
-	<declination>+45 20 34</declination>
+	<name>KOI-3316</name>
+	<name>KIC 9031209</name>
+	<distance errorminus="22.1433" errorplus="22.1433">873.82</distance>
+	<rightascension>19 40 11.6489</rightascension>
+	<declination>+45 20 33.6631</declination>
 	<star>
 		<name>Kepler-1467</name>
+		<name>KOI-3316</name>
+		<name>KIC 9031209</name>
+		<name>2MASS J19401164+4520336</name>
+		<name>Gaia DR2 2079981712895637248</name>
+		<magH errorminus="0.039" errorplus="0.039">13.704</magH>
+		<magJ errorminus="0.03" errorplus="0.03">14.14</magJ>
+		<magK errorminus="0.04" errorplus="0.04">13.58</magK>
 		<temperature errorminus="173.7" errorplus="179.2">5332.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">0.86</mass>
 		<radius errorminus="0.06" errorplus="0.07">0.82</radius>
 		<metallicity errorminus="0.19" errorplus="0.16">-0.07</metallicity>
 		<planet>
 			<name>Kepler-1467 b</name>
+			<name>KOI-3316 b</name>
+			<name>KOI-3316.01</name>
+			<name>KIC 9031209 b</name>
+			<name>Gaia DR2 2079981712895637248 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000183500" errorplus="0.000183500">47.056904300</period>
 			<radius errorminus="0.022" errorplus="0.028">0.294</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

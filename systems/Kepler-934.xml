@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-934</name>
-	<rightascension>19 21 09</rightascension>
-	<declination>+43 45 19</declination>
+	<name>KOI-1711</name>
+	<name>KIC 7955580</name>
+	<distance errorminus="9.0956" errorplus="9.0956">619.502</distance>
+	<rightascension>19 21 09.2324</rightascension>
+	<declination>+43 45 19.1838</declination>
 	<star>
 		<name>Kepler-934</name>
+		<name>KOI-1711</name>
+		<name>KIC 7955580</name>
+		<name>2MASS J19210923+4345191</name>
+		<name>Gaia DR2 2126835717285958912</name>
+		<magH errorminus="0.019" errorplus="0.019">13.057</magH>
+		<magJ errorminus="0.026" errorplus="0.026">13.549</magJ>
+		<magK errorminus="0.023" errorplus="0.023">12.970</magK>
 		<temperature errorminus="76.0" errorplus="68.2">5001.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.81</mass>
 		<radius errorminus="0.03" errorplus="0.04">0.77</radius>
 		<metallicity errorminus="0.16" errorplus="0.15">0.01</metallicity>
 		<planet>
 			<name>Kepler-934 b</name>
+			<name>KOI-1711 b</name>
+			<name>KOI-1711.01</name>
+			<name>KIC 7955580 b</name>
+			<name>Gaia DR2 2126835717285958912 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000282900" errorplus="0.000282900">55.673830900</period>
 			<radius errorminus="0.010" errorplus="0.013">0.186</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

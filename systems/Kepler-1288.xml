@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1288</name>
-	<rightascension>19 02 51</rightascension>
-	<declination>+41 36 21</declination>
+	<name>KOI-2608</name>
+	<name>KIC 6269070</name>
+	<distance errorminus="46.657" errorplus="46.657">714.082</distance>
+	<rightascension>19 02 51.2409</rightascension>
+	<declination>+41 36 21.1733</declination>
 	<star>
 		<name>Kepler-1288</name>
+		<name>KOI-2608</name>
+		<name>KIC 6269070</name>
+		<name>2MASS J19025123+4136211</name>
+		<name>Gaia DR2 2103960721465412864</name>
+		<magH errorminus="0.022" errorplus="0.022">12.003</magH>
+		<magJ errorminus="0.021" errorplus="0.021">12.239</magJ>
+		<magK errorminus="0.020" errorplus="0.020">11.959</magK>
 		<temperature errorminus="135.8" errorplus="88.0">6132.0</temperature>
 		<mass errorminus="0.08" errorplus="0.16">1.20</mass>
 		<radius errorminus="0.17" errorplus="0.54">1.29</radius>
 		<metallicity errorminus="0.14" errorplus="0.16">0.14</metallicity>
 		<planet>
 			<name>Kepler-1288 b</name>
+			<name>KOI-2608 b</name>
+			<name>KOI-2608.01</name>
+			<name>KIC 6269070 b</name>
+			<name>Gaia DR2 2103960721465412864 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000014770" errorplus="0.000014770">2.761224210</period>
 			<radius errorminus="0.014" errorplus="0.042">0.100</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

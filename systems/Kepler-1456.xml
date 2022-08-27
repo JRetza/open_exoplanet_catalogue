@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1456</name>
-	<rightascension>19 07 47</rightascension>
-	<declination>+43 49 22</declination>
+	<name>KOI-3286</name>
+	<name>KIC 8016691</name>
+	<distance errorminus="4.1041" errorplus="4.1041">374.266</distance>
+	<rightascension>19 07 46.8806</rightascension>
+	<declination>+43 49 21.9851</declination>
 	<star>
 		<name>Kepler-1456</name>
+		<name>KOI-3286</name>
+		<name>KIC 8016691</name>
+		<name>2MASS J19074687+4349219</name>
+		<name>Gaia DR2 2106018801073572224</name>
 		<temperature errorminus="85.6" errorplus="68.4">4231.0</temperature>
 		<mass errorminus="0.08" errorplus="0.05">0.64</mass>
 		<radius errorminus="0.07" errorplus="0.04">0.62</radius>
 		<metallicity errorminus="0.34" errorplus="0.21">-0.09</metallicity>
 		<planet>
 			<name>Kepler-1456 b</name>
+			<name>KOI-3286 b</name>
+			<name>KOI-3286.01</name>
+			<name>KIC 8016691 b</name>
+			<name>Gaia DR2 2106018801073572224 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000185400" errorplus="0.000185400">18.137382900</period>
 			<radius errorminus="0.013" errorplus="0.008">0.102</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

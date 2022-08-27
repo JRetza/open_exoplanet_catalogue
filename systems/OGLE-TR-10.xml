@@ -1,7 +1,7 @@
 <system>
 	<name>OGLE-TR-10</name>
-	<rightascension>17 51 28</rightascension>
-	<declination>-29 52 34</declination>
+	<rightascension>17 51 28.2589</rightascension>
+	<declination>-29 52 35.2329</declination>
 	<distance>1500</distance>
 	<star>
 		<mass>1.277</mass>
@@ -16,6 +16,7 @@
 		<planet>
 			<name>OGLE-TR-10 b</name>
 			<name>V5125 Sgr b</name>
+			<name>Gaia DR2 4056443366649948160 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.15" errorplus="0.15">0.68</mass>
 			<radius errorminus="0.11" errorplus="0.11">1.72</radius>
@@ -31,6 +32,9 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>OGLE-TR-10</name>
+		<name>Gaia DR2 4056443366649948160</name>
+		<magR errorminus="0.249" errorplus="0.249">16.193</magR>
 		<temperature>6075.0</temperature>
 	</star>
+	<constellation>Sagittarius</constellation>
 </system>

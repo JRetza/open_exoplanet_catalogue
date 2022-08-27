@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1429</name>
-	<rightascension>19 01 28</rightascension>
-	<declination>+49 02 42</declination>
+	<name>KOI-3110</name>
+	<name>KIC 11285870</name>
+	<distance errorminus="31.1775" errorplus="31.1775">1258.02</distance>
+	<rightascension>19 01 27.9097</rightascension>
+	<declination>+49 02 41.5134</declination>
 	<star>
 		<name>Kepler-1429</name>
+		<name>KOI-3110</name>
+		<name>KIC 11285870</name>
+		<name>2MASS J19012789+4902415</name>
+		<name>Gaia DR2 2132001463427986688</name>
+		<magH errorminus="0.035" errorplus="0.035">13.508</magH>
+		<magJ errorminus="0.031" errorplus="0.031">13.775</magJ>
+		<magK errorminus="0.037" errorplus="0.037">13.404</magK>
 		<temperature errorminus="77.0" errorplus="68.8">5902.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">1.05</mass>
 		<radius errorminus="0.10" errorplus="0.28">1.07</radius>
 		<metallicity errorminus="0.17" errorplus="0.14">0.04</metallicity>
 		<planet>
 			<name>Kepler-1429 b</name>
+			<name>KOI-3110 b</name>
+			<name>KOI-3110.01</name>
+			<name>KIC 11285870 b</name>
+			<name>Gaia DR2 2132001463427986688 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000045580" errorplus="0.000045580">4.484874930</period>
 			<radius errorminus="0.012" errorplus="0.031">0.115</radius>
 		</planet>
 	</star>
+	<constellation>Draco</constellation>
 </system>

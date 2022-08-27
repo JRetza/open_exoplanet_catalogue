@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1539</name>
-	<rightascension>18 56 53</rightascension>
-	<declination>+44 16 07</declination>
+	<name>KOI-4015</name>
+	<name>KIC 8282846</name>
+	<distance errorminus="16.8336" errorplus="16.8336">764.526</distance>
+	<rightascension>18 56 52.6694</rightascension>
+	<declination>+44 16 06.7698</declination>
 	<star>
 		<name>Kepler-1539</name>
+		<name>KOI-4015</name>
+		<name>KIC 8282846</name>
+		<name>2MASS J18565266+4416067</name>
+		<name>Gaia DR2 2106618687745888768</name>
+		<magH errorminus="0.029" errorplus="0.029">13.500</magH>
+		<magJ errorminus="0.023" errorplus="0.023">13.931</magJ>
+		<magK errorminus="0.042" errorplus="0.042">13.382</magK>
 		<temperature errorminus="58.0" errorplus="55.5">5176.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.84</mass>
 		<radius errorminus="0.04" errorplus="0.05">0.80</radius>
 		<metallicity errorminus="0.17" errorplus="0.16">-0.01</metallicity>
 		<planet>
 			<name>Kepler-1539 b</name>
+			<name>KOI-4015 b</name>
+			<name>KOI-4015.01</name>
+			<name>KIC 8282846 b</name>
+			<name>Gaia DR2 2106618687745888768 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000884300" errorplus="0.000884300">133.303674100</period>
 			<radius errorminus="0.013" errorplus="0.017">0.241</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

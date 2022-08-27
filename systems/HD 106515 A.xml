@@ -1,7 +1,7 @@
 <system>
 	<name>HD 106515 A</name>
-	<rightascension>12 15 07</rightascension>
-	<declination>-07 15 26</declination>
+	<rightascension>12 15 06.5668</rightascension>
+	<declination>-07 15 26.3522</declination>
 	<distance>35.2</distance>
 	<star>
 		<mass>0.97</mass>
@@ -16,6 +16,10 @@
 		<spectraltype>G5</spectraltype>
 		<planet>
 			<name>HD 106515 A b</name>
+			<name>Gaia DR2 3584074376569429248 b</name>
+			<name>GJ 9398 A b</name>
+			<name>TYC 4946-1328-1 b</name>
+			<name>HD 106515A b</name>
 			<list>Confirmed planets</list>
 			<mass>9.61</mass>
 			<period>3630</period>
@@ -28,5 +32,10 @@
 			<discoveryyear>2011</discoveryyear>
 		</planet>
 		<name>HD 106515 A</name>
+		<name>Gaia DR2 3584074376569429248</name>
+		<name>GJ 9398 A</name>
+		<name>TYC 4946-1328-1</name>
+		<name>HD 106515A</name>
 	</star>
+	<constellation>Virgo</constellation>
 </system>

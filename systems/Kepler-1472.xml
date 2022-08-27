@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1472</name>
-	<rightascension>19 39 25</rightascension>
-	<declination>+49 03 27</declination>
+	<name>KOI-3345</name>
+	<name>KIC 11303322</name>
+	<distance errorminus="49.3884" errorplus="49.3884">1544.64</distance>
+	<rightascension>19 39 24.6302</rightascension>
+	<declination>+49 03 26.8579</declination>
 	<star>
 		<name>Kepler-1472</name>
+		<name>KOI-3345</name>
+		<name>KIC 11303322</name>
+		<name>2MASS J19392463+4903268</name>
+		<name>Gaia DR2 2134804977563800064</name>
+		<magH errorminus="0.026" errorplus="0.026">13.308</magH>
+		<magJ errorminus="0.026" errorplus="0.026">13.579</magJ>
+		<magK errorminus="0.038" errorplus="0.038">13.255</magK>
 		<temperature errorminus="114.6" errorplus="92.7">6159.0</temperature>
 		<mass errorminus="0.09" errorplus="0.16">1.16</mass>
 		<radius errorminus="0.18" errorplus="0.50">1.25</radius>
 		<metallicity errorminus="0.15" errorplus="0.13">0.03</metallicity>
 		<planet>
 			<name>Kepler-1472 b</name>
+			<name>KOI-3345 b</name>
+			<name>KOI-3345.01</name>
+			<name>KIC 11303322 b</name>
+			<name>Gaia DR2 2134804977563800064 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000575500" errorplus="0.000575500">38.131283100</period>
 			<radius errorminus="0.032" errorplus="0.068">0.170</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

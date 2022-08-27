@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1116</name>
-	<rightascension>19 27 44</rightascension>
-	<declination>+44 06 56</declination>
+	<name>KOI-2140</name>
+	<name>KIC 8233702</name>
+	<distance errorminus="27.2702" errorplus="27.2702">1038.21</distance>
+	<rightascension>19 27 44.0726</rightascension>
+	<declination>+44 06 55.9042</declination>
 	<star>
 		<name>Kepler-1116</name>
+		<name>KOI-2140</name>
+		<name>KIC 8233702</name>
+		<name>2MASS J19274407+4406558</name>
+		<name>Gaia DR2 2126166733179219072</name>
+		<magH errorminus="0.027" errorplus="0.027">13.646</magH>
+		<magJ errorminus="0.025" errorplus="0.025">13.974</magJ>
+		<magK errorminus="0.047" errorplus="0.047">13.482</magK>
 		<temperature errorminus="133.1" errorplus="91.9">5641.0</temperature>
 		<mass errorminus="0.06" errorplus="0.05">0.95</mass>
 		<radius errorminus="0.08" errorplus="0.20">0.93</radius>
 		<metallicity errorminus="0.18" errorplus="0.14">0.01</metallicity>
 		<planet>
 			<name>Kepler-1116 b</name>
+			<name>KOI-2140 b</name>
+			<name>KOI-2140.01</name>
+			<name>KIC 8233702 b</name>
+			<name>Gaia DR2 2126166733179219072 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000200400" errorplus="0.000200400">41.697782700</period>
 			<radius errorminus="0.020" errorplus="0.048">0.227</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

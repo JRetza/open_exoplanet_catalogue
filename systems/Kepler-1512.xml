@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1512</name>
-	<rightascension>19 17 06</rightascension>
-	<declination>+44 28 13</declination>
+	<name>KOI-3497</name>
+	<name>KIC 8424002</name>
+	<distance errorminus="23.9058" errorplus="23.9058">315.278</distance>
+	<rightascension>19 17 05.8751</rightascension>
+	<declination>+44 28 13.1454</declination>
 	<star>
 		<name>Kepler-1512</name>
+		<name>KOI-3497</name>
+		<name>KIC 8424002</name>
+		<name>2MASS J19170588+4428129</name>
+		<name>Gaia DR2 2127115783511206016</name>
+		<magH errorminus="0.018" errorplus="0.018">10.750</magH>
+		<magJ errorminus="0.020" errorplus="0.020">11.315</magJ>
+		<magK errorminus="0.014" errorplus="0.014">10.623</magK>
 		<temperature errorminus="63.7" errorplus="59.1">4372.0</temperature>
 		<mass errorminus="0.10" errorplus="0.02">0.73</mass>
 		<radius errorminus="0.06" errorplus="0.02">0.67</radius>
 		<metallicity errorminus="0.39" errorplus="0.11">0.20</metallicity>
 		<planet>
 			<name>Kepler-1512 b</name>
+			<name>KOI-3497 b</name>
+			<name>KOI-3497.01</name>
+			<name>KIC 8424002 b</name>
+			<name>Gaia DR2 2127115783511206016 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000058740" errorplus="0.000058740">20.359725990</period>
 			<radius errorminus="0.010" errorplus="0.006">0.105</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

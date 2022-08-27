@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-586</name>
-	<rightascension>19 32 14</rightascension>
-	<declination>+45 33 04</declination>
+	<name>KOI-526</name>
+	<name>KIC 9157634</name>
+	<distance errorminus="10.7214" errorplus="10.7214">707.814</distance>
+	<rightascension>19 32 13.7346</rightascension>
+	<declination>+45 33 04.1770</declination>
 	<star>
 		<name>Kepler-586</name>
+		<name>KOI-526</name>
+		<name>KIC 9157634</name>
+		<name>2MASS J19321373+4533042</name>
+		<name>Gaia DR2 2126537234238972544</name>
 		<temperature errorminus="103.9" errorplus="149.3">5575.0</temperature>
 		<mass errorminus="0.05" errorplus="0.05">0.94</mass>
 		<radius errorminus="0.07" errorplus="0.12">0.92</radius>
 		<metallicity errorminus="0.17" errorplus="0.14">0.00</metallicity>
 		<planet>
 			<name>Kepler-586 b</name>
+			<name>KOI-526 b</name>
+			<name>KOI-526.01</name>
+			<name>KIC 9157634 b</name>
+			<name>Gaia DR2 2126537234238972544 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000000920" errorplus="0.000000920">2.104722180</period>
 			<radius errorminus="0.018" errorplus="0.032">0.249</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

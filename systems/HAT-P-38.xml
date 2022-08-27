@@ -1,7 +1,7 @@
 <system>
 	<name>HAT-P-38</name>
-	<rightascension>02 21 32</rightascension>
-	<declination>+32 14 47</declination>
+	<rightascension>02 21 31.9802</rightascension>
+	<declination>+32 14 46.0908</declination>
 	<distance>249</distance>
 	<star>
 		<mass>0.886</mass>
@@ -15,6 +15,8 @@
 		<spectraltype>G</spectraltype>
 		<planet>
 			<name>HAT-P-38 b</name>
+			<name>Gaia DR2 324889227693298560 b</name>
+			<name>Horna b</name>
 			<list>Confirmed planets</list>
 			<mass>0.267</mass>
 			<radius>0.825</radius>
@@ -30,6 +32,9 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HAT-P-38</name>
+		<name>Gaia DR2 324889227693298560</name>
+		<name>Horna</name>
 		<temperature>5330.0</temperature>
 	</star>
+	<constellation>Triangulum</constellation>
 </system>

@@ -1,0 +1,37 @@
+<system>
+	<name>HD 175370</name>
+	<rightascension>18 52 59.7212</rightascension>
+	<declination>+43 42 48.4925</declination>
+	<distance>272.0</distance>
+	<star>
+		<name>HD 175370</name>
+		<name>TYC 3131-1036-1</name>
+		<name>KIC 7940959</name>
+		<name>HIP 92668</name>
+		<name>Gaia DR2 2105114899436625792</name>
+		<age>8.7</age>
+		<radius>23.5</radius>
+		<mass>1.02</mass>
+		<spectraltype>K2 III</spectraltype>
+		<temperature>4301.0</temperature>
+		<metallicity>-0.52</metallicity>
+		<planet>
+			<name>HD 175370 b</name>
+			<name>TYC 3131-1036-1 b</name>
+			<name>KIC 7940959 b</name>
+			<name>HIP 92668 b</name>
+			<name>Gaia DR2 2105114899436625792 b</name>
+			<semimajoraxis errorminus="0.05" errorplus="0.05">0.98</semimajoraxis>
+			<periastron errorminus="28.0" errorplus="28.0">162.0</periastron>
+			<eccentricity errorminus="0.1" errorplus="0.1">0.22</eccentricity>
+			<period errorminus="4.500000" errorplus="4.500000">349.5</period>
+			<mass errorminus="1.0" errorplus="1.0">4.6</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/09/21</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

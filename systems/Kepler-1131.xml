@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1131</name>
-	<rightascension>19 42 36</rightascension>
-	<declination>+49 15 41</declination>
+	<name>KOI-2171</name>
+	<name>KIC 11410904</name>
+	<distance errorminus="24.5828" errorplus="24.5828">1061.91</distance>
+	<rightascension>19 42 36.3476</rightascension>
+	<declination>+49 15 40.6497</declination>
 	<star>
 		<name>Kepler-1131</name>
+		<name>KOI-2171</name>
+		<name>KIC 11410904</name>
+		<name>2MASS J19423635+4915406</name>
+		<name>Gaia DR2 2134776218463088896</name>
 		<temperature errorminus="114.9" errorplus="83.2">5851.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">1.03</mass>
 		<radius errorminus="0.10" errorplus="0.23">1.04</radius>
 		<metallicity errorminus="0.17" errorplus="0.15">0.05</metallicity>
 		<planet>
 			<name>Kepler-1131 b</name>
+			<name>KOI-2171 b</name>
+			<name>KOI-2171.01</name>
+			<name>KIC 11410904 b</name>
+			<name>Gaia DR2 2134776218463088896 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000012660" errorplus="0.000012660">3.532324490</period>
 			<radius errorminus="0.013" errorplus="0.032">0.142</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

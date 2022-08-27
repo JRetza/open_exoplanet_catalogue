@@ -1,7 +1,7 @@
 <system>
 	<name>HD 28678</name>
-	<rightascension>04 31 28</rightascension>
-	<declination>+04 34 48</declination>
+	<rightascension>04 31 25.4541</rightascension>
+	<declination>+04 34 31.0605</declination>
 	<distance>227</distance>
 	<star>
 		<mass>1.74</mass>
@@ -15,6 +15,10 @@
 		<spectraltype>K0</spectraltype>
 		<planet>
 			<name>HD 28678 b</name>
+			<name>TYC 90-645-1 b</name>
+			<name>Hoggar b</name>
+			<name>Gaia DR2 3282351760091020672 b</name>
+			<name>HIP 21109 b</name>
 			<list>Confirmed planets</list>
 			<mass>1.7</mass>
 			<period>387.1</period>
@@ -27,6 +31,11 @@
 			<temperature>499.6</temperature>
 		</planet>
 		<name>HD 28678</name>
+		<name>TYC 90-645-1</name>
+		<name>Hoggar</name>
+		<name>Gaia DR2 3282351760091020672</name>
+		<name>HIP 21109</name>
 		<temperature>5076.0</temperature>
 	</star>
+	<constellation>Taurus</constellation>
 </system>

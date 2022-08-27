@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-611</name>
-	<rightascension>19 04 01</rightascension>
-	<declination>+45 28 49</declination>
+	<name>KOI-583</name>
+	<name>KIC 9076513</name>
+	<distance errorminus="41.4437" errorplus="41.4437">1454.12</distance>
+	<rightascension>19 04 01.1880</rightascension>
+	<declination>+45 28 49.4069</declination>
 	<star>
 		<name>Kepler-611</name>
+		<name>KOI-583</name>
+		<name>KIC 9076513</name>
+		<name>2MASS J19040119+4528494</name>
+		<name>Gaia DR2 2106443453079518336</name>
+		<magH errorminus="0.023" errorplus="0.023">13.149</magH>
+		<magJ errorminus="0.025" errorplus="0.025">13.438</magJ>
+		<magK errorminus="0.027" errorplus="0.027">13.035</magK>
 		<temperature errorminus="69.4" errorplus="64.9">5761.0</temperature>
 		<mass errorminus="0.05" errorplus="0.05">1.01</mass>
 		<radius errorminus="0.09" errorplus="0.24">1.01</radius>
 		<metallicity errorminus="0.17" errorplus="0.15">0.06</metallicity>
 		<planet>
 			<name>Kepler-611 b</name>
+			<name>KOI-583 b</name>
+			<name>KOI-583.01</name>
+			<name>KIC 9076513 b</name>
+			<name>Gaia DR2 2106443453079518336 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000005030" errorplus="0.000005030">2.437033300</period>
 			<radius errorminus="0.013" errorplus="0.045">0.147</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

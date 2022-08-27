@@ -1,0 +1,53 @@
+<system>
+	<name>LHS 1140</name>
+	<rightascension>00 45 00</rightascension>
+	<declination>-15 16 27</declination>
+	<distance errorminus="0.0152000" errorplus="0.0153000">14.9861000</distance>
+	<star>
+		<name>LHS 1140</name>
+		<radius>0.21</radius>
+		<magV errorminus="0.0620000" errorplus="0.0620000">14.1500000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">9.6120010</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">9.0920000</magH>
+		<magK errorminus="0.0240000" errorplus="0.0240000">8.8210000</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.19</mass>
+		<temperature errorminus="39.00" errorplus="39.00">3216.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">-0.240</metallicity>
+		<spectraltype>M4.5V</spectraltype>
+		<planet>
+			<name>LHS 1140 b</name>
+			<semimajoraxis errorminus="0.001900" errorplus="0.001900">0.095700</semimajoraxis>
+			<eccentricity>0.096000</eccentricity>
+			<inclination errorminus="0.045" errorplus="0.049">89.877</inclination>
+			<period errorminus="0.00040000" errorplus="0.00041000">24.73694000</period>
+			<description>This planet was discovered by Dittmann et al. 2017. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00138" errorplus="0.00145">0.02007</mass>
+			<radius errorminus="0.004" errorplus="0.004">0.146</radius>
+			<temperature errorminus="4.20000000000e+00" errorplus="4.30000000000e+00">3.78900000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/13</lastupdate>
+			<transittime errorminus="0.001300" errorplus="0.001200">2458399.930300</transittime>
+		</planet>
+		<planet>
+			<name>LHS 1140 c</name>
+			<semimajoraxis errorminus="0.000540" errorplus="0.000540">0.027340</semimajoraxis>
+			<eccentricity>0.274000</eccentricity>
+			<inclination errorminus="0.049" errorplus="0.046">89.913</inclination>
+			<period errorminus="0.00003000" errorplus="0.00003000">3.77792000</period>
+			<description>This planet was discovered by Ment et al. 2019. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00050" errorplus="0.00053">0.00554</mass>
+			<radius errorminus="0.003" errorplus="0.003">0.104</radius>
+			<temperature errorminus="7.80000000000e+00" errorplus="8.00000000000e+00">7.08900000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/13</lastupdate>
+			<transittime errorminus="0.000820" errorplus="0.000810">2458389.293830</transittime>
+		</planet>
+	</star>
+	<constellation>Cetus</constellation>
+</system>

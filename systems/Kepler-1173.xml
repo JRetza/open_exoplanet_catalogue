@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1173</name>
-	<rightascension>19 32 31</rightascension>
-	<declination>+45 39 49</declination>
+	<name>KOI-2281</name>
+	<name>KIC 9221517</name>
+	<distance errorminus="2.4267" errorplus="2.4267">381.199</distance>
+	<rightascension>19 32 31.4632</rightascension>
+	<declination>+45 39 48.7373</declination>
 	<star>
 		<name>Kepler-1173</name>
+		<name>KOI-2281</name>
+		<name>KIC 9221517</name>
+		<name>2MASS J19323146+4539487</name>
+		<name>Gaia DR2 2128039304560957952</name>
+		<magH errorminus="0.021" errorplus="0.021">11.977</magH>
+		<magJ errorminus="0.019" errorplus="0.019">12.416</magJ>
+		<magK errorminus="0.026" errorplus="0.026">11.884</magK>
 		<temperature errorminus="116.8" errorplus="92.5">5252.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.86</mass>
 		<radius errorminus="0.04" errorplus="0.06">0.82</radius>
 		<metallicity errorminus="0.16" errorplus="0.15">0.00</metallicity>
 		<planet>
 			<name>Kepler-1173 b</name>
+			<name>KOI-2281 b</name>
+			<name>KOI-2281.01</name>
+			<name>KIC 9221517 b</name>
+			<name>Gaia DR2 2128039304560957952 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000001200" errorplus="0.000001200">0.769853600</period>
 			<radius errorminus="0.006" errorplus="0.021">0.079</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

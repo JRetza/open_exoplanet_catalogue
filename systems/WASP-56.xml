@@ -1,7 +1,7 @@
 <system>
 	<name>WASP-56</name>
-	<rightascension>12 13 27</rightascension>
-	<declination>+23 03 20</declination>
+	<rightascension>12 13 27.8908</rightascension>
+	<declination>+23 03 20.4299</declination>
 	<distance errorminus="40" errorplus="40">255</distance>
 	<star>
 		<mass>1.03</mass>
@@ -17,6 +17,8 @@
 		<spectraltype>G6</spectraltype>
 		<planet>
 			<name>WASP-56 b</name>
+			<name>TYC 1986-1561-1 b</name>
+			<name>Gaia DR2 4001613814138156416 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.571</mass>
 			<radius>1.092</radius>
@@ -33,5 +35,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>WASP-56</name>
+		<name>TYC 1986-1561-1</name>
+		<name>Gaia DR2 4001613814138156416</name>
 	</star>
+	<constellation>Coma Berenices</constellation>
 </system>

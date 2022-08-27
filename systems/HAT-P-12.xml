@@ -1,7 +1,7 @@
 <system>
 	<name>HAT-P-12</name>
-	<rightascension>13 57 34</rightascension>
-	<declination>+43 29 37</declination>
+	<rightascension>13 57 33.4668</rightascension>
+	<declination>+43 29 36.6025</declination>
 	<distance>142.5</distance>
 	<star>
 		<spectraltype>K5</spectraltype>
@@ -16,6 +16,7 @@
 		<planet>
 			<name>HAT-P-12 b</name>
 			<name>2MASS J13573347+4329367 b</name>
+			<name>Gaia DR2 1499514786891168640 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.211</mass>
 			<radius>0.959</radius>
@@ -31,6 +32,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HAT-P-12</name>
+		<name>Gaia DR2 1499514786891168640</name>
 		<temperature>4650.0</temperature>
 	</star>
+	<constellation>Canes Venatici</constellation>
 </system>

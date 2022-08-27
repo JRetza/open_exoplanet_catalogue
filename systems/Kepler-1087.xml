@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1087</name>
-	<rightascension>19 39 55</rightascension>
-	<declination>+46 00 20</declination>
+	<name>KOI-2079</name>
+	<name>KIC 9473078</name>
+	<distance errorminus="3.5177" errorplus="3.5177">366.421</distance>
+	<rightascension>19 39 54.9207</rightascension>
+	<declination>+46 00 20.3486</declination>
 	<star>
 		<name>Kepler-1087</name>
+		<name>KOI-2079</name>
+		<name>KIC 9473078</name>
+		<name>2MASS J19395491+4600203</name>
+		<name>Gaia DR2 2080070975195117312</name>
 		<temperature errorminus="191.4" errorplus="122.9">5589.0</temperature>
 		<mass errorminus="0.06" errorplus="0.07">0.96</mass>
 		<radius errorminus="0.07" errorplus="0.26">0.94</radius>
 		<metallicity errorminus="0.26" errorplus="0.15">0.01</metallicity>
 		<planet>
 			<name>Kepler-1087 b</name>
+			<name>KOI-2079 b</name>
+			<name>KOI-2079.01</name>
+			<name>KIC 9473078 b</name>
+			<name>Gaia DR2 2080070975195117312 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000001590" errorplus="0.000001590">0.693842850</period>
 			<radius errorminus="0.004" errorplus="0.015">0.054</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

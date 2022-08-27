@@ -1,24 +1,42 @@
 <system>
 	<name>Kepler-1517</name>
-	<rightascension>19 11 14</rightascension>
-	<declination>+43 11 20</declination>
+	<name>KOI-3728</name>
+	<name>KIC 7515679</name>
+	<distance errorminus="14.8547" errorplus="14.8547">868.357</distance>
+	<rightascension>19 11 13.7297</rightascension>
+	<declination>+43 11 19.6733</declination>
 	<star>
 		<name>Kepler-1517</name>
+		<name>KOI-3728</name>
+		<name>KIC 7515679</name>
+		<name>2MASS J19111373+4311196</name>
+		<name>Gaia DR2 2102974833192340224</name>
+		<name>TYC 3133-667-1</name>
+		<magB errorminus="0.27" errorplus="0.27">12.71</magB>
+		<magH errorminus="0.017" errorplus="0.017">11.346</magH>
+		<magJ errorminus="0.021" errorplus="0.021">11.505</magJ>
+		<magK errorminus="0.014" errorplus="0.014">11.303</magK>
+		<magV errorminus="0.21" errorplus="0.21">12.23</magV>
 		<temperature errorminus="113.2" errorplus="117.0">7010.0</temperature>
 		<mass errorminus="0.15" errorplus="0.18">1.58</mass>
 		<radius errorminus="0.37" errorplus="0.53">1.95</radius>
 		<metallicity errorminus="0.15" errorplus="0.14">0.01</metallicity>
 		<planet>
 			<name>Kepler-1517 b</name>
+			<name>KOI-3728 b</name>
+			<name>KOI-3728.01</name>
+			<name>KIC 7515679 b</name>
+			<name>Gaia DR2 2102974833192340224 b</name>
+			<name>TYC 3133-667-1 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000007090" errorplus="0.000007090">5.546083670</period>
 			<radius errorminus="0.172" errorplus="0.249">0.871</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

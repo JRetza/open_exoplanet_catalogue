@@ -1,7 +1,7 @@
 <system>
 	<name>WASP-63</name>
-	<rightascension>06 17 20.75</rightascension>
-	<declination>-38 19 23.8</declination>
+	<rightascension>06 17 20.7486</rightascension>
+	<declination>-38 19 23.7541</declination>
 	<distance>330</distance>
 	<star>
 		<name>WASP-63</name>
@@ -9,6 +9,7 @@
 		<name>2MASS J06172074-3819237</name>
 		<name>GSC 07612-00556</name>
 		<name>1SWASP J061720.74-381923.8</name>
+		<name>Gaia DR2 5574766468155514752</name>
 		<mass>1.32</mass>
 		<radius>1.88</radius>
 		<magV>11.2</magV>
@@ -24,6 +25,7 @@
 			<name>2MASS J06172074-3819237 b</name>
 			<name>GSC 07612-00556 b</name>
 			<name>1SWASP J061720.74-381923.8 b</name>
+			<name>Gaia DR2 5574766468155514752 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.03" errorplus="0.03">0.38</mass>
 			<radius errorminus="0.06" errorplus="0.10">1.43</radius>
@@ -41,4 +43,5 @@
 		</planet>
 		<temperature errorminus="90" errorplus="90">5570.0</temperature>
 	</star>
+	<constellation>Columba</constellation>
 </system>

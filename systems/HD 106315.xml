@@ -1,0 +1,74 @@
+<system>
+	<name>HD 106315</name>
+	<name>K2-109</name>
+	<name>EPIC 201437844</name>
+	<name>TYC 4940-868-1</name>
+	<name>2MASS J12135339-0023365</name>
+	<rightascension>12 13 53.3965</rightascension>
+	<declination>-00 23 36.5543</declination>
+	<distance errorminus="5.00" errorplus="5.00">109.00</distance>
+	<star>
+		<name>HD 106315</name>
+		<name>K2-109</name>
+		<name>EPIC 201437844</name>
+		<name>TYC 4940-868-1</name>
+		<name>2MASS J12135339-0023365</name>
+		<name>Gaia DR2 3698307419878650240</name>
+		<radius errorminus="0.06" errorplus="0.06">1.30</radius>
+		<magV errorminus="0.018" errorplus="0.018">8.951</magV>
+		<magJ errorminus="0.025" errorplus="0.025">8.116</magJ>
+		<magH errorminus="0.040" errorplus="0.040">7.962</magH>
+		<magK errorminus="0.020" errorplus="0.020">7.853</magK>
+		<mass errorminus="0.04" errorplus="0.04">1.09</mass>
+		<temperature errorminus="48.00" errorplus="48.00">6327.00</temperature>
+		<metallicity errorminus="0.079" errorplus="0.079">-0.311</metallicity>
+		<spectraltype>F5V</spectraltype>
+		<planet>
+			<name>HD 106315 b</name>
+			<name>K2-109 b</name>
+			<name>EPIC 201437844 b</name>
+			<name>TYC 4940-868-1 b</name>
+			<name>2MASS J12135339-0023365 b</name>
+			<name>Gaia DR2 3698307419878650240 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.090700</semimajoraxis>
+			<eccentricity errorminus="0.068000" errorplus="0.110000">0.093000</eccentricity>
+			<periastron errorminus="200.0000" errorplus="74.0000">239.0000</periastron>
+			<inclination errorminus="0.320" errorplus="0.320">87.540</inclination>
+			<period errorminus="0.00089000" errorplus="0.00089000">9.55237000</period>
+			<description>This planet was discovered by Crossfield et al. 2017. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Barros et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01007" errorplus="0.01007">0.03964</mass>
+			<radius errorminus="0.015" errorplus="0.015">0.218</radius>
+			<temperature errorminus="25" errorplus="25">1153</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/07/25</lastupdate>
+			<transittime errorminus="0.002900" errorplus="0.002900">2457586.548700</transittime>
+		</planet>
+		<planet>
+			<name>HD 106315 c</name>
+			<name>K2-109 c</name>
+			<name>EPIC 201437844 c</name>
+			<name>TYC 4940-868-1 c</name>
+			<name>2MASS J12135339-0023365 c</name>
+			<name>Gaia DR2 3698307419878650240 c</name>
+			<semimajoraxis errorminus="0.001700" errorplus="0.001700">0.153600</semimajoraxis>
+			<eccentricity errorminus="0.150000" errorplus="0.150000">0.220000</eccentricity>
+			<periastron errorminus="35.0000" errorplus="88.0000">96.0000</periastron>
+			<inclination errorminus="0.250" errorplus="0.700">88.610</inclination>
+			<period errorminus="0.00046000" errorplus="0.00046000">21.05704000</period>
+			<description>This planet was discovered by Crossfield et al. 2017. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Barros et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01164" errorplus="0.01164">0.04782</mass>
+			<radius errorminus="0.021" errorplus="0.021">0.388</radius>
+			<temperature errorminus="20" errorplus="20">886</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/07/25</lastupdate>
+			<transittime errorminus="0.001400" errorplus="0.001400">2457569.017300</transittime>
+		</planet>
+	</star>
+	<constellation>Virgo</constellation>
+</system>

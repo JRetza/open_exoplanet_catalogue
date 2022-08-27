@@ -1,0 +1,43 @@
+<system>
+	<name>HD 185603</name>
+	<rightascension>19 38 38.7352</rightascension>
+	<declination>+31 13 09.2157</declination>
+	<distance errorminus="0.8" errorplus="0.8">137</distance>
+	<star>
+		<name>HD 185603</name>
+		<name>MASCARA-2</name>
+		<name>KELT-20</name>
+		<name>Gaia DR2 2033123654092592384</name>
+		<name>HIP 96618</name>
+		<name>TYC 2655-3344-1</name>
+		<age>0.3</age>
+		<radius>1.561</radius>
+		<mass>2.0</mass>
+		<magV errorminus="0.01" errorplus="0.01">7.58</magV>
+		<magB errorminus="0.01" errorplus="0.01">7.67</magB>
+		<magH errorminus="0.018" errorplus="0.018">7.446</magH>
+		<magJ errorminus="0.024" errorplus="0.024">7.424</magJ>
+		<magK errorminus="0.017" errorplus="0.017">7.415</magK>
+		<spectraltype>A2V</spectraltype>
+		<temperature>8981.0</temperature>
+		<metallicity>-0.29</metallicity>
+		<planet>
+			<name>HD 185603 b</name>
+			<name>MASCARA-2 b</name>
+			<name>KELT-20 b</name>
+			<semimajoraxis errorminus="0.0021" errorplus="0.0014">0.0542</semimajoraxis>
+			<longitude errorminus="2.1" errorplus="2.1">3.4</longitude>
+			<inclination errorminus="0.1" errorplus="0.1">86.2</inclination>
+			<period>3.4741085</period>
+			<mass errorminus="3.517" errorplus="3.517">3.518</mass>
+			<radius errorminus="0.075" errorplus="0.07">1.735</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

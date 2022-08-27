@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-601</name>
-	<rightascension>18 48 01</rightascension>
-	<declination>+42 10 36</declination>
+	<name>KOI-561</name>
+	<name>KIC 6665695</name>
+	<distance errorminus="2.4502" errorplus="2.4502">419.851</distance>
+	<rightascension>18 48 01.1083</rightascension>
+	<declination>+42 10 35.4247</declination>
 	<star>
 		<name>Kepler-601</name>
+		<name>KOI-561</name>
+		<name>KIC 6665695</name>
+		<name>2MASS J18480110+4210355</name>
+		<name>Gaia DR2 2104705193915993216</name>
+		<magH errorminus="0.03" errorplus="0.03">12.15</magH>
+		<magJ errorminus="0.027" errorplus="0.027">12.647</magJ>
+		<magK errorminus="0.021" errorplus="0.021">12.129</magK>
 		<temperature errorminus="46.8" errorplus="61.6">5160.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">0.85</mass>
 		<radius errorminus="0.02" errorplus="0.02">0.79</radius>
 		<metallicity errorminus="0.10" errorplus="0.10">-0.02</metallicity>
 		<planet>
 			<name>Kepler-601 b</name>
+			<name>KOI-561 b</name>
+			<name>KOI-561.01</name>
+			<name>KIC 6665695 b</name>
+			<name>Gaia DR2 2104705193915993216 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000007270" errorplus="0.000007270">5.378868440</period>
 			<radius errorminus="0.016" errorplus="0.024">0.170</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

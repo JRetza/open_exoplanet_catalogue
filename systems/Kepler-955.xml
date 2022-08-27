@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-955</name>
-	<rightascension>19 13 53</rightascension>
-	<declination>+40 16 11</declination>
+	<name>KOI-1801</name>
+	<name>KIC 5088591</name>
+	<distance errorminus="6.8792" errorplus="6.8792">559.19</distance>
+	<rightascension>19 13 53.1511</rightascension>
+	<declination>+40 16 11.2571</declination>
 	<star>
 		<name>Kepler-955</name>
+		<name>KOI-1801</name>
+		<name>KIC 5088591</name>
+		<name>2MASS J19135314+4016112</name>
+		<name>Gaia DR2 2101305469605609088</name>
+		<magH errorminus="0.021" errorplus="0.021">12.854</magH>
+		<magJ errorminus="0.021" errorplus="0.021">13.269</magJ>
+		<magK errorminus="0.027" errorplus="0.027">12.807</magK>
 		<temperature errorminus="89.9" errorplus="73.4">5350.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.89</mass>
 		<radius errorminus="0.04" errorplus="0.07">0.84</radius>
 		<metallicity errorminus="0.16" errorplus="0.15">0.02</metallicity>
 		<planet>
 			<name>Kepler-955 b</name>
+			<name>KOI-1801 b</name>
+			<name>KOI-1801.01</name>
+			<name>KIC 5088591 b</name>
+			<name>Gaia DR2 2101305469605609088 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000016620" errorplus="0.000016620">14.532441720</period>
 			<radius errorminus="0.015" errorplus="0.024">0.279</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

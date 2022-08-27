@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-483</name>
-	<rightascension>19 26 35</rightascension>
-	<declination>+41 53 05</declination>
+	<name>KOI-176</name>
+	<name>KIC 6442377</name>
+	<distance errorminus="10.663" errorplus="10.663">882.223</distance>
+	<rightascension>19 26 35.2170</rightascension>
+	<declination>+41 53 04.7829</declination>
 	<star>
 		<name>Kepler-483</name>
+		<name>KOI-176</name>
+		<name>KIC 6442377</name>
+		<name>2MASS J19263522+4153047</name>
+		<name>Gaia DR2 2101719263935952768</name>
 		<temperature errorminus="73.4" errorplus="79.7">6346.0</temperature>
 		<mass errorminus="0.07" errorplus="0.10">1.28</mass>
 		<radius errorminus="0.19" errorplus="0.31">1.47</radius>
 		<metallicity errorminus="0.09" errorplus="0.09">0.09</metallicity>
 		<planet>
 			<name>Kepler-483 b</name>
+			<name>KOI-176 b</name>
+			<name>KOI-176.01</name>
+			<name>KIC 6442377 b</name>
+			<name>Gaia DR2 2101719263935952768 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000078510" errorplus="0.000078510">30.229104000</period>
 			<radius errorminus="0.038" errorplus="0.061">0.286</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

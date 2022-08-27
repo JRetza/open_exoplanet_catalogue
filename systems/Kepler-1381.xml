@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1381</name>
-	<rightascension>19 10 09</rightascension>
-	<declination>+48 43 40</declination>
+	<name>KOI-2898</name>
+	<name>KIC 11129258</name>
+	<distance errorminus="40.404" errorplus="40.404">1239.46</distance>
+	<rightascension>19 10 08.5893</rightascension>
+	<declination>+48 43 40.0370</declination>
 	<star>
 		<name>Kepler-1381</name>
+		<name>KOI-2898</name>
+		<name>KIC 11129258</name>
+		<name>2MASS J19100858+4843400</name>
+		<name>Gaia DR2 2131228815991876736</name>
 		<temperature errorminus="73.2" errorplus="83.8">5747.0</temperature>
 		<mass errorminus="0.07" errorplus="0.05">0.96</mass>
 		<radius errorminus="0.07" errorplus="0.11">0.94</radius>
 		<metallicity errorminus="0.20" errorplus="0.16">-0.10</metallicity>
 		<planet>
 			<name>Kepler-1381 b</name>
+			<name>KOI-2898 b</name>
+			<name>KOI-2898.01</name>
+			<name>KIC 11129258 b</name>
+			<name>Gaia DR2 2131228815991876736 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000175700" errorplus="0.000175700">25.384268600</period>
 			<radius errorminus="0.017" errorplus="0.026">0.201</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,7 +1,7 @@
 <system>
 	<name>HD 132406</name>
-	<rightascension>14 56 55</rightascension>
-	<declination>+53 22 56</declination>
+	<rightascension>14 56 54.6511</rightascension>
+	<declination>+53 22 55.8073</declination>
 	<distance>71</distance>
 	<star>
 		<mass>1.09</mass>
@@ -16,6 +16,9 @@
 		<spectraltype>G0V</spectraltype>
 		<planet>
 			<name>HD 132406 b</name>
+			<name>Gaia DR2 1594127865540229888 b</name>
+			<name>HIP 73146 b</name>
+			<name>TYC 3861-267-1 b</name>
 			<list>Confirmed planets</list>
 			<mass>5.61</mass>
 			<period>974</period>
@@ -27,6 +30,10 @@
 			<temperature>209.0</temperature>
 		</planet>
 		<name>HD 132406</name>
+		<name>Gaia DR2 1594127865540229888</name>
+		<name>HIP 73146</name>
+		<name>TYC 3861-267-1</name>
 		<temperature>5885.0</temperature>
 	</star>
+	<constellation>Boötes</constellation>
 </system>

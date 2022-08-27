@@ -1,24 +1,42 @@
 <system>
 	<name>Kepler-1339</name>
-	<rightascension>18 54 59</rightascension>
-	<declination>+48 22 24</declination>
+	<name>KOI-2754</name>
+	<name>KIC 10905911</name>
+	<distance errorminus="8.0503" errorplus="8.0503">374.827</distance>
+	<rightascension>18 54 59.0072</rightascension>
+	<declination>+48 22 24.3218</declination>
 	<star>
 		<name>Kepler-1339</name>
+		<name>KOI-2754</name>
+		<name>KIC 10905911</name>
+		<name>2MASS J18545899+4822242</name>
+		<name>Gaia DR2 2131677584235170048</name>
+		<name>TYC 3544-559-1</name>
+		<magB errorminus="0.30" errorplus="0.30">12.94</magB>
+		<magH errorminus="0.019" errorplus="0.019">10.697</magH>
+		<magJ errorminus="0.022" errorplus="0.022">11.026</magJ>
+		<magK errorminus="0.014" errorplus="0.014">10.627</magK>
+		<magV errorminus="0.22" errorplus="0.22">12.34</magV>
 		<temperature errorminus="56.0" errorplus="51.0">5586.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.94</mass>
 		<radius errorminus="0.05" errorplus="0.06">0.93</radius>
 		<metallicity errorminus="0.11" errorplus="0.11">0.01</metallicity>
 		<planet>
 			<name>Kepler-1339 b</name>
+			<name>KOI-2754 b</name>
+			<name>KOI-2754.01</name>
+			<name>KIC 10905911 b</name>
+			<name>Gaia DR2 2131677584235170048 b</name>
+			<name>TYC 3544-559-1 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000003700" errorplus="0.000003700">1.341555130</period>
 			<radius errorminus="0.004" errorplus="0.005">0.063</radius>
 		</planet>
 	</star>
+	<constellation>Draco</constellation>
 </system>

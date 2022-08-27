@@ -1,24 +1,37 @@
 <system>
 	<name>Kepler-1628</name>
-	<rightascension>18 46 32</rightascension>
-	<declination>+43 24 42</declination>
+	<name>KOI-5416</name>
+	<name>KIC 7731281</name>
+	<rightascension>18 46 32.0864</rightascension>
+	<declination>+43 24 41.5968</declination>
 	<star>
 		<name>Kepler-1628</name>
+		<name>KOI-5416</name>
+		<name>KIC 7731281</name>
+		<name>2MASS J18463208+4324416</name>
+		<name>Gaia DR2 2105245187265625728</name>
+		<magH errorminus="0.023" errorplus="0.023">13.410</magH>
+		<magJ errorminus="0.021" errorplus="0.021">14.126</magJ>
+		<magK errorminus="0.027" errorplus="0.027">13.224</magK>
 		<temperature errorminus="48.6" errorplus="65.6">3724.0</temperature>
 		<mass errorminus="0.03" errorplus="0.04">0.55</mass>
 		<radius errorminus="0.03" errorplus="0.04">0.52</radius>
 		<metallicity errorminus="0.11" errorplus="0.10">0.17</metallicity>
 		<planet>
 			<name>Kepler-1628 b</name>
+			<name>KOI-5416 b</name>
+			<name>KOI-5416.01</name>
+			<name>KIC 7731281 b</name>
+			<name>Gaia DR2 2105245187265625728 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.001833000" errorplus="0.001833000">76.378033000</period>
 			<radius errorminus="0.045" errorplus="0.084">0.574</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

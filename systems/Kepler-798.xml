@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-798</name>
-	<rightascension>19 29 55</rightascension>
-	<declination>+42 08 32</declination>
+	<name>KOI-1245</name>
+	<name>KIC 6693640</name>
+	<distance errorminus="18.7037" errorplus="18.7037">1000.1</distance>
+	<rightascension>19 29 54.7748</rightascension>
+	<declination>+42 08 32.1462</declination>
 	<star>
 		<name>Kepler-798</name>
+		<name>KOI-1245</name>
+		<name>KIC 6693640</name>
+		<name>2MASS J19295476+4208322</name>
+		<name>Gaia DR2 2125709405062046976</name>
+		<magH errorminus="0.028" errorplus="0.028">12.870</magH>
+		<magJ errorminus="0.025" errorplus="0.025">13.144</magJ>
+		<magK errorminus="0.03" errorplus="0.03">12.84</magK>
 		<temperature errorminus="142.9" errorplus="124.3">6224.0</temperature>
 		<mass errorminus="0.09" errorplus="0.18">1.19</mass>
 		<radius errorminus="0.18" errorplus="0.56">1.29</radius>
 		<metallicity errorminus="0.15" errorplus="0.13">0.03</metallicity>
 		<planet>
 			<name>Kepler-798 b</name>
+			<name>KOI-1245 b</name>
+			<name>KOI-1245.01</name>
+			<name>KIC 6693640 b</name>
+			<name>Gaia DR2 2125709405062046976 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000057340" errorplus="0.000057340">13.719333690</period>
 			<radius errorminus="0.030" errorplus="0.093">0.213</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

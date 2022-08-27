@@ -5,8 +5,8 @@
 	<name>HR 5888</name>
 	<name>HD 141680</name>
 	<name>HIP 77578</name>
-	<rightascension>15 50 17.55</rightascension>
-	<declination>+02 11 47.44</declination>
+	<rightascension>15 50 17.5464</rightascension>
+	<declination>+02 11 47.4390</declination>
 	<distance>83.8</distance>
 	<star>
 		<magB>6.239</magB>
@@ -20,6 +20,8 @@
 		<name>HR 5888</name>
 		<name>HD 141680</name>
 		<name>HIP 77578</name>
+		<name>TYC 356-1276-1</name>
+		<name>Gaia DR2 4423234230853333632</name>
 		<mass>2.17</mass>
 		<radius>12.30</radius>
 		<temperature>4770</temperature>
@@ -32,6 +34,8 @@
 			<name>HR 5888 b</name>
 			<name>HD 141680 b</name>
 			<name>HIP 77578 b</name>
+			<name>TYC 356-1276-1 b</name>
+			<name>Gaia DR2 4423234230853333632 b</name>
 			<list>Confirmed planets</list>
 			<mass>1.7</mass>
 			<period>277.02</period>
@@ -44,4 +48,5 @@
 			<discoveryyear>2013</discoveryyear>
 		</planet>
 	</star>
+	<constellation>Serpens</constellation>
 </system>

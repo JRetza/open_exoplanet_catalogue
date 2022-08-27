@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1326</name>
-	<rightascension>19 44 53</rightascension>
-	<declination>+39 16 08</declination>
+	<name>KOI-2728</name>
+	<name>KIC 4178606</name>
+	<distance errorminus="16.7338" errorplus="16.7338">712.099</distance>
+	<rightascension>19 44 53.3177</rightascension>
+	<declination>+39 16 08.2246</declination>
 	<star>
 		<name>Kepler-1326</name>
+		<name>KOI-2728</name>
+		<name>KIC 4178606</name>
+		<name>2MASS J19445331+3916082</name>
+		<name>Gaia DR2 2073280185224841728</name>
 		<temperature errorminus="196.4" errorplus="280.9">6725.0</temperature>
 		<mass errorminus="0.16" errorplus="0.21">1.45</mass>
 		<radius errorminus="0.32" errorplus="0.63">1.74</radius>
 		<metallicity errorminus="0.17" errorplus="0.13">0.02</metallicity>
 		<planet>
 			<name>Kepler-1326 b</name>
+			<name>KOI-2728 b</name>
+			<name>KOI-2728.01</name>
+			<name>KIC 4178606 b</name>
+			<name>Gaia DR2 2073280185224841728 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000137200" errorplus="0.000137200">42.351426700</period>
 			<radius errorminus="0.068" errorplus="0.135">0.373</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,7 +1,7 @@
 <system>
 	<name>WASP-37</name>
-	<rightascension>14 47 47</rightascension>
-	<declination>+01 03 54</declination>
+	<rightascension>14 47 46.5618</rightascension>
+	<declination>+01 03 53.8023</declination>
 	<distance>338</distance>
 	<star>
 		<mass>0.849</mass>
@@ -18,6 +18,7 @@
 		<planet>
 			<name>WASP-37 b</name>
 			<name>2MASS J14474655+0103538 b</name>
+			<name>Gaia DR2 3652176997218325888 b</name>
 			<list>Confirmed planets</list>
 			<mass>1.696</mass>
 			<radius>1.136</radius>
@@ -33,6 +34,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>WASP-37</name>
+		<name>Gaia DR2 3652176997218325888</name>
 		<temperature>5800.0</temperature>
 	</star>
+	<constellation>Virgo</constellation>
 </system>

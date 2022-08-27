@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1302</name>
-	<rightascension>19 23 57</rightascension>
-	<declination>+50 18 29</declination>
+	<name>KOI-2647</name>
+	<name>KIC 11962284</name>
+	<distance errorminus="8.6472" errorplus="8.6472">646.329</distance>
+	<rightascension>19 23 57.4217</rightascension>
+	<declination>+50 18 29.0164</declination>
 	<star>
 		<name>Kepler-1302</name>
+		<name>KOI-2647</name>
+		<name>KIC 11962284</name>
+		<name>2MASS J19235741+5018290</name>
+		<name>Gaia DR2 2130136176312202624</name>
+		<magH errorminus="0.037" errorplus="0.037">13.267</magH>
+		<magJ errorminus="0.022" errorplus="0.022">13.657</magJ>
+		<magK errorminus="0.028" errorplus="0.028">13.151</magK>
 		<temperature errorminus="77.1" errorplus="58.5">5236.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.86</mass>
 		<radius errorminus="0.04" errorplus="0.06">0.82</radius>
 		<metallicity errorminus="0.17" errorplus="0.16">0.04</metallicity>
 		<planet>
 			<name>Kepler-1302 b</name>
+			<name>KOI-2647 b</name>
+			<name>KOI-2647.01</name>
+			<name>KIC 11962284 b</name>
+			<name>Gaia DR2 2130136176312202624 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000058660" errorplus="0.000058660">8.839226590</period>
 			<radius errorminus="0.008" errorplus="0.013">0.128</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

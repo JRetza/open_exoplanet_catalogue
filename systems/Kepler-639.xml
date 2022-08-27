@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-639</name>
-	<rightascension>19 28 45</rightascension>
-	<declination>+41 43 37</declination>
+	<name>KOI-662</name>
+	<name>KIC 6365156</name>
+	<distance errorminus="11.6215" errorplus="11.6215">871.536</distance>
+	<rightascension>19 28 44.8456</rightascension>
+	<declination>+41 43 37.3521</declination>
 	<star>
 		<name>Kepler-639</name>
+		<name>KOI-662</name>
+		<name>KIC 6365156</name>
+		<name>2MASS J19284485+4143373</name>
+		<name>Gaia DR2 2101675661427506432</name>
+		<magH errorminus="0.021" errorplus="0.021">11.948</magH>
+		<magJ errorminus="0.021" errorplus="0.021">12.212</magJ>
+		<magK errorminus="0.022" errorplus="0.022">11.890</magK>
 		<temperature errorminus="59.6" errorplus="77.0">5896.0</temperature>
 		<mass errorminus="0.06" errorplus="0.09">1.14</mass>
 		<radius errorminus="0.18" errorplus="0.26">1.29</radius>
 		<metallicity errorminus="0.07" errorplus="0.08">0.23</metallicity>
 		<planet>
 			<name>Kepler-639 b</name>
+			<name>KOI-662 b</name>
+			<name>KOI-662.01</name>
+			<name>KIC 6365156 b</name>
+			<name>Gaia DR2 2101675661427506432 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000021310" errorplus="0.000021310">10.214204960</period>
 			<radius errorminus="0.030" errorplus="0.049">0.212</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1172</name>
-	<rightascension>19 21 54</rightascension>
-	<declination>+37 45 59.8</declination>
+	<name>KOI-2280</name>
+	<name>KIC 2439243</name>
+	<distance errorminus="56.6121" errorplus="56.6121">1355.75</distance>
+	<rightascension>19 21 53.8844</rightascension>
+	<declination>+37 45 59.6344</declination>
 	<star>
 		<name>Kepler-1172</name>
+		<name>KOI-2280</name>
+		<name>KIC 2439243</name>
+		<name>2MASS J19215388+3745597</name>
+		<name>Gaia DR2 2051103314872392192</name>
+		<magH errorminus="0.04" errorplus="0.04">14.24</magH>
+		<magJ errorminus="0.03" errorplus="0.03">14.62</magJ>
+		<magK errorminus="0.06" errorplus="0.06">14.14</magK>
 		<temperature errorminus="137.7" errorplus="144.9">5558.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">0.92</mass>
 		<radius errorminus="0.07" errorplus="0.11">0.89</radius>
 		<metallicity errorminus="0.19" errorplus="0.14">-0.04</metallicity>
 		<planet>
 			<name>Kepler-1172 b</name>
+			<name>KOI-2280 b</name>
+			<name>KOI-2280.01</name>
+			<name>KIC 2439243 b</name>
+			<name>Gaia DR2 2051103314872392192 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000188600" errorplus="0.000188600">26.020442300</period>
 			<radius errorminus="0.025" errorplus="0.036">0.285</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

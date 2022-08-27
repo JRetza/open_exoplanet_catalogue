@@ -1,7 +1,7 @@
 <system>
 	<name>HD 75898</name>
-	<rightascension>08 53 51</rightascension>
-	<declination>+33 03 25</declination>
+	<rightascension>08 53 50.8052</rightascension>
+	<declination>+33 03 24.5230</declination>
 	<distance>80.58</distance>
 	<star>
 		<mass>1.28</mass>
@@ -16,6 +16,11 @@
 		<spectraltype>G0</spectraltype>
 		<planet>
 			<name>HD 75898 b</name>
+			<name>TYC 2488-663-1 b</name>
+			<name>Veles</name>
+			<name>Stribor b</name>
+			<name>HIP 43674 b</name>
+			<name>Gaia DR2 713135102814342656 b</name>
 			<list>Confirmed planets</list>
 			<mass>2.51</mass>
 			<period>418.2</period>
@@ -27,6 +32,11 @@
 			<temperature>307.6</temperature>
 		</planet>
 		<name>HD 75898</name>
+		<name>TYC 2488-663-1</name>
+		<name>Stribor</name>
+		<name>HIP 43674</name>
+		<name>Gaia DR2 713135102814342656</name>
 		<temperature>6021.0</temperature>
 	</star>
+	<constellation>Lynx</constellation>
 </system>

@@ -1,10 +1,11 @@
 <system>
 	<name>GU Psc</name>
-	<rightascension>01 12 35</rightascension>
-	<declination>+17 03 56</declination>
+	<rightascension>01 12 35.0519</rightascension>
+	<declination>+17 03 55.5712</declination>
 	<distance errorminus="5" errorplus="5">48</distance>
 	<star>
 		<name>GU Psc</name>
+		<name>Gaia DR2 2784120641627589760</name>
 		<mass errorminus="0.25" errorplus="0.25">0.325</mass>
 		<metallicity errorminus="0.13" errorplus="0.13">0.1</metallicity>
 		<spectraltype>M3</spectraltype>
@@ -17,6 +18,7 @@
 		<magK errorminus="0.015" errorplus="0.015">9.345</magK>
 		<planet>
 			<name>GU Psc b</name>
+			<name>Gaia DR2 2784120641627589760 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="2" errorplus="2">11</mass>
 			<temperature errorminus="50" errorplus="50">1050</temperature>
@@ -28,9 +30,14 @@
 			<separation errorminus="200" errorplus="200" unit="AU">2000</separation>
 			<positionangle>29</positionangle>
 			<description>GU Psc b is a comoving companion of planetary mass to the young M3 star GU Psc. The system is only 100 million years old and the wide separation of the planetary companion raising interesting questions about the system's formation history.</description>
+			<image>GUPsc</image>
+			<imagedescription>Image of the planet GU Psc b and its host star. 
+
+Credit: Marie-Eve Naud (Montreal).</imagedescription>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>14/05/14</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 		</planet>
 	</star>
+	<constellation>Pisces</constellation>
 </system>

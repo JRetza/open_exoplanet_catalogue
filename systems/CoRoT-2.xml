@@ -1,7 +1,7 @@
 <system>
 	<name>CoRoT-2</name>
-	<rightascension>19 27 07</rightascension>
-	<declination>+01 23 02</declination>
+	<rightascension>19 27 06.4944</rightascension>
+	<declination>+01 23 01.3575</declination>
 	<distance>300</distance>
 	<star>
 		<mass errorminus="0.06" errorplus="0.06">0.97</mass>
@@ -19,6 +19,7 @@
 			<name>CoRoT-Exo-2 b</name>
 			<name>2MASS J19270649+0123013 b</name>
 			<name>CoRoTID 101206560 b</name>
+			<name>Gaia DR2 4287820848378092672 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.16" errorplus="0.16">3.31</mass>
 			<radius errorminus="0.029" errorplus="0.029">1.465</radius>
@@ -34,6 +35,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>CoRoT-2</name>
+		<name>Gaia DR2 4287820848378092672</name>
 		<temperature>5575.0</temperature>
 	</star>
+	<constellation>Aquila</constellation>
 </system>

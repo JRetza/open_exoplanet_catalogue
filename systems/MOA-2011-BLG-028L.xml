@@ -16,8 +16,9 @@
 			<discoverymethod>microlensing</discoverymethod>
 			<discoveryyear>2015</discoveryyear>
 			<description>MOA-2011-BLG-028Lb is a Neptune-mass planet orbiting a star in the galactic bulge.</description>
-			<lastupdate>15/12/11</lastupdate>
+			<lastupdate>18/09/19</lastupdate>
 			<list>Confirmed planets</list>
 		</planet>
 	</star>
+	<constellation>Sagittarius</constellation>
 </system>

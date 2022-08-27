@@ -1,36 +1,53 @@
 <system>
 	<name>Kepler-937</name>
-	<rightascension>19 36 41</rightascension>
-	<declination>+46 42 53</declination>
+	<name>KOI-1718</name>
+	<name>KIC 9896558</name>
+	<distance errorminus="66.2982" errorplus="66.2982">1645.01</distance>
+	<rightascension>19 36 40.5134</rightascension>
+	<declination>+46 42 52.5786</declination>
 	<star>
 		<name>Kepler-937</name>
+		<name>KOI-1718</name>
+		<name>KIC 9896558</name>
+		<name>2MASS J19364051+4642525</name>
+		<name>Gaia DR2 2128152897857003264</name>
+		<magH errorminus="0.028" errorplus="0.028">13.764</magH>
+		<magJ errorminus="0.021" errorplus="0.021">14.025</magJ>
+		<magK errorminus="0.04" errorplus="0.04">13.68</magK>
 		<temperature errorminus="127.3" errorplus="81.7">6095.0</temperature>
 		<mass errorminus="0.08" errorplus="0.12">1.15</mass>
 		<radius errorminus="0.15" errorplus="0.42">1.22</radius>
 		<metallicity errorminus="0.14" errorplus="0.14">0.08</metallicity>
 		<planet>
 			<name>Kepler-937 b</name>
+			<name>KOI-1718 b</name>
+			<name>KOI-1718.01</name>
+			<name>KIC 9896558 b</name>
+			<name>Gaia DR2 2128152897857003264 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000583300" errorplus="0.000583300">67.668827000</period>
 			<radius errorminus="0.043" errorplus="0.115">0.332</radius>
 		</planet>
 		<planet>
 			<name>Kepler-937 c</name>
+			<name>KOI-1718 c</name>
+			<name>KOI-1718.02</name>
+			<name>KIC 9896558 c</name>
+			<name>Gaia DR2 2128152897857003264 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.003287000" errorplus="0.003287000">153.343364000</period>
 			<radius errorminus="0.035" errorplus="0.081">0.238</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

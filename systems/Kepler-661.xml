@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-661</name>
-	<rightascension>18 54 51</rightascension>
-	<declination>+47 51 48</declination>
+	<name>KOI-747</name>
+	<name>KIC 10583066</name>
+	<distance errorminus="10.1124" errorplus="10.1124">542.977</distance>
+	<rightascension>18 54 50.6094</rightascension>
+	<declination>+47 51 47.7496</declination>
 	<star>
 		<name>Kepler-661</name>
+		<name>KOI-747</name>
+		<name>KIC 10583066</name>
+		<name>2MASS J18545061+4751477</name>
+		<name>Gaia DR2 2131635154256753408</name>
 		<temperature errorminus="57.1" errorplus="56.8">4483.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.70</mass>
 		<radius errorminus="0.04" errorplus="0.03">0.67</radius>
 		<metallicity errorminus="0.15" errorplus="0.16">-0.05</metallicity>
 		<planet>
 			<name>Kepler-661 b</name>
+			<name>KOI-747 b</name>
+			<name>KOI-747.01</name>
+			<name>KIC 10583066 b</name>
+			<name>Gaia DR2 2131635154256753408 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000005360" errorplus="0.000005360">6.029301320</period>
 			<radius errorminus="0.019" errorplus="0.011">0.274</radius>
 		</planet>
 	</star>
+	<constellation>Draco</constellation>
 </system>

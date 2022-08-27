@@ -1,7 +1,7 @@
 <system>
 	<name>HD 9578</name>
-	<rightascension>01 33 17</rightascension>
-	<declination>-38 14 42</declination>
+	<rightascension>01 33 17.1446</rightascension>
+	<declination>-38 14 42.0594</declination>
 	<distance>57.24</distance>
 	<star>
 		<mass>1.12</mass>
@@ -14,6 +14,9 @@
 		<spectraltype>G1V</spectraltype>
 		<planet>
 			<name>HD 9578 b</name>
+			<name>HIP 7240 b</name>
+			<name>Gaia DR2 5008967783184322048 b</name>
+			<name>TYC 7541-66-1 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.62</mass>
 			<period>494</period>
@@ -22,6 +25,10 @@
 			<discoveryyear>2009</discoveryyear>
 		</planet>
 		<name>HD 9578</name>
+		<name>HIP 7240</name>
+		<name>Gaia DR2 5008967783184322048</name>
+		<name>TYC 7541-66-1</name>
 		<temperature>5940.0</temperature>
 	</star>
+	<constellation>Sculptor</constellation>
 </system>

@@ -1,24 +1,42 @@
 <system>
 	<name>Kepler-516</name>
-	<rightascension>19 42 26</rightascension>
-	<declination>+38 44 09</declination>
+	<name>KOI-302</name>
+	<name>KIC 3662838</name>
+	<distance errorminus="14.2824" errorplus="14.2824">700.574</distance>
+	<rightascension>19 42 26.1088</rightascension>
+	<declination>+38 44 08.6740</declination>
 	<star>
 		<name>Kepler-516</name>
+		<name>KOI-302</name>
+		<name>KIC 3662838</name>
+		<name>2MASS J19422610+3844086</name>
+		<name>Gaia DR2 2073155184495069184</name>
+		<name>TYC 3136-320-1</name>
+		<magB errorminus="0.30" errorplus="0.30">12.94</magB>
+		<magH errorminus="0.018" errorplus="0.018">11.053</magH>
+		<magJ errorminus="0.023" errorplus="0.023">11.180</magJ>
+		<magK errorminus="0.014" errorplus="0.014">10.987</magK>
+		<magV errorminus="0.19" errorplus="0.19">12.12</magV>
 		<temperature errorminus="234.7" errorplus="172.5">7099.0</temperature>
 		<mass errorminus="0.17" errorplus="0.18">1.62</mass>
 		<radius errorminus="0.41" errorplus="0.50">2.02</radius>
 		<metallicity errorminus="0.16" errorplus="0.16">0.01</metallicity>
 		<planet>
 			<name>Kepler-516 b</name>
+			<name>KOI-302 b</name>
+			<name>KOI-302.01</name>
+			<name>KIC 3662838 b</name>
+			<name>Gaia DR2 2073155184495069184 b</name>
+			<name>TYC 3136-320-1 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000028190" errorplus="0.000028190">24.854624150</period>
 			<radius errorminus="0.103" errorplus="0.128">0.512</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

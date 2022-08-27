@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1494</name>
-	<rightascension>18 50 38</rightascension>
-	<declination>+43 09 45</declination>
+	<name>KOI-3417</name>
+	<name>KIC 7503885</name>
+	<distance errorminus="37.9476" errorplus="37.9476">1334.76</distance>
+	<rightascension>18 50 37.7736</rightascension>
+	<declination>+43 09 45.0071</declination>
 	<star>
 		<name>Kepler-1494</name>
+		<name>KOI-3417</name>
+		<name>KIC 7503885</name>
+		<name>2MASS J18503777+4309450</name>
+		<name>Gaia DR2 2105168775506130048</name>
 		<temperature errorminus="107.3" errorplus="86.9">5659.0</temperature>
 		<mass errorminus="0.06" errorplus="0.05">0.96</mass>
 		<radius errorminus="0.07" errorplus="0.13">0.94</radius>
 		<metallicity errorminus="0.18" errorplus="0.15">0.01</metallicity>
 		<planet>
 			<name>Kepler-1494 b</name>
+			<name>KOI-3417 b</name>
+			<name>KOI-3417.01</name>
+			<name>KIC 7503885 b</name>
+			<name>Gaia DR2 2105168775506130048 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.001769000" errorplus="0.001769000">91.080482000</period>
 			<radius errorminus="0.051" errorplus="0.041">0.274</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

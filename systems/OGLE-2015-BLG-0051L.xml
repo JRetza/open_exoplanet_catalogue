@@ -1,0 +1,27 @@
+<system>
+	<name>OGLE-2015-BLG-0051L</name>
+	<name>KMT-2015-BLG-0048L</name>
+	<name>KMT-2015-1</name>
+	<rightascension>17 58 39.01</rightascension>
+	<declination>-28 01 54.1</declination>
+	<distance errorminus="900" errorplus="900">8200</distance>
+	<star>
+		<name>OGLE-2015-BLG-0051L</name>
+		<name>KMT-2015-BLG-0048L</name>
+		<name>KMT-2015-1</name>
+		<mass errorminus="0.01" errorplus="0.09">0.10</mass>
+		<planet>
+			<name>OGLE-2015-BLG-0051L b</name>
+			<name>KMT-2015-BLG-0048L b</name>
+			<name>KMT-2015-1 b</name>
+			<separation errorminus="0.08" errorplus="0.08" unit="AU">0.73</separation>
+			<mass errorminus="0.07" errorplus="0.65">0.72</mass>
+			<discoverymethod>microlensing</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<lastupdate>18/09/20</lastupdate>
+			<list>Confirmed planets</list>
+			<description>OGLE-2015-BLG-0051Lb/KMT-2015-BLG-0048Lb is a giant planet orbiting a low-mass star in the Galactic bulge.</description>
+		</planet>
+	</star>
+	<constellation>Sagittarius</constellation>
+</system>

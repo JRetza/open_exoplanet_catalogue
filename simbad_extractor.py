@@ -2,6 +2,8 @@
 From Marc-Antoine Martinod
 No particular license or rights, you can change it as you feel, just be honest. :)
 For python puritain, sorry if this script is not "pythonic".
+
+Significant changes made by Hanno Rein, August 23, 2020
 '''
 
 
@@ -37,160 +39,90 @@ This script picks up the magnitudes and the spectral type from Simbad website.
     ***Adapt it for other kind of extraction or for other website.
 '''
 
-from HTMLParser import HTMLParser
-import urllib
+from html.parser import HTMLParser
+from urllib.request import urlopen
+from urllib.parse import quote_plus
+import xml.etree.ElementTree as ET
+
 import re
 import os
 import glob
 import time
 
+def indent(elem, level=0):
+    i = "\n" + level * "\t"
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "\t"
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+        for elem in elem:
+            indent(elem, level + 1)
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+    else:
+        if level and (not elem.tail or not elem.tail.strip()):
+            elem.tail = i
+
 class MyHTMLParser(HTMLParser):#HTML parser to get the information from the webpage
     def handle_starttag(self, tag, attrs): #get start tag and may store its attributes
-        global boolean, dictio, data2
-        if boolean == 1:# and tag == "a":
-            dictio.append(data2)
+        global boolean, dictio_mags, data2, dictio_ident, inname
+        if tag =="a" and section=="identifiers":
+            inname = 1
+        if boolean == 1 and section == "mag":
+            dictio_mags.append(data2)
             boolean = 0
+        if boolean == 1 and section == "identifiers":
+            if len(data2):
+                worthyCats = ["HD", "GJ", "Gaia DR2", "NAME", "HIP", "KOI", "Kepler", "KIC", "TYC"]
+                for wc in worthyCats:
+                    if wc in data2 and not "**" in data2:
+                        data2 = data2.replace("NAME","").strip()
+                        dictio_ident.append(data2)
+            boolean = 0
+            inname = 0
+            data2 = ""
 
     def handle_endtag(self, tag):
+        global inname
+        if tag=="tt":
+            inname = 0
         pass
 
     def handle_data(self, data):
-        global data2, boolean, spectre
-        if re.findall("[A-Z] *\d*\.?\d*? *\[+.+\]", data):#Search magnitude
+        global data2, boolean, section, inname, dictio_distance, dictio_coord, dictio_spectral
+        if section=="mag" and re.findall("[A-Z] +\d*\.?\d*? *\[+.+\]", data):#Search magnitude
             data2 = data
             data2 = data2.replace("\n", "").replace(" ","")
             boolean = 1
-
-#set magnitude values in XML file
-def magnitude(dic, filename, path):
-    #The idea is to read the file to have a big string then concatenate the magnitudes then rewrite the whole file
-    if os.path.isfile(path+"/"+filename+".xml"):
-        with open(path+"/"+filename+".xml","r") as readable:
-            read_file = readable.read()
-
-            tabulation = ""
-            try:
-                #positionning the magnitudes in the file
-                if "</magV>" in read_file:
-                    elt_index = read_file.index("</magV>")
-                    elt_len = len("</magV>")
-                    if "<binary>" in read_file:
-                        tabulation = "\t"
-                elif "<binary>" in read_file:
-                    elt_index = read_file.index("<binary>")
-                    elt_len = len("<binary>")
-                else:
-                    elt_index = read_file.index("<star>")
-                    elt_len = len("<star>")
-            except ValueError: # ie free floating planet (no star or parent)
-                print '{} failed (no parent object tag)'.format(filename)
-                return False
-
-
-        with open(path+"/"+filename+".xml", "w") as writable:#Write mag in the file
-            dic2 = dic
-            dic2.sort()
-
-            magJ = ""
-            magH = ""
-            magK = ""
-            magV = ""
-            magB = ""
-            magR = ""
-            magI = ""
-
-            for key in dic2:#concatenate magnitudes in the string from XML
-                expr = key
-                if not "[~]" in expr:
-                    sigma = re.findall('\[+.+\]', expr)
-                    sigma = str(sigma[0].replace('[','').replace(']',''))
-                else:
-                    sigma = ""
-
-                expr = re.sub('\[+.+\]', '', expr)#Remove uncertainty from string
-
-                expr2 = re.sub('[A-Z]', '', expr)#Remove letters from string, just mag left.
-                if "J" in expr and not "magJ" in read_file:
-                    if sigma != "":
-                        magJ = "\n"+tabulation+"\t\t<magJ errorminus=\""+sigma+"\" errorplus=\""+sigma+"\">"+expr2+"</magJ>"
-                    else:
-                        magJ = "\n"+tabulation+"\t\t<magJ>"+expr2+"</magJ>"
-                elif "H" in expr and not "magH" in read_file:
-                    if sigma != "":
-                        magH = "\n"+tabulation+"\t\t<magH errorminus=\""+sigma+"\" errorplus=\""+sigma+"\">"+expr2+"</magH>"
-                    else:
-                        magH = "\n"+tabulation+"\t\t<magH>"+expr2+"</magH>"
-                elif "K" in expr and not "magK" in read_file:
-                    if sigma != "":
-                        magK = "\n"+tabulation+"\t\t<magK errorminus=\""+sigma+"\" errorplus=\""+sigma+"\">"+expr2+"</magK>"
-                    else:
-                        magK = "\n"+tabulation+"\t\t<magK>"+expr2+"</magK>"
-                elif "V" in expr and not "magV" in read_file:
-                    if sigma != "":
-                        magV = "\n"+tabulation+"\t\t<magV errorminus=\""+sigma+"\" errorplus=\""+sigma+"\">"+expr2+"</magV>"
-                    else:
-                        magV = "\n"+tabulation+"\t\t<magV>"+expr2+"</magV>"
-                elif "B" in expr and not "magB" in read_file:
-                    if sigma != "":
-                        magB = "\n"+tabulation+"\t\t<magB errorminus=\""+sigma+"\" errorplus=\""+sigma+"\">"+expr2+"</magB>"
-                    else:
-                        magB = "\n"+tabulation+"\t\t<magB>"+expr2+"</magB>"
-                elif "R" in expr and not "magR" in read_file:
-                    if sigma != "":
-                        magR = "\n"+tabulation+"\t\t<magR errorminus=\""+sigma+"\" errorplus=\""+sigma+"\">"+expr2+"</magR>"
-                    else:
-                        magR = "\n"+tabulation+"\t\t<magR>"+expr2+"</magR>"
-                elif "I" in expr and not "magI" in read_file:
-                    if sigma != "":
-                        magI = "\n"+tabulation+"\t\t<magI errorminus=\""+sigma+"\" errorplus=\""+sigma+"\">"+expr2+"</magI>"
-                    else:
-                        magI = "\n"+tabulation+"\t\t<magI>"+expr2+"</magI>"
-
-            #check if mag already exists or not on simbad
-            if magJ != "" or magH != "" or magK != "" or magV != "" or magB != "" or magR != "" or magI != "":
-                print elt,"\t mag done."
-            else:
-                print elt," Mag error or already exists."
-
-            read_file = read_file[0:elt_index+elt_len]+magB+magV+magR+magI+magJ+magH+magK+read_file[elt_index+elt_len:]
-            writable.write(read_file)
-
-    else:
-        print filename," not found."
-
-#set spectral type in the XML file.
-def spectralType(spectre, filename, path):
-    #Check if the file exists
-    if os.path.isfile(path+"/"+filename+".xml"):
-            with open(path+"/"+filename+".xml","r") as readable:
-                read_file = readable.read()
-                tabulation = ""
-                back_line = ""
-
-                #Positionning of the information in the file.
-                try:
-                    if not "<binary>" in read_file:
-                        if not "<spectraltype>" in read_file:
-                            elt_index = read_file.index("<star>")
-                            elt_len = len("<star>")
-                            back_line = "\n"
-
-                            #Writing the SP (spectral type) in the file
-                            with open(path+"/"+filename+".xml","w") as writable:
-                                    spectre = back_line+"\t\t"+tabulation+"<spectraltype>"+spectre+"</spectraltype>"
-                                    read_file = read_file[0:elt_index+elt_len]+spectre+read_file[elt_index+elt_len:]
-                                    writable.write(read_file)
-                                    print filename+"\tSP done."
-                        else:
-                            print filename, " has already a spectral type."
-                    else:
-                        print filename, " is a binary system."
-                        log.write(filename+"\t:\tbinary system\n")
-
-                except ValueError: # ie free floating planet (no star or parent)
-                    print '{} failed (no parent object tag - probably)'.format(filename)
-    else:
-        print filename, "not found."
+        if section=="identifiers" and inname==1:
+            data2 = data2+data
+            data2 = data2.replace("\n", "").replace("\"", "").strip()
+            boolean = 1
+        if re.findall("Identifiers \(\d+\) :", data):
+            section = "identifiers"
+            data2 = ""
+        if re.findall("Spectral type:", data):
+            section = "spectraltype"
+        if section=="spectraltype" and re.findall("[OBAFGKM]",data):
+            dictio_spectral = data.strip()
+            section = "spectral done"
+        if re.findall("Plots and Images", data):
+            section = "plotsandimages"
+        if re.findall("ICRS", data):
+            section = "ICRS"
+        if section=="ICRS" and re.findall("coord.",data):
+            section = "ICRScoord"
+        if section=="ICRScoord":
+            res = re.search(r"\s+(\d\d \d\d \d\d\.\d{4})\d+ ([\+\-]\d\d \d\d \d\d\.\d{4})\d+",data)
+            if res:
+                dictio_coord = [res.group(1), res.group(2)]
+                section = "coords done"
+        if re.findall("distance Q unit", data):
+            section = "distance"
+            res = re.search(r"\s+\|\s*(\d+\.\d+)\s+pc\s+\|\s+\-(\d+\.\d+)\s+\+(\d+\.\d+)\s+\|",data)
+            if res:
+                dictio_distance = [res.group(1), res.group(2), res.group(3)]
 
 #Another script exists for that. Splitting the two functions lets me to control
 #the list is in correct format and won't bring any troubles.
@@ -212,46 +144,202 @@ parser = MyHTMLParser()
 path = "systems"  # systems or systems_kepler
 generateList(path)
 system_list = open("list.txt","r") #list of the systems to process
-line = system_list.readlines()
-line = [elt.replace('\n','') for elt in line]
+lines = system_list.readlines()
+lines = [line.replace('\n','') for line in lines]
 
-log = open("log_planet.log", "a")#log 404 web error and binary systems error
-log.write("\n*****"+time.strftime("%A %d %B %Y %H:%M:%S")+"*****\n")
+try:
+    willskip = open("simbad_skip.txt","r").readlines() #list of the systems to process
+    willskip = [s.strip() for s in willskip]
+except:
+    willskip = []
 
-for elt in line:#read all the list of systems and run the parser class and the magnitude function for each one
-    dictio = []
-    boolean = 0
-    data2 = ""
-    spectre = ""
+nummax = 10000
 
-    planet = elt
-    try:
-        code_source = urllib.urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+planet).read()
-    except IOError:
-        print 'Lookup failed - sleeping for 10 seconds'
-        time.sleep(10)
+for line in lines:#read all the list of systems and run the parser class and the magnitude function for each one
+    filename = path+"/"+line+".xml"
+    f = open(filename, 'rt')
+    root = ET.parse(f).getroot()
+    stars = root.findall(".//star")
+    binaries = root.findall(".//binary")
+    systemname = root.findtext("./name")
+    if line in willskip:
+        continue
+    if len(binaries):
+        continue
+    #if root.findall(".//spectraltype"):
+    #    continue
 
+    ## One request per star
+    for stari, star in enumerate(stars):
+        starnames = star.findall("./name")
+        # do request
+        dictio_mags = []
+        dictio_ident = []
+        dictio_distance = []
+        dictio_coord = []
+        dictio_spectral = []
+        section = "mag"
+        boolean = 0
+        data2 = ""
+
+        starname = starnames[0].text
         try:
-            code_source = urllib.urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+planet).read()
+            print('Requesting: http://simbad.cfa.harvard.edu/simbad/sim-basic?Ident='+quote_plus(starname))
+            code_source = urlopen('http://simbad.cfa.harvard.edu/simbad/sim-basic?Ident='+quote_plus(starname)).read()
+            #print('Requesting: http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+quote_plus(starname))
+            #code_source = urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+quote_plus(starname)).read()
+            code_source = code_source.decode('utf-8')
         except IOError:
-            print 'Lookup failed again for {} - skipping'.format(planet)
-            log.write('Lookup failed for {}'.format(planet))
+            print('Lookup failed for {} - skipping'.format(starname))
+            continue
+        if re.findall("Identifier not found in the database", code_source):
+            print('Identifier not found in the database. - skipping')
+            continue
+        if re.findall("Extra-solar Confirmed Planet", code_source):
+            print('Got planet, not star. - skipping')
+            continue
 
-    #First check its existence on simbad
-    if not re.findall("Identifier not found in the database", code_source):
+
         parser.feed(code_source)
-        magnitude(dictio, planet, path)
-        #if re.search('Spectral type:( *<.*?>\n){5}\w*/?\w*', code_source):
-        #    extraction_spectre = re.search('Spectral type:( *<.*?>\n){5}\w*/?\w*', code_source).group(0)
-        #    spectre = re.search('(?<=<TT>\n)\w*/?\w*', extraction_spectre).group(0)
-        #    spectralType(spectre, planet, path)
-        #else:
-        #    print elt, " has no spectral type."
-        #    log.write(elt+"\t:\tno spectral type\n")
-        #
-    else:
-        print planet,"\t:\t404 page not found"
-        log.write(planet+" 404 page not found\n")
+        dictio_mags.sort()
 
-log.close()
-system_list.close()
+        # Work on new star names 
+        lastnameindex = -1
+        for ind, child in enumerate(star):
+            if child.text == starnames[-1].text:
+                lastnameindex = ind
+        starnames = [n.text for n in starnames]
+        for newstarname in dictio_ident:
+            if newstarname not in starnames:
+                nsn = ET.Element("name")
+                nsn.text = newstarname
+                star.insert(lastnameindex+1,nsn)
+                print("New star name added: ", newstarname)
+        for key in dictio_mags:#concatenate magnitudes in the string from XML
+            expr = key
+            if not "[~]" in expr:
+                sigma = re.findall('\[+.+\]', expr)
+                sigma = str(sigma[0].replace('[','').replace(']',''))
+            else:
+                sigma = ""
+
+            expr = re.sub('\[+.+\]', '', expr)#Remove uncertainty from string
+
+            expr2 = re.sub('[A-Z]', '', expr)#Remove letters from string, just mag left.
+            magletters = ["J", "H","K","V","B","R","I"]
+           
+            #find location to insert (after current mags, after names)
+            maginsertindex = -1
+            for magletter in magletters:
+                mags = star.findall("./mag"+magletter)
+                for mag in mags:
+                    for ind, child in enumerate(star):
+                        if child.text == mag.text:
+                            maginsertindex = max(maginsertindex,ind)
+            names = star.findall("./name")
+            for name in names:
+                for ind, child in enumerate(star):
+                    if child.text == name.text:
+                        maginsertindex = max(maginsertindex,ind)
+
+            for magletter in magletters:
+                if magletter in expr:
+                    if not star.findtext("./mag"+magletter):
+                        nmag = ET.Element("mag"+magletter)
+                        nmag.text = expr2
+                        if sigma:
+                            nmag.attrib['errorminus'] = sigma
+                            nmag.attrib['errorplus'] = sigma
+                        star.insert(maginsertindex+1,nmag)
+                        print("New mag",magletter,"added: ",expr2,sigma) 
+            if len(dictio_spectral):
+                if not star.findtext("./spectraltype"):
+                    spectraltype = ET.Element("spectraltype")
+                    spectraltype.text = dictio_spectral
+                    star.insert(maginsertindex+1,spectraltype)
+                    print("New spectraltype added: ",dictio_spectral) 
+
+        ## Planet Names
+        planets = star.findall("./planet")
+        for planet in planets:
+            planetname = planet.findtext("./name")
+            planetsuffix = planetname.replace(starname,"")
+            if planetsuffix in [" b"," c"," d"," e"," f"," g"," h"," i"," j"]:
+                # will attempt to add other names
+                planetnames = planet.findall("./name")
+                lastnameindex = -1
+                for ind, child in enumerate(planet):
+                    if child.text == planetnames[-1].text:
+                        lastnameindex = ind
+                planetnames = [n.text for n in planetnames]
+                for starname in dictio_ident:
+                    newplanetname = starname + planetsuffix
+                    if newplanetname not in planetnames:
+                        nne = ET.Element("name")
+                        nne.text = newplanetname
+                        planet.insert(lastnameindex+1,nne)
+                        print("New planet name added: ", newplanetname)
+
+
+    ## System parameters based on last star in system
+    systemnames = root.findall("./name")
+    lastnameindex = -1
+    for ind, child in enumerate(root):
+        if child.text == systemnames[-1].text:
+            lastnameindex = ind
+    if not root.findtext("./distance") and len(dictio_distance):
+        distance = ET.Element("distance")
+        distance.text = dictio_distance[0]
+        distance.attrib['errorminus'] = dictio_distance[1]
+        distance.attrib['errorplus'] = dictio_distance[2]
+        print("New distance added: ", dictio_distance)
+        root.insert(lastnameindex+1,distance)
+    if len(dictio_coord):
+        coord = root.findtext("./declination")
+        if coord:
+            if coord[:6] in dictio_coord[1] and len(coord)<len(dictio_coord[1]):
+                for ind, child in enumerate(root):
+                    if child.tag == "declination":
+                        lastnameindex = ind-1
+                        print("Old declination removed: ", coord)
+                        root.remove(child)
+                        coord = None
+                        break
+        if not coord:
+            declination = ET.Element("declination")
+            declination.text = dictio_coord[1]
+            print("New declination added: ", dictio_coord[1])
+            root.insert(lastnameindex+1,declination)
+        coord = root.findtext("./rightascension")
+        if coord:
+            if coord[:5] in dictio_coord[0] and len(coord)<len(dictio_coord[0]):
+                for ind, child in enumerate(root):
+                    if child.tag == "rightascension":
+                        lastnameindex = ind-1
+                        print("Old rightascension removed: ", coord)
+                        root.remove(child)
+                        coord = None
+                        break
+        if not coord:
+            rightascension = ET.Element("rightascension")
+            rightascension.text = dictio_coord[0]
+            print("New rightascension added: ", dictio_coord[0])
+            root.insert(lastnameindex+1,rightascension)
+
+
+
+
+
+    indent(root)
+    
+    with open(filename, 'wb') as outfile:
+        ET.ElementTree(root).write(outfile, encoding="UTF-8", xml_declaration=False)
+
+    with open("simbad_skip.txt", "a+") as skip_list:
+        skip_list.write(line+"\n")
+    print("")
+    
+    time.sleep(1)
+    nummax-=1
+    if nummax==0:
+        break

@@ -1,16 +1,19 @@
 <system>
 	<name>EPIC 201855371</name>
 	<name>K2-17</name>
-	<rightascension>11 53 19.146</rightascension>
-	<declination>+06 24 44.14</declination>
+	<rightascension>11 53 19.1469</rightascension>
+	<declination>+06 24 44.1066</declination>
 	<distance errorminus="6" errorplus="5">134</distance>
 	<star>
 		<name>EPIC 201855371</name>
 		<name>K2-17</name>
 		<name>2MASS J11531915+0624439</name>
+		<name>Gaia DR2 3899064464855774592</name>
 		<mass errorminus="0.05" errorplus="0.02">0.71</mass>
 		<radius errorminus="0.03" errorplus="0.02">0.66</radius>
 		<temperature errorminus="47" errorplus="56">4320</temperature>
+		<magB errorminus="0.060" errorplus="0.060">14.819</magB>
+		<magV errorminus="0.040" errorplus="0.040">13.519</magV>
 		<magJ errorminus="0.02" errorplus="0.02">11.08</magJ>
 		<magH errorminus="0.02" errorplus="0.02">10.44</magH>
 		<magK errorminus="0.02" errorplus="0.02">10.31</magK>
@@ -19,6 +22,7 @@
 			<name>EPIC 201855371 b</name>
 			<name>EPIC 201855371.01</name>
 			<name>K2-17 b</name>
+			<name>Gaia DR2 3899064464855774592 b</name>
 			<list>Confirmed planets</list>
 			<radius errorminus="0.018" errorplus="0.018">0.205</radius>
 			<period errorminus="0.00152" errorplus="0.00152">17.96753</period>
@@ -28,8 +32,10 @@
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/07/07</lastupdate>
+			<lastupdate>18/07/24</lastupdate>
 			<discoveryyear>2015</discoveryyear>
+			<inclination errorminus="0.82" errorplus="0.42">89.40</inclination>
 		</planet>
 	</star>
+	<constellation>Virgo</constellation>
 </system>

@@ -1,7 +1,7 @@
 <system>
 	<name>HD 76700</name>
-	<rightascension>08 53 55</rightascension>
-	<declination>-66 48 03</declination>
+	<rightascension>08 53 55.5158</rightascension>
+	<declination>-66 48 03.5742</declination>
 	<distance>59.7</distance>
 	<star>
 		<mass>1</mass>
@@ -15,6 +15,9 @@
 		<spectraltype>G6 V</spectraltype>
 		<planet>
 			<name>HD 76700 b</name>
+			<name>TYC 8939-306-1 b</name>
+			<name>Gaia DR2 5272187804562841216 b</name>
+			<name>HIP 43686 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.197</mass>
 			<period>3.971</period>
@@ -26,6 +29,10 @@
 			<temperature>1315.4</temperature>
 		</planet>
 		<name>HD 76700</name>
+		<name>TYC 8939-306-1</name>
+		<name>Gaia DR2 5272187804562841216</name>
+		<name>HIP 43686</name>
 		<temperature>5726.0</temperature>
 	</star>
+	<constellation>Volans</constellation>
 </system>

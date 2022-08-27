@@ -1,24 +1,37 @@
 <system>
 	<name>Kepler-1498</name>
-	<rightascension>18 59 07</rightascension>
-	<declination>+44 55 00</declination>
+	<name>KOI-3432</name>
+	<name>KIC 8738775</name>
+	<rightascension>18 59 06.7384</rightascension>
+	<declination>+44 55 00.4071</declination>
 	<star>
 		<name>Kepler-1498</name>
+		<name>KOI-3432</name>
+		<name>KIC 8738775</name>
+		<name>2MASS J18590674+4455004</name>
+		<name>Gaia DR2 2106747876063966976</name>
+		<magH errorminus="0.027" errorplus="0.027">13.233</magH>
+		<magJ errorminus="0.026" errorplus="0.026">13.703</magJ>
+		<magK errorminus="0.038" errorplus="0.038">13.238</magK>
 		<temperature errorminus="58.2" errorplus="60.4">5256.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.86</mass>
 		<radius errorminus="0.04" errorplus="0.05">0.81</radius>
 		<metallicity errorminus="0.16" errorplus="0.14">-0.01</metallicity>
 		<planet>
 			<name>Kepler-1498 b</name>
+			<name>KOI-3432 b</name>
+			<name>KOI-3432.01</name>
+			<name>KIC 8738775 b</name>
+			<name>Gaia DR2 2106747876063966976 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000933100" errorplus="0.000933100">48.051405000</period>
 			<radius errorminus="0.008" errorplus="0.010">0.119</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

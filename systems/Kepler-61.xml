@@ -2,8 +2,8 @@
 	<name>Kepler-61</name>
 	<name>KOI-1361</name>
 	<name>KIC 6960913</name>
-	<rightascension>19 41 13</rightascension>
-	<declination>+42 28 31</declination>
+	<rightascension>19 41 13.0817</rightascension>
+	<declination>+42 28 30.9871</declination>
 	<distance>326.20</distance>
 	<star>
 		<magV errorminus="0.27" errorplus="0.27">15.17</magV>
@@ -12,6 +12,8 @@
 		<name>Kepler-61</name>
 		<name>KOI-1361</name>
 		<name>KIC 6960913</name>
+		<name>2MASS J19411308+4228310</name>
+		<name>Gaia DR2 2077889892023816960</name>
 		<magJ errorminus="0.023" errorplus="0.023">13.078</magJ>
 		<magH errorminus="0.022" errorplus="0.022">12.426</magH>
 		<magK errorminus="0.019" errorplus="0.019">12.272</magK>
@@ -25,6 +27,7 @@
 			<name>KOI-1361.01</name>
 			<name>KOI-1361 b</name>
 			<name>KIC 6960913 b</name>
+			<name>Gaia DR2 2077889892023816960 b</name>
 			<list>Confirmed planets</list>
 			<radius errorminus="0.01184693" errorplus="0.01184693">0.19593013</radius>
 			<temperature errorminus="13" errorplus="13">273</temperature>
@@ -43,4 +46,5 @@ Credit: Joe Gallagher</imagedescription>
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

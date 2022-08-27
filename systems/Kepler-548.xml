@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-548</name>
-	<rightascension>19 59 37</rightascension>
-	<declination>+45 26 23</declination>
+	<name>KOI-421</name>
+	<name>KIC 9115800</name>
+	<distance errorminus="13.4538" errorplus="13.4538">768.167</distance>
+	<rightascension>19 59 37.4206</rightascension>
+	<declination>+45 26 22.8310</declination>
 	<star>
 		<name>Kepler-548</name>
+		<name>KOI-421</name>
+		<name>KIC 9115800</name>
+		<name>2MASS J19593741+4526228</name>
+		<name>Gaia DR2 2085193569812098944</name>
+		<magH errorminus="0.03" errorplus="0.03">13.15</magH>
+		<magJ errorminus="0.029" errorplus="0.029">13.581</magJ>
+		<magK errorminus="0.03" errorplus="0.03">13.07</magK>
 		<temperature errorminus="230.4" errorplus="265.3">5535.0</temperature>
 		<mass errorminus="0.07" errorplus="0.09">0.93</mass>
 		<radius errorminus="0.08" errorplus="0.16">0.90</radius>
 		<metallicity errorminus="0.17" errorplus="0.14">0.00</metallicity>
 		<planet>
 			<name>Kepler-548 b</name>
+			<name>KOI-421 b</name>
+			<name>KOI-421.01</name>
+			<name>KIC 9115800 b</name>
+			<name>Gaia DR2 2085193569812098944 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000000380" errorplus="0.000000380">4.454194340</period>
 			<radius errorminus="0.098" errorplus="0.195">1.070</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

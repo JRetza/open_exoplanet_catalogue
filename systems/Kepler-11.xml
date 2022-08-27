@@ -1,12 +1,16 @@
 <system>
 	<name>Kepler-11</name>
-	<rightascension>19 48 27</rightascension>
-	<declination>+41 54 33</declination>
+	<name>KOI-157</name>
+	<name>KIC 6541920</name>
+	<rightascension>19 48 27.6228</rightascension>
+	<declination>+41 54 32.9026</declination>
 	<distance>613.20279</distance>
 	<star>
 		<name>Kepler-11</name>
 		<name>KOI-157</name>
 		<name>KIC 6541920</name>
+		<name>2MASS J19482762+4154328</name>
+		<name>Gaia DR2 2076960598545789824</name>
 		<mass errorminus="0.024" errorplus="0.027">0.961</mass>
 		<radius errorminus="0.015" errorplus="0.013">1.053</radius>
 		<temperature errorminus="67" errorplus="55">5663</temperature>
@@ -22,6 +26,7 @@
 			<name>KOI-157.06</name>
 			<name>KOI-157 b</name>
 			<name>KIC 6541920 b</name>
+			<name>Gaia DR2 2076960598545789824 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.003146" errorplus="0.004404">0.005977</mass>
 			<radius errorminus="0.001823" errorplus="0.001823">0.164035</radius>
@@ -46,6 +51,7 @@ Image credit: NASA/Tim Pyle</imagedescription>
 			<name>KOI-157.01</name>
 			<name>KOI-157 c</name>
 			<name>KIC 6541920 c</name>
+			<name>Gaia DR2 2076960598545789824 c</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.000063" errorplus="0.000031">0.009028</mass>
 			<radius errorminus="0.001823" errorplus="0.000911">0.261544</radius>
@@ -70,6 +76,7 @@ Image credit: NASA/Tim Pyle</imagedescription>
 			<name>KOI-157.02</name>
 			<name>KOI-157 d</name>
 			<name>KIC 6541920 d</name>
+			<name>Gaia DR2 2076960598545789824 d</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.004719" errorplus="0.002517">0.022964</mass>
 			<radius errorminus="0.001823" errorplus="0.001823">0.283415</radius>
@@ -94,6 +101,7 @@ Image credit: NASA/Tim Pyle</imagedescription>
 			<name>KOI-157.03</name>
 			<name>KOI-157 e</name>
 			<name>KIC 6541920 e</name>
+			<name>Gaia DR2 2076960598545789824 e</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.006606" errorplus="0.004719">0.025166</mass>
 			<radius errorminus="0.001823" errorplus="0.001823">0.380925</radius>
@@ -118,6 +126,7 @@ Image credit: NASA/Tim Pyle</imagedescription>
 			<name>KOI-157.04</name>
 			<name>KOI-157 f</name>
 			<name>KIC 6541920 f</name>
+			<name>Gaia DR2 2076960598545789824 f</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.002831" errorplus="0.002517">0.006291</mass>
 			<radius errorminus="0.002734" errorplus="0.001823">0.226003</radius>
@@ -142,6 +151,7 @@ Image credit: NASA/Tim Pyle</imagedescription>
 			<name>KOI-157.05</name>
 			<name>KOI-157 g</name>
 			<name>KIC 6541920 g</name>
+			<name>Gaia DR2 2076960598545789824 g</name>
 			<list>Confirmed planets</list>
 			<mass upperlimit="0.078643" />
 			<radius errorminus="0.001823" errorplus="0.001823">0.303464</radius>
@@ -162,4 +172,5 @@ Image credit: NASA/Tim Pyle</imagedescription>
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

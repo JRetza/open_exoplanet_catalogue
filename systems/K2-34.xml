@@ -1,0 +1,44 @@
+<system>
+	<name>K2-34</name>
+	<name>EPIC 212110888</name>
+	<rightascension>08 30 18.9093</rightascension>
+	<declination>+22 14 09.2936</declination>
+	<distance>377.0</distance>
+	<star>
+		<name>K2-34</name>
+		<name>EPIC 212110888</name>
+		<name>2MASS J08301891+2214092</name>
+		<name>Gaia DR2 665757593450097920</name>
+		<name>TYC 1391-121-1</name>
+		<radius>1.526</radius>
+		<mass>1.281</mass>
+		<spectraltype>F9</spectraltype>
+		<temperature>6132.0</temperature>
+		<metallicity>0.24</metallicity>
+		<magB errorminus="0.150" errorplus="0.150">12.018</magB>
+		<magV errorminus="0.122" errorplus="0.122">11.447</magV>
+		<magJ errorminus="0.025" errorplus="0.025">10.528</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.258</magH>
+		<magK errorminus="0.017" errorplus="0.017">10.193</magK>
+		<planet>
+			<name>K2-34 b</name>
+			<name>EPIC 212110888 b</name>
+			<name>Gaia DR2 665757593450097920 b</name>
+			<name>TYC 1391-121-1 b</name>
+			<semimajoraxis errorminus="0.0011" errorplus="0.00063">0.04419</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.51" errorplus="0.51">82.06</inclination>
+			<period errorminus="0.000017" errorplus="0.000017">2.995607</period>
+			<mass errorminus="0.133" errorplus="0.134">1.78</mass>
+			<radius errorminus="0.067" errorplus="0.067">1.35</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<transittime errorminus="0.000088" errorplus="0.000090" unit="BJD">2457141.351088</transittime>
+		</planet>
+	</star>
+	<constellation>Cancer</constellation>
+</system>

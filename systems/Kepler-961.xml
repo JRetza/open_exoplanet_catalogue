@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-961</name>
-	<rightascension>18 48 09</rightascension>
-	<declination>+43 37 53</declination>
+	<name>KOI-1818</name>
+	<name>KIC 7870032</name>
+	<distance errorminus="5.8997" errorplus="5.8997">583.976</distance>
+	<rightascension>18 48 08.5183</rightascension>
+	<declination>+43 37 52.5090</declination>
 	<star>
 		<name>Kepler-961</name>
+		<name>KOI-1818</name>
+		<name>KIC 7870032</name>
+		<name>2MASS J18480851+4337525</name>
+		<name>Gaia DR2 2105262886829784960</name>
 		<temperature errorminus="55.8" errorplus="53.7">5582.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">0.96</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.90</radius>
 		<metallicity errorminus="0.11" errorplus="0.11">0.05</metallicity>
 		<planet>
 			<name>Kepler-961 b</name>
+			<name>KOI-1818 b</name>
+			<name>KOI-1818.01</name>
+			<name>KIC 7870032 b</name>
+			<name>Gaia DR2 2105262886829784960 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000028720" errorplus="0.000028720">16.877274140</period>
 			<radius errorminus="0.007" errorplus="0.010">0.227</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

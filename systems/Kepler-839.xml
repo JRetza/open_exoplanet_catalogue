@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-839</name>
-	<rightascension>19 24 18</rightascension>
-	<declination>+45 14 33</declination>
+	<name>KOI-1412</name>
+	<name>KIC 8950853</name>
+	<distance errorminus="14.4245" errorplus="14.4245">970.968</distance>
+	<rightascension>19 24 17.9224</rightascension>
+	<declination>+45 14 33.3143</declination>
 	<star>
 		<name>Kepler-839</name>
+		<name>KOI-1412</name>
+		<name>KIC 8950853</name>
+		<name>2MASS J19241792+4514333</name>
+		<name>Gaia DR2 2127396880530950272</name>
 		<temperature errorminus="78.0" errorplus="87.7">6058.0</temperature>
 		<mass errorminus="0.05" errorplus="0.06">1.22</mass>
 		<radius errorminus="0.12" errorplus="0.21">1.31</radius>
 		<metallicity errorminus="0.07" errorplus="0.07">0.29</metallicity>
 		<planet>
 			<name>Kepler-839 b</name>
+			<name>KOI-1412 b</name>
+			<name>KOI-1412.01</name>
+			<name>KIC 8950853 b</name>
+			<name>Gaia DR2 2127396880530950272 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000154500" errorplus="0.000154500">37.814451400</period>
 			<radius errorminus="0.022" errorplus="0.037">0.229</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

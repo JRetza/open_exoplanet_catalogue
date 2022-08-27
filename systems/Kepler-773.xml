@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-773</name>
-	<rightascension>19 23 32</rightascension>
-	<declination>+38 03 27</declination>
+	<name>KOI-1116</name>
+	<name>KIC 2849805</name>
+	<distance errorminus="4.3866" errorplus="4.3866">555.803</distance>
+	<rightascension>19 23 32.3203</rightascension>
+	<declination>+38 03 27.2683</declination>
 	<star>
 		<name>Kepler-773</name>
+		<name>KOI-1116</name>
+		<name>KIC 2849805</name>
+		<name>2MASS J19233232+3803272</name>
+		<name>Gaia DR2 2052603289249806976</name>
+		<magH errorminus="0.019" errorplus="0.019">11.908</magH>
+		<magJ errorminus="0.022" errorplus="0.022">12.216</magJ>
+		<magK errorminus="0.020" errorplus="0.020">11.888</magK>
 		<temperature errorminus="65.3" errorplus="76.7">5850.0</temperature>
 		<mass errorminus="0.03" errorplus="0.04">1.04</mass>
 		<radius errorminus="0.04" errorplus="0.05">1.01</radius>
 		<metallicity errorminus="0.09" errorplus="0.09">0.05</metallicity>
 		<planet>
 			<name>Kepler-773 b</name>
+			<name>KOI-1116 b</name>
+			<name>KOI-1116.01</name>
+			<name>KIC 2849805 b</name>
+			<name>Gaia DR2 2052603289249806976 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000007140" errorplus="0.000007140">3.749100060</period>
 			<radius errorminus="0.006" errorplus="0.008">0.128</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

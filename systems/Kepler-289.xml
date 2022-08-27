@@ -2,8 +2,8 @@
 	<name>Kepler-289</name>
 	<name>KOI-1353</name>
 	<name>KIC 7303287</name>
-	<rightascension>19 49 51</rightascension>
-	<declination>+42 52 58</declination>
+	<rightascension>19 49 51.6736</rightascension>
+	<declination>+42 52 58.2696</declination>
 	<distance errorminus="14" errorplus="14">700</distance>
 	<star>
 		<magJ errorminus="0.022" errorplus="0.022">12.861</magJ>
@@ -13,6 +13,8 @@
 		<name>KOI-1353</name>
 		<name>KIC 7303287</name>
 		<name>PH3</name>
+		<name>2MASS J19495168+4252582</name>
+		<name>Gaia DR2 2078515170549178880</name>
 		<temperature errorminus="38" errorplus="38">5990</temperature>
 		<radius errorminus="0.02" errorplus="0.02">1.00</radius>
 		<mass errorminus="0.02" errorplus="0.02">1.08</mass>
@@ -24,6 +26,7 @@
 			<name>KIC 7303287 b</name>
 			<name>KIC 7303287.02</name>
 			<name>PH3 b</name>
+			<name>Gaia DR2 2078515170549178880 b</name>
 			<mass errorminus="0.021" errorplus="0.021">0.023</mass>
 			<radius errorminus="0.009" errorplus="0.009">0.192</radius>
 			<period errorminus="0.0005" errorplus="0.0005">34.5450</period>
@@ -62,6 +65,7 @@
 			<name>KIC 7303287 c</name>
 			<name>KIC 7303287.01</name>
 			<name>PH3 d</name>
+			<name>Gaia DR2 2078515170549178880 c</name>
 			<mass errorminus="0.053" errorplus="0.053">0.415</mass>
 			<radius errorminus="0.017" errorplus="0.017">1.034</radius>
 			<period errorminus="0.0076" errorplus="0.0076">125.8518</period>
@@ -76,4 +80,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

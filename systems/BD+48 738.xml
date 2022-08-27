@@ -1,12 +1,15 @@
 <system>
 	<name>BD+48 738</name>
-	<rightascension>02 42 50.463</rightascension>
-	<declination>+49 35 13.08</declination>
+	<name>BD +48 738</name>
+	<rightascension>02 42 50.4643</rightascension>
+	<declination>+49 35 13.0796</declination>
+	<distance errorminus="42.7" errorplus="42.7">892.1</distance>
 	<star>
 		<name>BD+48 738</name>
 		<name>TYC 3304-323-1</name>
 		<name>SAO 38269</name>
 		<name>2MASS J02425045+4935130</name>
+		<name>Gaia DR2 438899345022759424</name>
 		<mass errorminus="0.39" errorplus="0.39">0.74</mass>
 		<radius errorminus="1" errorplus="1">11</radius>
 		<magB errorminus="0.04" errorplus="0.04">10.35</magB>
@@ -20,6 +23,8 @@
 		<temperature errorminus="15" errorplus="15">4414</temperature>
 		<planet>
 			<name>BD+48 738 b</name>
+			<name>Gaia DR2 438899345022759424 b</name>
+			<name>TYC 3304-323-1 b</name>
 			<list>Confirmed planets</list>
 			<mass type="msini">0.91</mass>
 			<period errorminus="5.5" errorplus="5.5">392.6</period>
@@ -33,4 +38,5 @@
 			<discoveryyear>2011</discoveryyear>
 		</planet>
 	</star>
+	<constellation>Perseus</constellation>
 </system>

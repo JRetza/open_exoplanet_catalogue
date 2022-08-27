@@ -1,7 +1,7 @@
 <system>
 	<name>HD 204941</name>
-	<rightascension>21 32 24</rightascension>
-	<declination>-20 57 27</declination>
+	<rightascension>21 32 23.5099</rightascension>
+	<declination>-20 57 26.7196</declination>
 	<distance>27</distance>
 	<star>
 		<spectraltype>K2V</spectraltype>
@@ -15,6 +15,9 @@
 		<metallicity>-0.19</metallicity>
 		<planet>
 			<name>HD 204941 b</name>
+			<name>Gaia DR2 6830027182179257472 b</name>
+			<name>TYC 6373-214-1 b</name>
+			<name>HIP 106353 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.266</mass>
 			<period>1733</period>
@@ -27,6 +30,10 @@
 			<temperature>117.2</temperature>
 		</planet>
 		<name>HD 204941</name>
+		<name>Gaia DR2 6830027182179257472</name>
+		<name>TYC 6373-214-1</name>
+		<name>HIP 106353</name>
 		<temperature>5056.0</temperature>
 	</star>
+	<constellation>Capricornus</constellation>
 </system>

@@ -1,12 +1,15 @@
 <system>
 	<name>WASP-120</name>
-	<rightascension>04 10 27.85</rightascension>
-	<declination>-45 53 53.5</declination>
+	<distance errorminus="3.2528" errorplus="3.2528">385.401</distance>
+	<rightascension>04 10 27.8559</rightascension>
+	<declination>-45 53 53.5754</declination>
 	<star>
 		<name>WASP-120</name>
 		<name>TYC 8068-01208-1</name>
 		<name>USNO-B 0441-0033568</name>
 		<name>PPM 308371</name>
+		<name>TYC 8068-1208-1</name>
+		<name>Gaia DR2 4837286842167819776</name>
 		<magB errorminus="0.06" errorplus="0.06">11.48</magB>
 		<magV errorminus="0.06" errorplus="0.06">10.96</magV>
 		<magJ errorminus="0.024" errorplus="0.024">10.148</magJ>
@@ -22,6 +25,8 @@
 			<name>TYC 8068-01208-1 b</name>
 			<name>USNO-B 0441-0033568 b</name>
 			<name>PPM 308371 b</name>
+			<name>TYC 8068-1208-1 b</name>
+			<name>Gaia DR2 4837286842167819776 b</name>
 			<list>Confirmed planets</list>
 			<radius errorminus="0.083" errorplus="0.083">1.515</radius>
 			<mass errorminus="0.26" errorplus="0.26">5.01</mass>
@@ -38,4 +43,5 @@
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 	</star>
+	<constellation>Horologium</constellation>
 </system>

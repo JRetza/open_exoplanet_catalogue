@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-833</name>
-	<rightascension>19 21 55</rightascension>
-	<declination>+45 36 03</declination>
+	<name>KOI-1403</name>
+	<name>KIC 9214942</name>
+	<distance errorminus="5.9684" errorplus="5.9684">473.687</distance>
+	<rightascension>19 21 55.1904</rightascension>
+	<declination>+45 36 02.4295</declination>
 	<star>
 		<name>Kepler-833</name>
+		<name>KOI-1403</name>
+		<name>KIC 9214942</name>
+		<name>2MASS J19215518+4536025</name>
+		<name>Gaia DR2 2127461236320786688</name>
+		<magH errorminus="0.019" errorplus="0.019">13.006</magH>
+		<magJ errorminus="0.023" errorplus="0.023">13.629</magJ>
+		<magK errorminus="0.023" errorplus="0.023">12.885</magK>
 		<temperature errorminus="37.4" errorplus="39.3">4339.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">0.64</mass>
 		<radius errorminus="0.02" errorplus="0.02">0.62</radius>
 		<metallicity errorminus="0.10" errorplus="0.10">-0.18</metallicity>
 		<planet>
 			<name>Kepler-833 b</name>
+			<name>KOI-1403 b</name>
+			<name>KOI-1403.01</name>
+			<name>KIC 9214942 b</name>
+			<name>Gaia DR2 2127461236320786688 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000051420" errorplus="0.000051420">18.754699800</period>
 			<radius errorminus="0.008" errorplus="0.011">0.180</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

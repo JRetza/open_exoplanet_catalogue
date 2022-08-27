@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1575</name>
-	<rightascension>19 34 58</rightascension>
-	<declination>+45 45 42</declination>
+	<name>KOI-4241</name>
+	<name>KIC 9285568</name>
+	<distance errorminus="43.0997" errorplus="43.0997">1292.4906</distance>
+	<rightascension>19 34 58.3820</rightascension>
+	<declination>+45 45 41.7042</declination>
 	<star>
 		<name>Kepler-1575</name>
+		<name>KOI-4241</name>
+		<name>KIC 9285568</name>
+		<name>2MASS J19345838+4545417</name>
+		<name>Gaia DR2 2128008479575522432</name>
+		<magH errorminus="0.029" errorplus="0.029">13.871</magH>
+		<magJ errorminus="0.031" errorplus="0.031">14.268</magJ>
+		<magK errorminus="0.052" errorplus="0.052">13.828</magK>
 		<temperature errorminus="92.4" errorplus="140.1">5667.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">0.95</mass>
 		<radius errorminus="0.07" errorplus="0.14">0.92</radius>
 		<metallicity errorminus="0.19" errorplus="0.15">-0.07</metallicity>
 		<planet>
 			<name>Kepler-1575 b</name>
+			<name>KOI-4241 b</name>
+			<name>KOI-4241.01</name>
+			<name>KIC 9285568 b</name>
+			<name>Gaia DR2 2128008479575522432 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000013040" errorplus="0.000013040">2.553142130</period>
 			<radius errorminus="0.012" errorplus="0.018">0.117</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

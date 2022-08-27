@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1024</name>
-	<rightascension>19 27 48</rightascension>
-	<declination>+38 15 06</declination>
+	<name>KOI-1950</name>
+	<name>KIC 3118797</name>
+	<distance errorminus="52.9069" errorplus="52.9069">1119.7</distance>
+	<rightascension>19 27 48.2439</rightascension>
+	<declination>+38 15 05.9686</declination>
 	<star>
 		<name>Kepler-1024</name>
+		<name>KOI-1950</name>
+		<name>KIC 3118797</name>
+		<name>2MASS J19274823+3815061</name>
+		<name>Gaia DR2 2052666992204482816</name>
 		<temperature errorminus="76.4" errorplus="126.7">5143.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.81</mass>
 		<radius errorminus="0.05" errorplus="0.04">0.78</radius>
 		<metallicity errorminus="0.18" errorplus="0.14">-0.10</metallicity>
 		<planet>
 			<name>Kepler-1024 b</name>
+			<name>KOI-1950 b</name>
+			<name>KOI-1950.01</name>
+			<name>KIC 3118797 b</name>
+			<name>Gaia DR2 2052666992204482816 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000353800" errorplus="0.000353800">66.416213300</period>
 			<radius errorminus="0.023" errorplus="0.024">0.349</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

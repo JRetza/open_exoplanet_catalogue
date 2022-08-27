@@ -2,8 +2,8 @@
 	<name>Kepler-201</name>
 	<name>KOI-655</name>
 	<name>KIC 5966154</name>
-	<rightascension>19 34 30</rightascension>
-	<declination>+41 16 22</declination>
+	<rightascension>19 34 30.2499</rightascension>
+	<declination>+41 16 22.1668</declination>
 	<distance>608.78</distance>
 	<star>
 		<magJ errorminus="0.020" errorplus="0.020">12.037</magJ>
@@ -12,6 +12,8 @@
 		<name>Kepler-201</name>
 		<name>KOI-655</name>
 		<name>KIC 5966154</name>
+		<name>2MASS J19343024+4116221</name>
+		<name>Gaia DR2 2077386315701921920</name>
 		<temperature errorminus="17" errorplus="117">6065</temperature>
 		<radius errorminus=".240" errorplus="0.240">1.229</radius>
 		<mass errorminus="0.0510" errorplus="0.0510">1.1770</mass>
@@ -21,6 +23,7 @@
 			<name>KOI-655.01</name>
 			<name>KIC 5966154 b</name>
 			<name>KIC 5966154.01</name>
+			<name>Gaia DR2 2077386315701921920 b</name>
 			<radius errorminus="0.04374" errorplus="0.04374">0.22418</radius>
 			<period errorminus=".000075" errorplus="0.000075">25.672083</period>
 			<transittime errorminus="0.0016900" errorplus="0.0016900">2455025.0970500</transittime>
@@ -37,6 +40,7 @@
 			<name>KOI-655.02</name>
 			<name>KIC 5966154 c</name>
 			<name>KIC 5966154.02</name>
+			<name>Gaia DR2 2077386315701921920 c</name>
 			<radius errorminus="0.05468" errorplus="0.05468">0.25972</radius>
 			<period errorminus=".002014" errorplus="0.002014">151.884058</period>
 			<transittime errorminus="0.0079400" errorplus="0.0079400">2455009.4181600</transittime>
@@ -48,4 +52,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

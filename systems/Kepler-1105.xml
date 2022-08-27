@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1105</name>
-	<rightascension>18 44 27</rightascension>
-	<declination>+42 27 18</declination>
+	<name>KOI-2114</name>
+	<name>KIC 6921944</name>
+	<distance errorminus="2.5234" errorplus="2.5234">320.935</distance>
+	<rightascension>18 44 26.8241</rightascension>
+	<declination>+42 27 17.7080</declination>
 	<star>
 		<name>Kepler-1105</name>
+		<name>KOI-2114</name>
+		<name>KIC 6921944</name>
+		<name>2MASS J18442682+4227176</name>
+		<name>Gaia DR2 2116733198288204288</name>
+		<magH errorminus="0.027" errorplus="0.027">12.513</magH>
+		<magJ errorminus="0.027" errorplus="0.027">13.147</magJ>
+		<magK errorminus="0.018" errorplus="0.018">12.371</magK>
 		<temperature errorminus="47.8" errorplus="41.8">4299.0</temperature>
 		<mass errorminus="0.03" errorplus="0.02">0.71</mass>
 		<radius errorminus="0.02" errorplus="0.01">0.68</radius>
 		<metallicity errorminus="0.11" errorplus="0.08">0.28</metallicity>
 		<planet>
 			<name>Kepler-1105 b</name>
+			<name>KOI-2114 b</name>
+			<name>KOI-2114.01</name>
+			<name>KIC 6921944 b</name>
+			<name>Gaia DR2 2116733198288204288 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000009770" errorplus="0.000009770">4.421572180</period>
 			<radius errorminus="0.022" errorplus="0.005">0.179</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

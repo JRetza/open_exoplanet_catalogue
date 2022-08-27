@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-989</name>
-	<rightascension>18 46 20</rightascension>
-	<declination>+47 14 01</declination>
+	<name>KOI-1870</name>
+	<name>KIC 10187159</name>
+	<distance errorminus="4.7813" errorplus="4.7813">499.027</distance>
+	<rightascension>18 46 19.8976</rightascension>
+	<declination>+47 14 01.0670</declination>
 	<star>
 		<name>Kepler-989</name>
+		<name>KOI-1870</name>
+		<name>KIC 10187159</name>
+		<name>2MASS J18461989+4714010</name>
+		<name>Gaia DR2 2119584163218439040</name>
 		<temperature errorminus="53.6" errorplus="52.7">5074.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.82</mass>
 		<radius errorminus="0.04" errorplus="0.04">0.78</radius>
 		<metallicity errorminus="0.17" errorplus="0.15">0.01</metallicity>
 		<planet>
 			<name>Kepler-989 b</name>
+			<name>KOI-1870 b</name>
+			<name>KOI-1870.01</name>
+			<name>KIC 10187159 b</name>
+			<name>Gaia DR2 2119584163218439040 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000009620" errorplus="0.000009620">7.964315350</period>
 			<radius errorminus="0.012" errorplus="0.012">0.197</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1482</name>
-	<rightascension>19 01 15</rightascension>
-	<declination>+48 43 31</declination>
+	<name>KOI-3371</name>
+	<name>KIC 11125797</name>
+	<distance errorminus="11.5101" errorplus="11.5101">576.768</distance>
+	<rightascension>19 01 15.3139</rightascension>
+	<declination>+48 43 30.9752</declination>
 	<star>
 		<name>Kepler-1482</name>
+		<name>KOI-3371</name>
+		<name>KIC 11125797</name>
+		<name>2MASS J19011531+4843309</name>
+		<name>Gaia DR2 2131965454422070784</name>
 		<temperature errorminus="59.3" errorplus="59.2">5381.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.88</mass>
 		<radius errorminus="0.05" errorplus="0.08">0.84</radius>
 		<metallicity errorminus="0.16" errorplus="0.15">-0.04</metallicity>
 		<planet>
 			<name>Kepler-1482 b</name>
+			<name>KOI-3371 b</name>
+			<name>KOI-3371.02</name>
+			<name>KIC 11125797 b</name>
+			<name>Gaia DR2 2131965454422070784 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000084070" errorplus="0.000084070">12.253832170</period>
 			<radius errorminus="0.010" errorplus="0.009">0.090</radius>
 		</planet>
 	</star>
+	<constellation>Draco</constellation>
 </system>

@@ -1,0 +1,47 @@
+<system>
+	<name>LTT 1445 A</name>
+	<rightascension>03 01 51.00</rightascension>
+	<declination>-16 35 36.00</declination>
+	<distance>6.9</distance>
+	<star>
+		<name>LTT 1445 A</name>
+		<radius errorminus="0.012" errorplus="0.012">0.27</radius>
+		<mass errorminus="0.014" errorplus="0.014">0.256</mass>
+		<temperature errorminus="159.0" errorplus="159.0">3340.0</temperature>
+		<metallicity errorminus="0.09" errorplus="0.09">-0.34</metallicity>
+		<spectraltype>M</spectraltype>
+		<planet>
+			<name>LTT 1445 A b</name>
+			<semimajoraxis errorminus="0.0007" errorplus="0.0007">0.03813</semimajoraxis>
+			<periastron errorminus="61.0" errorplus="120.0">222.0</periastron>
+			<inclination errorminus="0.29" errorplus="0.22">89.68</inclination>
+			<period errorminus="0.000004" errorplus="0.000004">5.3587657</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.00082" errorplus="0.00082">0.00903</mass>
+			<radius errorminus="0.00544" errorplus="0.00589">0.11643</radius>
+			<temperature errorminus="21.0" errorplus="21.0">424.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/02</lastupdate>
+		</planet>
+		<planet>
+			<name>LTT 1445 A c</name>
+			<semimajoraxis errorminus="0.0018" errorplus="0.0018">0.0396</semimajoraxis>
+			<eccentricity upperlimit="0.223" />
+			<inclination errorminus="0.29" errorplus="0.18">87.43</inclination>
+			<period errorminus="0.000036" errorplus="0.000036">3.1239035</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0006" errorplus="0.0006">0.00485</mass>
+			<radius errorminus="0.00491" errorplus="0.00491">0.10233</radius>
+			<temperature errorminus="25.0" errorplus="25.0">508.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/02</lastupdate>
+		</planet>
+	</star>
+	<constellation>Eridanus</constellation>
+</system>

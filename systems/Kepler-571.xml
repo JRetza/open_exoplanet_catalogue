@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-571</name>
-	<rightascension>19 06 12</rightascension>
-	<declination>+49 25 07</declination>
+	<name>KOI-483</name>
+	<name>KIC 11497977</name>
+	<distance errorminus="10.1651" errorplus="10.1651">739.262</distance>
+	<rightascension>19 06 12.2453</rightascension>
+	<declination>+49 25 07.3255</declination>
 	<star>
 		<name>Kepler-571</name>
+		<name>KOI-483</name>
+		<name>KIC 11497977</name>
+		<name>2MASS J19061224+4925074</name>
+		<name>Gaia DR2 2132069598789224960</name>
+		<magH errorminus="0.03" errorplus="0.03">13.05</magH>
+		<magJ errorminus="0.026" errorplus="0.026">13.410</magJ>
+		<magK errorminus="0.026" errorplus="0.026">12.986</magK>
 		<temperature errorminus="79.5" errorplus="75.2">5527.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.93</mass>
 		<radius errorminus="0.05" errorplus="0.11">0.90</radius>
 		<metallicity errorminus="0.16" errorplus="0.14">0.01</metallicity>
 		<planet>
 			<name>Kepler-571 b</name>
+			<name>KOI-483 b</name>
+			<name>KOI-483.01</name>
+			<name>KIC 11497977 b</name>
+			<name>Gaia DR2 2132069598789224960 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000005400" errorplus="0.000005400">4.798599390</period>
 			<radius errorminus="0.015" errorplus="0.029">0.236</radius>
 		</planet>
 	</star>
+	<constellation>Draco</constellation>
 </system>

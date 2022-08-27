@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1478</name>
-	<rightascension>19 32 40</rightascension>
-	<declination>+41 44 46</declination>
+	<name>KOI-3356</name>
+	<name>KIC 6368230</name>
+	<distance errorminus="99.2847" errorplus="99.2847">1946.66</distance>
+	<rightascension>19 32 39.6142</rightascension>
+	<declination>+41 44 46.4537</declination>
 	<star>
 		<name>Kepler-1478</name>
+		<name>KOI-3356</name>
+		<name>KIC 6368230</name>
+		<name>2MASS J19323961+4144464</name>
+		<name>Gaia DR2 2077601407662547072</name>
 		<temperature errorminus="137.7" errorplus="102.5">5904.0</temperature>
 		<mass errorminus="0.07" errorplus="0.07">1.04</mass>
 		<radius errorminus="0.11" errorplus="0.28">1.06</radius>
 		<metallicity errorminus="0.18" errorplus="0.14">0.03</metallicity>
 		<planet>
 			<name>Kepler-1478 b</name>
+			<name>KOI-3356 b</name>
+			<name>KOI-3356.01</name>
+			<name>KIC 6368230 b</name>
+			<name>Gaia DR2 2077601407662547072 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000512100" errorplus="0.000512100">26.084059400</period>
 			<radius errorminus="0.017" errorplus="0.042">0.154</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

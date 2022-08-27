@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1059</name>
-	<rightascension>19 16 53</rightascension>
-	<declination>+41 42 23</declination>
+	<name>KOI-2021</name>
+	<name>KIC 6356207</name>
+	<distance errorminus="16.4182" errorplus="16.4182">727.749</distance>
+	<rightascension>19 16 52.8497</rightascension>
+	<declination>+41 42 23.2791</declination>
 	<star>
 		<name>Kepler-1059</name>
+		<name>KOI-2021</name>
+		<name>KIC 6356207</name>
+		<name>2MASS J19165285+4142233</name>
+		<name>Gaia DR2 2102249400337907456</name>
+		<magH errorminus="0.028" errorplus="0.028">13.427</magH>
+		<magJ errorminus="0.025" errorplus="0.025">13.993</magJ>
+		<magK errorminus="0.035" errorplus="0.035">13.351</magK>
 		<temperature errorminus="62.3" errorplus="81.5">4906.0</temperature>
 		<mass errorminus="0.06" errorplus="0.04">0.75</mass>
 		<radius errorminus="0.06" errorplus="0.04">0.72</radius>
 		<metallicity errorminus="0.24" errorplus="0.16">-0.15</metallicity>
 		<planet>
 			<name>Kepler-1059 b</name>
+			<name>KOI-2021 b</name>
+			<name>KOI-2021.01</name>
+			<name>KIC 6356207 b</name>
+			<name>Gaia DR2 2102249400337907456 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000009540" errorplus="0.000009540">3.764191050</period>
 			<radius errorminus="0.013" errorplus="0.011">0.154</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1632</name>
-	<rightascension>19 37 59</rightascension>
-	<declination>+43 54 49</declination>
+	<name>KOI-5475</name>
+	<name>KIC 8105398</name>
+	<distance errorminus="6.8567" errorplus="6.8567">731.904</distance>
+	<rightascension>19 37 58.7624</rightascension>
+	<declination>+43 54 49.0491</declination>
 	<star>
 		<name>Kepler-1632</name>
+		<name>KOI-5475</name>
+		<name>KIC 8105398</name>
+		<name>2MASS J19375876+4354490</name>
+		<name>Gaia DR2 2078297810838102272</name>
 		<temperature errorminus="176.5" errorplus="159.6">6137.0</temperature>
 		<mass errorminus="0.10" errorplus="0.14">1.12</mass>
 		<radius errorminus="0.17" errorplus="0.40">1.19</radius>
 		<metallicity errorminus="0.19" errorplus="0.13">0.00</metallicity>
 		<planet>
 			<name>Kepler-1632 b</name>
+			<name>KOI-5475 b</name>
+			<name>KOI-5475.01</name>
+			<name>KIC 8105398 b</name>
+			<name>Gaia DR2 2078297810838102272 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.004164000" errorplus="0.004164000">448.303558000</period>
 			<radius errorminus="0.031" errorplus="0.075">0.220</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-861</name>
-	<rightascension>19 29 25</rightascension>
-	<declination>+46 13 35</declination>
+	<name>KOI-1488</name>
+	<name>KIC 9589323</name>
+	<distance errorminus="23.9016" errorplus="23.9016">871.08</distance>
+	<rightascension>19 29 24.9425</rightascension>
+	<declination>+46 13 34.5916</declination>
 	<star>
 		<name>Kepler-861</name>
+		<name>KOI-1488</name>
+		<name>KIC 9589323</name>
+		<name>2MASS J19292494+4613346</name>
+		<name>Gaia DR2 2128256286308183552</name>
 		<temperature errorminus="72.9" errorplus="65.2">5047.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.82</mass>
 		<radius errorminus="0.04" errorplus="0.04">0.78</radius>
 		<metallicity errorminus="0.17" errorplus="0.15">0.01</metallicity>
 		<planet>
 			<name>Kepler-861 b</name>
+			<name>KOI-1488 b</name>
+			<name>KOI-1488.01</name>
+			<name>KIC 9589323 b</name>
+			<name>Gaia DR2 2128256286308183552 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000005490" errorplus="0.000005490">3.949631380</period>
 			<radius errorminus="0.012" errorplus="0.011">0.203</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

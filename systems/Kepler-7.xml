@@ -1,7 +1,10 @@
 <system>
 	<name>Kepler-7</name>
-	<rightascension>19 14 20</rightascension>
-	<declination>+41 05 23</declination>
+	<name>KOI-97</name>
+	<name>KIC 5780885</name>
+	<distance errorminus="21.0976" errorplus="21.0976">947.508</distance>
+	<rightascension>19 14 19.5623</rightascension>
+	<declination>+41 05 23.3654</declination>
 	<star>
 		<spectraltype>G0</spectraltype>
 		<magB>13.4</magB>
@@ -18,6 +21,7 @@
 			<name>KIC 5780885 b</name>
 			<name>KOI-97.01</name>
 			<name>KOI-97 b</name>
+			<name>Gaia DR2 2102117871259036672 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.04" errorplus="0.04">0.44</mass>
 			<radius errorminus="0.01" errorplus="0.01">1.62</radius>
@@ -35,6 +39,9 @@
 		<name>Kepler-7</name>
 		<name>KOI-97</name>
 		<name>KIC 5780885</name>
+		<name>2MASS J19141956+4105233</name>
+		<name>Gaia DR2 2102117871259036672</name>
 		<temperature errorminus="75" errorplus="75">6027</temperature>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

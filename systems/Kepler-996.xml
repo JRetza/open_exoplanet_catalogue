@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-996</name>
-	<rightascension>19 27 39</rightascension>
-	<declination>+41 32 01</declination>
+	<name>KOI-1882</name>
+	<name>KIC 6205228</name>
+	<distance errorminus="29.8658" errorplus="29.8658">1260.4</distance>
+	<rightascension>19 27 39.0689</rightascension>
+	<declination>+41 32 01.0161</declination>
 	<star>
 		<name>Kepler-996</name>
+		<name>KOI-1882</name>
+		<name>KIC 6205228</name>
+		<name>2MASS J19273906+4132009</name>
+		<name>Gaia DR2 2101649891623535104</name>
+		<magH errorminus="0.038" errorplus="0.038">13.246</magH>
+		<magJ errorminus="0.03" errorplus="0.03">13.55</magJ>
+		<magK errorminus="0.036" errorplus="0.036">13.171</magK>
 		<temperature errorminus="152.2" errorplus="114.4">6014.0</temperature>
 		<mass errorminus="0.08" errorplus="0.09">1.09</mass>
 		<radius errorminus="0.14" errorplus="0.36">1.14</radius>
 		<metallicity errorminus="0.15" errorplus="0.13">0.03</metallicity>
 		<planet>
 			<name>Kepler-996 b</name>
+			<name>KOI-1882 b</name>
+			<name>KOI-1882.01</name>
+			<name>KIC 6205228 b</name>
+			<name>Gaia DR2 2101649891623535104 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000008060" errorplus="0.000008060">3.770590580</period>
 			<radius errorminus="0.022" errorplus="0.056">0.177</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

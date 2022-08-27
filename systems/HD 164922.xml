@@ -1,33 +1,83 @@
 <system>
 	<name>HD 164922</name>
-	<rightascension>18 02 30</rightascension>
-	<declination>+26 18 46</declination>
-	<distance>21.93</distance>
+	<name>HIP 88348</name>
+	<rightascension>18 02 31</rightascension>
+	<declination>+26 18 37</declination>
+	<distance errorminus="0.0151000" errorplus="0.0152000">22.0016000</distance>
 	<star>
-		<mass>0.94</mass>
-		<radius>0.9</radius>
-		<magV>7.01</magV>
-		<magB>7.79</magB>
-		<magR>6.5</magR>
-		<magI>6.1</magI>
-		<magJ errorminus="0.026" errorplus="0.026">5.553</magJ>
-		<magH errorminus="0.017" errorplus="0.017">5.203</magH>
-		<magK errorminus="0.020" errorplus="0.020">5.113</magK>
-		<metallicity>0.17</metallicity>
-		<spectraltype>K0V</spectraltype>
+		<name>HD 164922</name>
+		<name>HIP 88348</name>
+		<radius errorminus="0.02" errorplus="0.02">1.00</radius>
+		<magV errorminus="0.0230000" errorplus="0.0230000">7.0122700</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">5.5530000</magJ>
+		<magH errorminus="0.0170000" errorplus="0.0170000">5.2030000</magH>
+		<magK errorminus="0.0200000" errorplus="0.0200000">5.1130000</magK>
+		<mass errorminus="0.03" errorplus="0.03">0.92</mass>
+		<temperature errorminus="68.33" errorplus="68.33">5393.43</temperature>
+		<metallicity errorminus="0.057" errorplus="0.057">0.197</metallicity>
+		<spectraltype>G9V</spectraltype>
+		<planet>
+			<name>HD 164922 e</name>
+			<name>HIP 88348 e</name>
+			<semimajoraxis errorminus="0.002700" errorplus="0.002600">0.229200</semimajoraxis>
+			<eccentricity errorminus="0.060000" errorplus="0.083000">0.086000</eccentricity>
+			<periastron errorminus="49.8473" errorplus="74.4845">-17.1887</periastron>
+			<period errorminus="0.01200000" errorplus="0.01200000">41.76300000</period>
+			<description>This planet was discovered by Rosenthal et al. 2021. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00310" errorplus="0.00310">0.03310</mass>
+			<radius>0.288</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+		</planet>
+		<planet>
+			<name>HD 164922 c</name>
+			<name>HIP 88348 c</name>
+			<semimajoraxis errorminus="0.004000" errorplus="0.004000">0.341000</semimajoraxis>
+			<eccentricity errorminus="0.090000" errorplus="0.110000">0.120000</eccentricity>
+			<periastron errorminus="77.0000" errorplus="110.0000">-29.0000</periastron>
+			<period errorminus="0.05000000" errorplus="0.06000000">75.74000000</period>
+			<description>This planet was discovered by Fulton et al. 2016. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00629" errorplus="0.00944">0.04090</mass>
+			<radius>0.327</radius>
+			<temperature errorminus="4.30000000000e+00" errorplus="4.30000000000e+00">4.00500000000e+02</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+		</planet>
 		<planet>
 			<name>HD 164922 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.36</mass>
-			<period>1155</period>
-			<semimajoraxis>2.11</semimajoraxis>
-			<eccentricity>0.05</eccentricity>
+			<name>HIP 88348 b</name>
+			<semimajoraxis errorminus="0.030000" errorplus="0.030000">2.160000</semimajoraxis>
+			<eccentricity errorminus="0.050000" errorplus="0.060000">0.080000</eccentricity>
+			<periastron errorminus="274.0000" errorplus="48.0000">116.0000</periastron>
+			<period errorminus="5.00000000" errorplus="4.00000000">1207.00000000</period>
+			<description>This planet was discovered by Butler et al. 2006. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03776" errorplus="0.03146">0.36497</mass>
+			<radius>1.190</radius>
+			<temperature errorminus="1.70000000000e+00" errorplus="1.70000000000e+00">1.59400000000e+02</temperature>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>06/07/15</lastupdate>
-			<discoveryyear>2006</discoveryyear>
-			<temperature>155.0</temperature>
+			<discoveryyear>2005</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
 		</planet>
-		<name>HD 164922</name>
-		<temperature>5385.0</temperature>
+		<planet>
+			<name>HD 164922 d</name>
+			<name>HIP 88348 d</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.103000</semimajoraxis>
+			<eccentricity errorminus="0.080000" errorplus="0.130000">0.120000</eccentricity>
+			<periastron errorminus="77.0000" errorplus="130.0000">-48.0000</periastron>
+			<period errorminus="0.00300000" errorplus="0.00300000">12.45800000</period>
+			<description>This planet was discovered by Benatti et al. 2020. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00315" errorplus="0.00315">0.01259</mass>
+			<radius>0.163</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+		</planet>
 	</star>
+	<constellation>Hercules</constellation>
 </system>

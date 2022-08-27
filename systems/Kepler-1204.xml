@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1204</name>
-	<rightascension>19 17 46</rightascension>
-	<declination>+42 29 53</declination>
+	<name>KOI-2348</name>
+	<name>KIC 6941084</name>
+	<distance errorminus="35.3372" errorplus="35.3372">1215.95</distance>
+	<rightascension>19 17 45.9604</rightascension>
+	<declination>+42 29 53.3256</declination>
 	<star>
 		<name>Kepler-1204</name>
+		<name>KOI-2348</name>
+		<name>KIC 6941084</name>
+		<name>2MASS J19174595+4229532</name>
+		<name>Gaia DR2 2102648832296149888</name>
+		<magH errorminus="0.03" errorplus="0.03">13.80</magH>
+		<magJ errorminus="0.027" errorplus="0.027">14.119</magJ>
+		<magK errorminus="0.039" errorplus="0.039">13.771</magK>
 		<temperature errorminus="121.1" errorplus="88.4">5825.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">1.03</mass>
 		<radius errorminus="0.10" errorplus="0.29">1.03</radius>
 		<metallicity errorminus="0.14" errorplus="0.13">0.06</metallicity>
 		<planet>
 			<name>Kepler-1204 b</name>
+			<name>KOI-2348 b</name>
+			<name>KOI-2348.01</name>
+			<name>KIC 6941084 b</name>
+			<name>Gaia DR2 2102648832296149888 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000637300" errorplus="0.000637300">85.735028500</period>
 			<radius errorminus="0.027" errorplus="0.078">0.272</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

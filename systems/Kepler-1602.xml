@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1602</name>
-	<rightascension>19 34 19</rightascension>
-	<declination>+40 25 39</declination>
+	<name>KOI-4411</name>
+	<name>KIC 5281113</name>
+	<distance errorminus="5.6778" errorplus="5.6778">641.437</distance>
+	<rightascension>19 34 19.4028</rightascension>
+	<declination>+40 25 38.9875</declination>
 	<star>
 		<name>Kepler-1602</name>
+		<name>KOI-4411</name>
+		<name>KIC 5281113</name>
+		<name>2MASS J19341940+4025388</name>
+		<name>Gaia DR2 2053284398043177216</name>
+		<magH errorminus="0.021" errorplus="0.021">12.100</magH>
+		<magJ errorminus="0.021" errorplus="0.021">12.386</magJ>
+		<magK errorminus="0.021" errorplus="0.021">12.060</magK>
 		<temperature errorminus="152.7" errorplus="217.7">6296.0</temperature>
 		<mass errorminus="0.11" errorplus="0.20">1.22</mass>
 		<radius errorminus="0.22" errorplus="0.58">1.36</radius>
 		<metallicity errorminus="0.17" errorplus="0.12">0.02</metallicity>
 		<planet>
 			<name>Kepler-1602 b</name>
+			<name>KOI-4411 b</name>
+			<name>KOI-4411.01</name>
+			<name>KIC 5281113 b</name>
+			<name>Gaia DR2 2053284398043177216 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000075040" errorplus="0.000075040">11.179316050</period>
 			<radius errorminus="0.021" errorplus="0.052">0.120</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

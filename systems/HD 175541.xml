@@ -1,7 +1,7 @@
 <system>
 	<name>HD 175541</name>
-	<rightascension>18 55 41</rightascension>
-	<declination>+04 15 55</declination>
+	<rightascension>18 55 40.8840</rightascension>
+	<declination>+04 15 55.1622</declination>
 	<distance>128</distance>
 	<star>
 		<mass>1.65</mass>
@@ -15,6 +15,11 @@
 		<spectraltype>G8IV</spectraltype>
 		<planet>
 			<name>HD 175541 b</name>
+			<name>TYC 457-495-1 b</name>
+			<name>Kaveh b</name>
+			<name>HIP 92895 b</name>
+			<name>Gaia DR2 4281180283478682496 b</name>
+			<name>GJ 736 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.61</mass>
 			<period>297.3</period>
@@ -26,6 +31,12 @@
 			<temperature>428.3</temperature>
 		</planet>
 		<name>HD 175541</name>
+		<name>TYC 457-495-1</name>
+		<name>Kaveh</name>
+		<name>HIP 92895</name>
+		<name>Gaia DR2 4281180283478682496</name>
+		<name>GJ 736</name>
 		<temperature>5060.0</temperature>
 	</star>
+	<constellation>Serpens</constellation>
 </system>

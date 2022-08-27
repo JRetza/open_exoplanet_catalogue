@@ -1,24 +1,40 @@
 <system>
 	<name>Kepler-1248</name>
-	<rightascension>19 12 14</rightascension>
-	<declination>+51 21 16</declination>
+	<name>KOI-2463</name>
+	<name>KIC 12454461</name>
+	<rightascension>19 12 14.2344</rightascension>
+	<declination>+51 21 16.0322</declination>
 	<star>
 		<name>Kepler-1248</name>
+		<name>KOI-2463</name>
+		<name>KIC 12454461</name>
+		<name>2MASS J19121423+5121160</name>
+		<name>Gaia DR2 2133405707276892288</name>
+		<magB errorminus="0.01" errorplus="0.01">13.60</magB>
+		<magH errorminus="0.032" errorplus="0.032">11.534</magH>
+		<magJ errorminus="0.023" errorplus="0.023">11.771</magJ>
+		<magK errorminus="0.023" errorplus="0.023">11.449</magK>
+		<magR errorminus="0.09" errorplus="0.09">12.76</magR>
+		<magV errorminus="0.11" errorplus="0.11">12.87</magV>
 		<temperature errorminus="74.3" errorplus="83.2">6149.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">1.21</mass>
 		<radius errorminus="0.05" errorplus="0.06">1.21</radius>
 		<metallicity errorminus="0.08" errorplus="0.07">0.24</metallicity>
 		<planet>
 			<name>Kepler-1248 b</name>
+			<name>KOI-2463 b</name>
+			<name>KOI-2463.01</name>
+			<name>KIC 12454461 b</name>
+			<name>Gaia DR2 2133405707276892288 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000053020" errorplus="0.000053020">7.467254070</period>
 			<radius errorminus="0.010" errorplus="0.018">0.105</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,24 +1,42 @@
 <system>
 	<name>Kepler-1115</name>
-	<rightascension>19 39 58</rightascension>
-	<declination>+40 08 40</declination>
+	<name>KOI-2138</name>
+	<name>KIC 5022828</name>
+	<distance errorminus="26.7861" errorplus="26.7861">1011.12</distance>
+	<rightascension>19 39 58.0258</rightascension>
+	<declination>+40 08 39.8235</declination>
 	<star>
 		<name>Kepler-1115</name>
+		<name>KOI-2138</name>
+		<name>KIC 5022828</name>
+		<name>2MASS J19395802+4008398</name>
+		<name>Gaia DR2 2076483616656410496</name>
+		<name>TYC 3139-1275-1</name>
+		<magB>11.9</magB>
+		<magH errorminus="0.022" errorplus="0.022">11.555</magH>
+		<magJ errorminus="0.020" errorplus="0.020">11.566</magJ>
+		<magK errorminus="0.021" errorplus="0.021">11.512</magK>
+		<magV>11.7</magV>
 		<temperature errorminus="217.9" errorplus="296.0">8480.0</temperature>
 		<mass errorminus="0.10" errorplus="0.10">1.60</mass>
 		<radius errorminus="0.20" errorplus="0.29">1.73</radius>
 		<metallicity errorminus="0.12" errorplus="0.11">-0.51</metallicity>
 		<planet>
 			<name>Kepler-1115 b</name>
+			<name>KOI-2138 b</name>
+			<name>KOI-2138.01</name>
+			<name>KIC 5022828 b</name>
+			<name>Gaia DR2 2076483616656410496 b</name>
+			<name>TYC 3139-1275-1 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000135600" errorplus="0.000135600">23.554072500</period>
 			<radius errorminus="0.018" errorplus="0.026">0.152</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

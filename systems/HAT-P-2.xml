@@ -1,7 +1,7 @@
 <system>
 	<name>HAT-P-2</name>
-	<rightascension>16 20 36</rightascension>
-	<declination>+41 02 53</declination>
+	<rightascension>16 20 36.3579</rightascension>
+	<declination>+41 02 53.1090</declination>
 	<distance>118</distance>
 	<star>
 		<mass>1.36</mass>
@@ -21,6 +21,9 @@
 			<name>BD+41 2693 b</name>
 			<name>SAO 46035 b</name>
 			<name>2MASS J16203635+4102531 b</name>
+			<name>TYC 3065-1195-1 b</name>
+			<name>Gaia DR2 1380825667768742144 b</name>
+			<name>Hunor b</name>
 			<list>Confirmed planets</list>
 			<mass>8.74</mass>
 			<radius>0.951</radius>
@@ -37,6 +40,12 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HAT-P-2</name>
+		<name>TYC 3065-1195-1</name>
+		<name>HIP 80076</name>
+		<name>Gaia DR2 1380825667768742144</name>
+		<name>Hunor</name>
+		<name>HD 147506</name>
 		<temperature>6290.0</temperature>
 	</star>
+	<constellation>Hercules</constellation>
 </system>

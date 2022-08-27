@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-620</name>
-	<rightascension>19 24 38</rightascension>
-	<declination>+51 20 06</declination>
+	<name>KOI-602</name>
+	<name>KIC 12459913</name>
+	<distance errorminus="49.7193" errorplus="49.7193">1410.24</distance>
+	<rightascension>19 24 38.2539</rightascension>
+	<declination>+51 20 05.5508</declination>
 	<star>
 		<name>Kepler-620</name>
+		<name>KOI-602</name>
+		<name>KIC 12459913</name>
+		<name>2MASS J19243825+5120055</name>
+		<name>Gaia DR2 2136210874976312192</name>
 		<temperature errorminus="147.7" errorplus="120.9">6155.0</temperature>
 		<mass errorminus="0.08" errorplus="0.15">1.15</mass>
 		<radius errorminus="0.16" errorplus="0.45">1.22</radius>
 		<metallicity errorminus="0.16" errorplus="0.14">0.03</metallicity>
 		<planet>
 			<name>Kepler-620 b</name>
+			<name>KOI-602 b</name>
+			<name>KOI-602.01</name>
+			<name>KIC 12459913 b</name>
+			<name>Gaia DR2 2136210874976312192 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000049510" errorplus="0.000049510">12.913754310</period>
 			<radius errorminus="0.062" errorplus="0.109">0.296</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,7 +1,7 @@
 <system>
 	<name>CoRoT-23</name>
-	<rightascension>18 39 08</rightascension>
-	<declination>+04 21 28</declination>
+	<rightascension>18 39 07.8405</rightascension>
+	<declination>+04 21 28.0346</declination>
 	<distance>600</distance>
 	<star>
 		<mass>1.14</mass>
@@ -17,6 +17,7 @@
 		<planet>
 			<name>CoRoT-23 b</name>
 			<name>2MASS J18390782+0421281 b</name>
+			<name>Gaia DR2 4283597937777249408 b</name>
 			<list>Confirmed planets</list>
 			<mass>2.8</mass>
 			<radius>1.05</radius>
@@ -32,6 +33,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>CoRoT-23</name>
+		<name>Gaia DR2 4283597937777249408</name>
 		<temperature>5900.0</temperature>
 	</star>
+	<constellation>Serpens</constellation>
 </system>

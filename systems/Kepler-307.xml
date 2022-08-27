@@ -1,12 +1,16 @@
 <system>
 	<name>Kepler-307</name>
-	<rightascension>19 51 10</rightascension>
-	<declination>+40 25 03</declination>
+	<name>KOI-1576</name>
+	<name>KIC 5299459</name>
+	<rightascension>19 51 10.8251</rightascension>
+	<declination>+40 25 03.6696</declination>
 	<distance>705.48</distance>
 	<star>
 		<name>Kepler-307</name>
 		<name>KOI-1576</name>
 		<name>KIC 5299459</name>
+		<name>2MASS J19511083+4025037</name>
+		<name>Gaia DR2 2073691303802278784</name>
 		<magJ errorminus="0.027" errorplus="0.027">12.833</magJ>
 		<magH errorminus="0.028" errorplus="0.028">12.452</magH>
 		<magK errorminus="0.020" errorplus="0.020">12.321</magK>
@@ -20,6 +24,7 @@
 			<name>KOI-1576.01</name>
 			<name>KIC 5299459 b</name>
 			<name>KIC 5299459.01</name>
+			<name>Gaia DR2 2073691303802278784 b</name>
 			<radius errorminus="0.02825" errorplus="0.11938">0.29162</radius>
 			<mass errorminus="0.002740" errorplus="0.002854">0.023403</mass>
 			<transittime errorminus="0.0009800" errorplus="0.0009800">2454976.0458200</transittime>
@@ -37,6 +42,7 @@
 			<name>KOI-1576.02</name>
 			<name>KIC 5299459 c</name>
 			<name>KIC 5299459.02</name>
+			<name>Gaia DR2 2073691303802278784 c</name>
 			<radius errorminus="0.01276" errorplus="0.10389">0.25516</radius>
 			<mass errorminus="0.001825" errorplus="0.002055">0.011468</mass>
 			<transittime errorminus="0.0013400" errorplus="0.0013400">2454965.6317400</transittime>
@@ -63,4 +69,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

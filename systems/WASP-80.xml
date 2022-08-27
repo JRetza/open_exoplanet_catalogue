@@ -1,14 +1,16 @@
 <system>
 	<name>WASP-80</name>
-	<rightascension>20 12 40</rightascension>
-	<declination>-02 08 44</declination>
+	<rightascension>20 12 40.1691</rightascension>
+	<declination>-02 08 39.1911</declination>
 	<distance errorminus="20" errorplus="20">60</distance>
 	<star>
 		<name>WASP-80</name>
 		<name>2MASS J20124017-0208391</name>
-		<name>TYC 7038-834-1</name>
+		<name>TYC 5165-481-1</name>
 		<name>BPM 80815</name>
 		<name>GSC 05165-00481</name>
+		<name>Petra</name>
+		<name>Gaia DR2 4223507222112425344</name>
 		<temperature errorminus="100" errorplus="100">4145</temperature>
 		<mass errorminus="0.05" errorplus="0.05">0.57</mass>
 		<radius errorminus="16" errorplus="16">0.571</radius>
@@ -24,9 +26,11 @@
 		<planet>
 			<name>WASP-80 b</name>
 			<name>2MASS J20124017-0208391 b</name>
-			<name>TYC 7038-834-1 b</name>
+			<name>TYC 5165-481-1 b</name>
 			<name>BPM 80815 b</name>
 			<name>GSC 05165-00481 b</name>
+			<name>Petra b</name>
+			<name>Gaia DR2 4223507222112425344 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.039" errorplus="0.030">0.554</mass>
 			<radius errorminus="0.027" errorplus="0.026">0.952</radius>
@@ -43,4 +47,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Aquila</constellation>
 </system>

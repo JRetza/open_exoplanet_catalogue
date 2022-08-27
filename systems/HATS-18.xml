@@ -1,0 +1,35 @@
+<system>
+	<name>HATS-18</name>
+	<rightascension>11 35 49.7771</rightascension>
+	<declination>-29 09 21.7539</declination>
+	<distance errorminus="25.00" errorplus="36.00">645.00</distance>
+	<star>
+		<name>HATS-18</name>
+		<name>Gaia DR2 3483636295772522880</name>
+		<radius errorminus="0.03" errorplus="0.06">1.02</radius>
+		<magV errorminus="0.040" errorplus="0.040">14.067</magV>
+		<magJ errorminus="0.023" errorplus="0.023">12.736</magJ>
+		<magH errorminus="0.027" errorplus="0.027">12.382</magH>
+		<magK errorminus="0.026" errorplus="0.026">12.289</magK>
+		<mass errorminus="0.05" errorplus="0.05">1.04</mass>
+		<temperature errorminus="120.00" errorplus="120.00">5600.00</temperature>
+		<spectraltype>GV</spectraltype>
+		<planet>
+			<name>HATS-18 b</name>
+			<name>Gaia DR2 3483636295772522880 b</name>
+			<semimajoraxis errorminus="0.000980" errorplus="0.000980">0.017400</semimajoraxis>
+			<inclination errorminus="0.013" errorplus="0.013">85.290</inclination>
+			<period errorminus="0.00000047" errorplus="0.00000047">0.83784000</period>
+			<description>This planet was discovered by Penev et al. 2016. This was a ground based discovery. The parameters listed here are those reported by Chakrabarty &amp; Sengupta 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.07600" errorplus="0.07600">1.97950</mass>
+			<radius errorminus="0.075" errorplus="0.075">1.329</radius>
+			<temperature errorminus="45" errorplus="45">2069</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/07/11</lastupdate>
+		</planet>
+	</star>
+	<constellation>Hydra</constellation>
+</system>

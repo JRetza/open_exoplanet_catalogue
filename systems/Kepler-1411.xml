@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1411</name>
-	<rightascension>19 05 27</rightascension>
-	<declination>+42 57 50</declination>
+	<name>KOI-3014</name>
+	<name>KIC 7347246</name>
+	<distance errorminus="96.4485" errorplus="96.4485">1744.29</distance>
+	<rightascension>19 05 26.7746</rightascension>
+	<declination>+42 57 50.0176</declination>
 	<star>
 		<name>Kepler-1411</name>
+		<name>KOI-3014</name>
+		<name>KIC 7347246</name>
+		<name>2MASS J19052677+4257501</name>
+		<name>Gaia DR2 2105552127108243456</name>
+		<magH errorminus="0.047" errorplus="0.047">14.334</magH>
+		<magJ errorminus="0.034" errorplus="0.034">14.686</magJ>
+		<magK errorminus="0.072" errorplus="0.072">14.237</magK>
 		<temperature errorminus="68.5" errorplus="67.8">5664.0</temperature>
 		<mass errorminus="0.06" errorplus="0.05">0.95</mass>
 		<radius errorminus="0.07" errorplus="0.13">0.92</radius>
 		<metallicity errorminus="0.20" errorplus="0.14">-0.04</metallicity>
 		<planet>
 			<name>Kepler-1411 b</name>
+			<name>KOI-3014 b</name>
+			<name>KOI-3014.01</name>
+			<name>KIC 7347246 b</name>
+			<name>Gaia DR2 2105552127108243456 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000972800" errorplus="0.000972800">86.115088800</period>
 			<radius errorminus="0.021" errorplus="0.038">0.252</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-489</name>
-	<rightascension>19 23 20</rightascension>
-	<declination>+38 11 04</declination>
+	<name>KOI-197</name>
+	<name>KIC 2987027</name>
+	<distance errorminus="2.3312" errorplus="2.3312">373.622</distance>
+	<rightascension>19 23 19.9545</rightascension>
+	<declination>+38 11 03.5875</declination>
 	<star>
 		<name>Kepler-489</name>
+		<name>KOI-197</name>
+		<name>KIC 2987027</name>
+		<name>2MASS J19231995+3811036</name>
+		<name>Gaia DR2 2052616586468670976</name>
+		<magH errorminus="0.020" errorplus="0.020">12.058</magH>
+		<magJ errorminus="0.020" errorplus="0.020">12.536</magJ>
+		<magK errorminus="0.020" errorplus="0.020">11.959</magK>
 		<temperature errorminus="58.3" errorplus="70.5">5014.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">0.82</mass>
 		<radius errorminus="0.02" errorplus="0.02">0.76</radius>
 		<metallicity errorminus="0.10" errorplus="0.10">0.00</metallicity>
 		<planet>
 			<name>Kepler-489 b</name>
+			<name>KOI-197 b</name>
+			<name>KOI-197.01</name>
+			<name>KIC 2987027 b</name>
+			<name>Gaia DR2 2052616586468670976 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000002450" errorplus="0.000002450">17.276296120</period>
 			<radius errorminus="0.018" errorplus="0.015">0.689</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

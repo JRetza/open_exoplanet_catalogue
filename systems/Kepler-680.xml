@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-680</name>
-	<rightascension>19 26 29</rightascension>
-	<declination>+50 37 06</declination>
+	<name>KOI-786</name>
+	<name>KIC 12110942</name>
+	<distance errorminus="57.4017" errorplus="57.4017">1559.58</distance>
+	<rightascension>19 26 29.3716</rightascension>
+	<declination>+50 37 05.6104</declination>
 	<star>
 		<name>Kepler-680</name>
+		<name>KOI-786</name>
+		<name>KIC 12110942</name>
+		<name>2MASS J19262937+5037056</name>
+		<name>Gaia DR2 2130124528361197952</name>
 		<temperature errorminus="99.2" errorplus="77.4">5890.0</temperature>
 		<mass errorminus="0.06" errorplus="0.10">1.08</mass>
 		<radius errorminus="0.11" errorplus="0.38">1.11</radius>
 		<metallicity errorminus="0.15" errorplus="0.15">0.13</metallicity>
 		<planet>
 			<name>Kepler-680 b</name>
+			<name>KOI-786 b</name>
+			<name>KOI-786.01</name>
+			<name>KIC 12110942 b</name>
+			<name>Gaia DR2 2130124528361197952 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000009430" errorplus="0.000009430">3.689926290</period>
 			<radius errorminus="0.022" errorplus="0.073">0.216</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

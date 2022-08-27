@@ -1,7 +1,7 @@
 <system>
 	<name>HD 158038</name>
-	<rightascension>17 25 45</rightascension>
-	<declination>+27 18 12</declination>
+	<rightascension>17 25 45.4356</rightascension>
+	<declination>+27 18 11.9461</declination>
 	<distance>103</distance>
 	<star>
 		<mass>1.65</mass>
@@ -15,6 +15,9 @@
 		<spectraltype>K0</spectraltype>
 		<planet>
 			<name>HD 158038 b</name>
+			<name>Gaia DR2 4574156834713113600 b</name>
+			<name>HIP 85294 b</name>
+			<name>TYC 2082-1290-1 b</name>
 			<list>Confirmed planets</list>
 			<mass>1.8</mass>
 			<period>521</period>
@@ -27,6 +30,10 @@
 			<temperature>381.6</temperature>
 		</planet>
 		<name>HD 158038</name>
+		<name>Gaia DR2 4574156834713113600</name>
+		<name>HIP 85294</name>
+		<name>TYC 2082-1290-1</name>
 		<temperature>4897.0</temperature>
 	</star>
+	<constellation>Hercules</constellation>
 </system>

@@ -2,8 +2,8 @@
 	<name>Kepler-154</name>
 	<name>KOI-435</name>
 	<name>KIC 11709124</name>
-	<rightascension>19 19 07</rightascension>
-	<declination>+49 53 47</declination>
+	<rightascension>19 19 07.3336</rightascension>
+	<declination>+49 53 47.5512</declination>
 	<distance>882.88</distance>
 	<star>
 		<magJ errorminus="0.026" errorplus="0.026">13.389</magJ>
@@ -12,6 +12,8 @@
 		<name>Kepler-154</name>
 		<name>KOI-435</name>
 		<name>KIC 11709124</name>
+		<name>2MASS J19190732+4953475</name>
+		<name>Gaia DR2 2133022669212268800</name>
 		<temperature errorminus="08" errorplus="108">5690</temperature>
 		<radius errorminus=".190" errorplus="0.190">1.001</radius>
 		<planet>
@@ -20,6 +22,7 @@
 			<name>KOI-435.03</name>
 			<name>KIC 11709124 b</name>
 			<name>KIC 11709124.03</name>
+			<name>Gaia DR2 2133022669212268800 b</name>
 			<radius errorminus="0.04010" errorplus="0.04010">0.20595</radius>
 			<period errorminus=".000215" errorplus="0.000215">33.040532</period>
 			<transittime errorminus="0.0042900" errorplus="0.0042900">2454994.2208700</transittime>
@@ -36,6 +39,7 @@
 			<name>KOI-435.05</name>
 			<name>KIC 11709124 c</name>
 			<name>KIC 11709124.05</name>
+			<name>Gaia DR2 2133022669212268800 c</name>
 			<radius errorminus="0.05650" errorplus="0.05650">0.26883</radius>
 			<period errorminus=".000406" errorplus="0.000406">62.303276</period>
 			<transittime errorminus="0.0038500" errorplus="0.0038500">2455012.0942300</transittime>
@@ -48,39 +52,49 @@
 		</planet>
 		<planet>
 			<name>Kepler-154 d</name>
+			<name>KOI-435 d</name>
+			<name>KOI-435.01</name>
+			<name>KIC 11709124 d</name>
+			<name>Gaia DR2 2133022669212268800 d</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000025720" errorplus="0.000025720">20.549818830</period>
 			<radius errorminus="0.021" errorplus="0.029">0.343</radius>
 		</planet>
 		<planet>
 			<name>Kepler-154 e</name>
+			<name>KOI-435 e</name>
+			<name>KOI-435.04</name>
+			<name>KIC 11709124 e</name>
+			<name>Gaia DR2 2133022669212268800 e</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000012250" errorplus="0.000012250">3.932764650</period>
 			<radius errorminus="0.011" errorplus="0.012">0.134</radius>
 		</planet>
 		<planet>
 			<name>Kepler-154 f</name>
+			<name>KOI-435 f</name>
+			<name>KOI-435.06</name>
+			<name>KIC 11709124 f</name>
+			<name>Gaia DR2 2133022669212268800 f</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000077880" errorplus="0.000077880">9.919356840</period>
 			<radius errorminus="0.019" errorplus="0.030">0.134</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,7 +1,7 @@
 <system>
 	<name>HAT-P-3</name>
-	<rightascension>13 44 23</rightascension>
-	<declination>+48 01 43</declination>
+	<rightascension>13 44 22.5939</rightascension>
+	<declination>+48 01 43.2062</declination>
 	<distance>130</distance>
 	<star>
 		<mass>0.917</mass>
@@ -17,6 +17,9 @@
 			<name>HAT-P-3 b</name>
 			<name>TYC 3466-00819-1 b</name>
 			<name>2MASS J13442258+4801432 b</name>
+			<name>Gaia DR2 1510191594552968832 b</name>
+			<name>Dombay b</name>
+			<name>TYC 3466-819-1 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.591</mass>
 			<radius>0.827</radius>
@@ -33,6 +36,10 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HAT-P-3</name>
+		<name>Gaia DR2 1510191594552968832</name>
+		<name>Dombay</name>
+		<name>TYC 3466-819-1</name>
 		<temperature>5224.0</temperature>
 	</star>
+	<constellation>Ursa Major</constellation>
 </system>

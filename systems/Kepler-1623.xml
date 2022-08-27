@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1623</name>
-	<rightascension>19 36 20</rightascension>
-	<declination>+39 33 22</declination>
+	<name>KOI-4803</name>
+	<name>KIC 4473613</name>
+	<distance errorminus="15.3832" errorplus="15.3832">857.927</distance>
+	<rightascension>19 36 19.8503</rightascension>
+	<declination>+39 33 21.9042</declination>
 	<star>
 		<name>Kepler-1623</name>
+		<name>KOI-4803</name>
+		<name>KIC 4473613</name>
+		<name>2MASS J19361984+3933219</name>
+		<name>Gaia DR2 2052435819888356864</name>
 		<temperature errorminus="187.2" errorplus="140.3">5772.0</temperature>
 		<mass errorminus="0.07" errorplus="0.07">1.00</mass>
 		<radius errorminus="0.11" errorplus="0.23">1.00</radius>
 		<metallicity errorminus="0.17" errorplus="0.14">0.04</metallicity>
 		<planet>
 			<name>Kepler-1623 b</name>
+			<name>KOI-4803 b</name>
+			<name>KOI-4803.01</name>
+			<name>KIC 4473613 b</name>
+			<name>Gaia DR2 2052435819888356864 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000026980" errorplus="0.000026980">4.361283480</period>
 			<radius errorminus="0.016" errorplus="0.028">0.117</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

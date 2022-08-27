@@ -1,5 +1,6 @@
 <system>
 	<name>ROXs 42 B</name>
+	<name>ROXs 42B</name>
 	<rightascension>16 31 15</rightascension>
 	<declination>-24 32 24</declination>
 	<distance>120</distance>
@@ -40,7 +41,12 @@
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>13/12/02</lastupdate>
 			<discoveryyear>2013</discoveryyear>
+			<image>ROXs42</image>
+			<imagedescription>This is the discovery image of ROX 42 B b.
+			
+Credit: Thayne Currie.</imagedescription>
 			<list>Planets in binary systems, P-type</list>
 		</planet>
 	</binary>
+	<constellation>Ophiucus</constellation>
 </system>

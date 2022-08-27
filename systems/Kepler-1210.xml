@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1210</name>
-	<rightascension>19 31 20</rightascension>
-	<declination>+48 13 10</declination>
+	<name>KOI-2368</name>
+	<name>KIC 10863608</name>
+	<distance errorminus="49.4434" errorplus="49.4434">1216.69</distance>
+	<rightascension>19 31 19.7202</rightascension>
+	<declination>+48 13 09.6729</declination>
 	<star>
 		<name>Kepler-1210</name>
+		<name>KOI-2368</name>
+		<name>KIC 10863608</name>
+		<name>2MASS J19311971+4813096</name>
+		<name>Gaia DR2 2128893144058813056</name>
+		<magH errorminus="0.041" errorplus="0.041">13.936</magH>
+		<magJ errorminus="0.028" errorplus="0.028">14.266</magJ>
+		<magK errorminus="0.067" errorplus="0.067">13.833</magK>
 		<temperature errorminus="91.6" errorplus="67.2">5568.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.94</mass>
 		<radius errorminus="0.07" errorplus="0.16">0.92</radius>
 		<metallicity errorminus="0.17" errorplus="0.14">0.04</metallicity>
 		<planet>
 			<name>Kepler-1210 b</name>
+			<name>KOI-2368 b</name>
+			<name>KOI-2368.01</name>
+			<name>KIC 10863608 b</name>
+			<name>Gaia DR2 2128893144058813056 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000048990" errorplus="0.000048990">8.071240730</period>
 			<radius errorminus="0.012" errorplus="0.027">0.152</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

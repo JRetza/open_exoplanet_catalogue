@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1474</name>
-	<rightascension>19 38 47</rightascension>
-	<declination>+45 52 01</declination>
+	<name>KOI-3348</name>
+	<name>KIC 9349757</name>
+	<distance errorminus="49.6209" errorplus="49.6209">1220.7</distance>
+	<rightascension>19 38 46.5697</rightascension>
+	<declination>+45 52 00.5486</declination>
 	<star>
 		<name>Kepler-1474</name>
+		<name>KOI-3348</name>
+		<name>KIC 9349757</name>
+		<name>2MASS J19384657+4552006</name>
+		<name>Gaia DR2 2080057269961317120</name>
+		<magH errorminus="0.026" errorplus="0.026">13.709</magH>
+		<magJ errorminus="0.024" errorplus="0.024">14.027</magJ>
+		<magK errorminus="0.043" errorplus="0.043">13.621</magK>
 		<temperature errorminus="173.3" errorplus="115.7">5870.0</temperature>
 		<mass errorminus="0.07" errorplus="0.07">1.04</mass>
 		<radius errorminus="0.11" errorplus="0.20">1.04</radius>
 		<metallicity errorminus="0.16" errorplus="0.15">0.04</metallicity>
 		<planet>
 			<name>Kepler-1474 b</name>
+			<name>KOI-3348 b</name>
+			<name>KOI-3348.01</name>
+			<name>KIC 9349757 b</name>
+			<name>Gaia DR2 2080057269961317120 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000321800" errorplus="0.000321800">36.433345200</period>
 			<radius errorminus="0.021" errorplus="0.039">0.193</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

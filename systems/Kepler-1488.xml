@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1488</name>
-	<rightascension>19 06 35</rightascension>
-	<declination>+49 56 16</declination>
+	<name>KOI-3403</name>
+	<name>KIC 11754430</name>
+	<distance errorminus="12.0259" errorplus="12.0259">930.146</distance>
+	<rightascension>19 06 35.1393</rightascension>
+	<declination>+49 56 15.8428</declination>
 	<star>
 		<name>Kepler-1488</name>
+		<name>KOI-3403</name>
+		<name>KIC 11754430</name>
+		<name>2MASS J19063514+4956160</name>
+		<name>Gaia DR2 2133584309198180736</name>
+		<magH errorminus="0.026" errorplus="0.026">11.694</magH>
+		<magJ errorminus="0.022" errorplus="0.022">12.012</magJ>
+		<magK errorminus="0.024" errorplus="0.024">11.638</magK>
 		<temperature errorminus="62.2" errorplus="71.0">5820.0</temperature>
 		<mass errorminus="0.05" errorplus="0.07">1.05</mass>
 		<radius errorminus="0.26" errorplus="0.29">1.31</radius>
 		<metallicity errorminus="0.07" errorplus="0.09">0.06</metallicity>
 		<planet>
 			<name>Kepler-1488 b</name>
+			<name>KOI-3403 b</name>
+			<name>KOI-3403.01</name>
+			<name>KIC 11754430 b</name>
+			<name>Gaia DR2 2133584309198180736 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000290700" errorplus="0.000290700">39.818993200</period>
 			<radius errorminus="0.033" errorplus="0.037">0.166</radius>
 		</planet>
 	</star>
+	<constellation>Draco</constellation>
 </system>

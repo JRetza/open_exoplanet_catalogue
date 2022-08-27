@@ -1,13 +1,18 @@
 <system>
 	<name>PTFO 8-8695</name>
-	<rightascension>05 25 07.55</rightascension>
-	<declination>+01 34 24.3</declination>
+	<name>CVSO 30</name>
+	<rightascension>05 25 07.5563</rightascension>
+	<declination>+01 34 24.3492</declination>
 	<distance>330</distance>
 	<star>
 		<name>PTFO 8-8695</name>
 		<name>2MASS J05250755+0134243</name>
 		<name>CVSO 30</name>
+		<name>Gaia DR2 3222255959210123904</name>
+		<magB>17.4</magB>
 		<magV>16.26</magV>
+		<magR errorminus="0.34" errorplus="0.34">15.88</magR>
+		<magI errorminus="0.03" errorplus="0.03">13.70</magI>
 		<magJ errorminus="0.028" errorplus="0.028">12.232</magJ>
 		<magH errorminus="0.026" errorplus="0.026">11.559</magH>
 		<magK errorminus="0.021" errorplus="0.021">11.357</magK>
@@ -20,6 +25,7 @@
 			<name>PTFO 8-8695 b</name>
 			<name>2MASS J05250755+0134243 b</name>
 			<name>CVSO 30 b</name>
+			<name>Gaia DR2 3222255959210123904 b</name>
 			<transittime errorminus="0.0004" errorplus="0.0004" unit="BJD">2456605.7555</transittime>
 			<period errorminus="0.000040" errorplus="0.000040">0.448413</period>
 			<inclination errorminus="3.7" errorplus="3.7">61.8</inclination>
@@ -29,9 +35,26 @@
 			<istransiting>1</istransiting>
 			<discoverymethod>transit</discoverymethod>
 			<discoveryyear>2012</discoveryyear>
-			<lastupdate>15/07/29</lastupdate>
+			<lastupdate>17/11/28</lastupdate>
 			<list>Controversial</list>
-			<description>PTFO 8-8695 b is a Jupiter-sized candidate planet orbiting a T Tauri star. The orbit is rapidly precessing, causing it to stop transiting during part of its orbital evolution.</description>
+			<description>PTFO 8-8695 b is a Jupiter-sized candidate planet orbiting a T Tauri star. The orbit is rapidly precessing, causing it to stop transiting during part of its orbital evolution. According to Onitsuka et al. (2017), the observations are better explained by a circumstellar dust clump or the occultation of an accretion hotspot.</description>
+		</planet>
+		<planet>
+			<name>CVSO 30 c</name>
+			<name>PTFO 8-8695 c</name>
+			<separation unit="arcsec">1.85</separation>
+			<separation errorminus="96" errorplus="96" unit="AU">662</separation>
+			<positionangle>70</positionangle>
+			<temperature errorminus="300" errorplus="120">1600</temperature>
+			<radius errorminus="0.34" errorplus="0.87">1.63</radius>
+			<mass errorminus="2.0" errorplus="3.6">4.7</mass>
+			<spectraltype>L-T</spectraltype>
+			<discoverymethod>imaging</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>17/11/28</lastupdate>
+			<list>Controversial</list>
+			<description>CVSO 30 c is a directly imaged candidate companion to the star PTFO 8-8695. It is not yet confirmed whether it is co-moving with the star.</description>
 		</planet>
 	</star>
+	<constellation>Orion</constellation>
 </system>

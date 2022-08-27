@@ -1,0 +1,39 @@
+<system>
+	<name>38 Vir</name>
+	<rightascension>12 53 11.1564</rightascension>
+	<declination>-03 33 11.1481</declination>
+	<distance errorminus="0.1" errorplus="0.1">33.3</distance>
+	<star>
+		<name>38 Vir</name>
+		<name>TYC 4953-1222-1</name>
+		<name>Gaia DR2 3679242575447826432</name>
+		<name>HIP 62875</name>
+		<name>HD 111998</name>
+		<name>GJ 9421</name>
+		<age>1.9</age>
+		<radius>1.45</radius>
+		<mass>1.18</mass>
+		<magV>6.11</magV>
+		<spectraltype>F6 V</spectraltype>
+		<temperature>6557.0</temperature>
+		<metallicity>0.07</metallicity>
+		<planet>
+			<name>38 Vir b</name>
+			<name>TYC 4953-1222-1 b</name>
+			<name>Gaia DR2 3679242575447826432 b</name>
+			<name>HIP 62875 b</name>
+			<name>HD 111998 b</name>
+			<name>GJ 9421 b</name>
+			<semimajoraxis errorminus="0.07" errorplus="0.07">1.82</semimajoraxis>
+			<eccentricity errorminus="0.04" errorplus="0.04">0.03</eccentricity>
+			<period errorminus="6.200000" errorplus="6.200000">825.9</period>
+			<mass errorminus="0.5" errorplus="0.5">4.51</mass>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>17/02/20</lastupdate>
+			<discoverymethod>RV</discoverymethod>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+	<constellation>Virgo</constellation>
+</system>

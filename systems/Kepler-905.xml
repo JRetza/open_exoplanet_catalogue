@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-905</name>
-	<rightascension>19 20 12</rightascension>
-	<declination>+46 42 48</declination>
+	<name>KOI-1606</name>
+	<name>KIC 9886661</name>
+	<distance errorminus="4.1307" errorplus="4.1307">537.461</distance>
+	<rightascension>19 20 12.2663</rightascension>
+	<declination>+46 42 48.1664</declination>
 	<star>
 		<name>Kepler-905</name>
+		<name>KOI-1606</name>
+		<name>KIC 9886661</name>
+		<name>2MASS J19201226+4642481</name>
+		<name>Gaia DR2 2127811705651952000</name>
 		<temperature errorminus="55.1" errorplus="58.6">5461.0</temperature>
 		<mass errorminus="0.03" errorplus="0.02">0.95</mass>
 		<radius errorminus="0.02" errorplus="0.02">0.86</radius>
 		<metallicity errorminus="0.09" errorplus="0.09">0.09</metallicity>
 		<planet>
 			<name>Kepler-905 b</name>
+			<name>KOI-1606 b</name>
+			<name>KOI-1606.01</name>
+			<name>KIC 9886661 b</name>
+			<name>Gaia DR2 2127811705651952000 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000008370" errorplus="0.000008370">5.082746520</period>
 			<radius errorminus="0.004" errorplus="0.004">0.126</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

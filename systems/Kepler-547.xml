@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-547</name>
-	<rightascension>19 04 28</rightascension>
-	<declination>+44 20 43</declination>
+	<name>KOI-420</name>
+	<name>KIC 8352537</name>
+	<distance errorminus="3.9925" errorplus="3.9925">383.127</distance>
+	<rightascension>19 04 28.4826</rightascension>
+	<declination>+44 20 42.9365</declination>
 	<star>
 		<name>Kepler-547</name>
+		<name>KOI-420</name>
+		<name>KIC 8352537</name>
+		<name>2MASS J19042848+4420430</name>
+		<name>Gaia DR2 2106279179170588288</name>
 		<temperature errorminus="46.8" errorplus="40.1">4828.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.78</mass>
 		<radius errorminus="0.04" errorplus="0.02">0.73</radius>
 		<metallicity errorminus="0.18" errorplus="0.16">0.01</metallicity>
 		<planet>
 			<name>Kepler-547 b</name>
+			<name>KOI-420 b</name>
+			<name>KOI-420.01</name>
+			<name>KIC 8352537 b</name>
+			<name>Gaia DR2 2106279179170588288 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000001570" errorplus="0.000001570">6.010384290</period>
 			<radius errorminus="0.028" errorplus="0.012">0.357</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

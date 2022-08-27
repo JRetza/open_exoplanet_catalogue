@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-781</name>
-	<rightascension>19 10 37</rightascension>
-	<declination>+47 24 53</declination>
+	<name>KOI-1160</name>
+	<name>KIC 10330115</name>
+	<distance errorminus="41.1816" errorplus="41.1816">1097.33</distance>
+	<rightascension>19 10 36.8698</rightascension>
+	<declination>+47 24 53.3488</declination>
 	<star>
 		<name>Kepler-781</name>
+		<name>KOI-1160</name>
+		<name>KIC 10330115</name>
+		<name>2MASS J19103686+4724533</name>
+		<name>Gaia DR2 2130857627739052928</name>
 		<temperature errorminus="64.5" errorplus="64.9">5162.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.81</mass>
 		<radius errorminus="0.06" errorplus="0.04">0.78</radius>
 		<metallicity errorminus="0.20" errorplus="0.15">-0.10</metallicity>
 		<planet>
 			<name>Kepler-781 b</name>
+			<name>KOI-1160 b</name>
+			<name>KOI-1160.01</name>
+			<name>KIC 10330115 b</name>
+			<name>Gaia DR2 2130857627739052928 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000035770" errorplus="0.000035770">13.214073200</period>
 			<radius errorminus="0.021" errorplus="0.044">0.258</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

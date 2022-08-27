@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1011</name>
-	<rightascension>19 49 36</rightascension>
-	<declination>+46 49 26</declination>
+	<name>KOI-1911</name>
+	<name>KIC 9965957</name>
+	<distance errorminus="13.3071" errorplus="13.3071">752.502</distance>
+	<rightascension>19 49 36.3742</rightascension>
+	<declination>+46 49 26.4319</declination>
 	<star>
 		<name>Kepler-1011</name>
+		<name>KOI-1911</name>
+		<name>KIC 9965957</name>
+		<name>2MASS J19493637+4649264</name>
+		<name>Gaia DR2 2080310088916950016</name>
+		<magH errorminus="0.024" errorplus="0.024">13.432</magH>
+		<magJ errorminus="0.025" errorplus="0.025">13.832</magJ>
+		<magK errorminus="0.03" errorplus="0.03">13.36</magK>
 		<temperature errorminus="130.9" errorplus="95.5">5416.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.91</mass>
 		<radius errorminus="0.05" errorplus="0.09">0.88</radius>
 		<metallicity errorminus="0.16" errorplus="0.15">0.08</metallicity>
 		<planet>
 			<name>Kepler-1011 b</name>
+			<name>KOI-1911 b</name>
+			<name>KOI-1911.01</name>
+			<name>KIC 9965957 b</name>
+			<name>Gaia DR2 2080310088916950016 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000009420" errorplus="0.000009420">5.753221970</period>
 			<radius errorminus="0.039" errorplus="0.026">0.256</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

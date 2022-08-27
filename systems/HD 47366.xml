@@ -1,0 +1,55 @@
+<system>
+	<name>HD 47366</name>
+	<name>HIP 31674</name>
+	<rightascension>06 37 40.7939</rightascension>
+	<declination>-12 59 06.4248</declination>
+	<distance errorminus="0.45" errorplus="0.45">84.56</distance>
+	<star>
+		<name>HD 47366</name>
+		<name>HIP 31674</name>
+		<name>TYC 5373-2001-1</name>
+		<name>Gaia DR2 2951804033248308480</name>
+		<radius errorminus="0.60" errorplus="0.60">6.20</radius>
+		<magV>6.110</magV>
+		<magJ errorminus="0.037" errorplus="0.037">4.504</magJ>
+		<magH errorminus="0.248" errorplus="0.248">3.962</magH>
+		<magK errorminus="0.290" errorplus="0.290">4.055</magK>
+		<mass errorminus="0.25" errorplus="0.25">2.19</mass>
+		<temperature errorminus="100.00" errorplus="100.00">4914.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">-0.070</metallicity>
+		<spectraltype>K1III</spectraltype>
+		<planet>
+			<name>HD 47366 b</name>
+			<name>HIP 31674 b</name>
+			<name>TYC 5373-2001-1 b</name>
+			<name>Gaia DR2 2951804033248308480 b</name>
+			<semimajoraxis errorminus="0.060000" errorplus="0.050000">1.280000</semimajoraxis>
+			<eccentricity errorminus="0.040000" errorplus="0.040000">0.060000</eccentricity>
+			<periastron errorminus="24.1600" errorplus="21.8600">6.0800</periastron>
+			<period errorminus="2.34000000" errorplus="2.03000000">359.15000000</period>
+			<description>This planet was discovered by Sato et al. 2016. This was a ground based discovery. The parameters listed here are those reported by Marshall et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.18000" errorplus="0.13000">2.30000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/09/26</lastupdate>
+		</planet>
+		<planet>
+			<name>HD 47366 c</name>
+			<name>HIP 31674 c</name>
+			<name>TYC 5373-2001-1 c</name>
+			<name>Gaia DR2 2951804033248308480 c</name>
+			<semimajoraxis errorminus="0.090000" errorplus="0.080000">1.970000</semimajoraxis>
+			<eccentricity errorminus="0.080000" errorplus="0.110000">0.100000</eccentricity>
+			<periastron errorminus="184.3000" errorplus="82.9100">48.9700</periastron>
+			<period errorminus="4.90000000" errorplus="4.98000000">682.85000000</period>
+			<description>This planet was discovered by Sato et al. 2016. This was a ground based discovery. The parameters listed here are those reported by Marshall et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.14000" errorplus="0.12000">1.88000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/09/26</lastupdate>
+		</planet>
+	</star>
+	<constellation>Canis Major</constellation>
+</system>

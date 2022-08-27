@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-664</name>
-	<rightascension>19 15 01</rightascension>
-	<declination>+48 13 34</declination>
+	<name>KOI-755</name>
+	<name>KIC 10854555</name>
+	<distance errorminus="44.2947" errorplus="44.2947">1253.29</distance>
+	<rightascension>19 15 01.1744</rightascension>
+	<declination>+48 13 34.2831</declination>
 	<star>
 		<name>Kepler-664</name>
+		<name>KOI-755</name>
+		<name>KIC 10854555</name>
+		<name>2MASS J19150117+4813343</name>
+		<name>Gaia DR2 2130969262529165184</name>
+		<magH errorminus="0.047" errorplus="0.047">14.064</magH>
+		<magJ errorminus="0.03" errorplus="0.03">14.37</magJ>
+		<magK errorminus="0.047" errorplus="0.047">13.952</magK>
 		<temperature errorminus="86.1" errorplus="73.6">5754.0</temperature>
 		<mass errorminus="0.05" errorplus="0.06">1.01</mass>
 		<radius errorminus="0.10" errorplus="0.26">1.02</radius>
 		<metallicity errorminus="0.15" errorplus="0.15">0.07</metallicity>
 		<planet>
 			<name>Kepler-664 b</name>
+			<name>KOI-755 b</name>
+			<name>KOI-755.01</name>
+			<name>KIC 10854555 b</name>
+			<name>Gaia DR2 2130969262529165184 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000003670" errorplus="0.000003670">2.525593320</period>
 			<radius errorminus="0.022" errorplus="0.061">0.237</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

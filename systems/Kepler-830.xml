@@ -1,24 +1,37 @@
 <system>
 	<name>Kepler-830</name>
-	<rightascension>19 40 13</rightascension>
-	<declination>+42 45 25</declination>
+	<name>KOI-1377</name>
+	<name>KIC 7211469</name>
+	<rightascension>19 40 13.0209</rightascension>
+	<declination>+42 45 24.5994</declination>
 	<star>
 		<name>Kepler-830</name>
+		<name>KOI-1377</name>
+		<name>KIC 7211469</name>
+		<name>2MASS J19401302+4245246</name>
+		<name>Gaia DR2 2077956171962729856</name>
+		<magH errorminus="0.027" errorplus="0.027">13.340</magH>
+		<magJ errorminus="0.026" errorplus="0.026">13.662</magJ>
+		<magK errorminus="0.03" errorplus="0.03">13.27</magK>
 		<temperature errorminus="209.5" errorplus="155.8">6037.0</temperature>
 		<mass errorminus="0.09" errorplus="0.12">1.07</mass>
 		<radius errorminus="0.14" errorplus="0.31">1.11</radius>
 		<metallicity errorminus="0.18" errorplus="0.14">-0.02</metallicity>
 		<planet>
 			<name>Kepler-830 b</name>
+			<name>KOI-1377 b</name>
+			<name>KOI-1377.01</name>
+			<name>KIC 7211469 b</name>
+			<name>Gaia DR2 2077956171962729856 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000062990" errorplus="0.000062990">11.296951370</period>
 			<radius errorminus="0.022" errorplus="0.054">0.152</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

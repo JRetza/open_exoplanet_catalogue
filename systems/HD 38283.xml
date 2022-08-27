@@ -1,7 +1,7 @@
 <system>
 	<name>HD 38283</name>
-	<rightascension>05 37 02</rightascension>
-	<declination>-73 41 58</declination>
+	<rightascension>05 37 02.0168</rightascension>
+	<declination>-73 41 57.6448</declination>
 	<distance>37.7</distance>
 	<star>
 		<mass>1.085</mass>
@@ -15,6 +15,10 @@
 		<spectraltype>F9.5V</spectraltype>
 		<planet>
 			<name>HD 38283 b</name>
+			<name>TYC 9175-83-1 b</name>
+			<name>Gaia DR2 4650314511916109696 b</name>
+			<name>HIP 26380 b</name>
+			<name>Bubup b</name>
 			<list>Confirmed planets</list>
 			<mass>0.34</mass>
 			<period>363.2</period>
@@ -26,6 +30,11 @@
 			<temperature>309.9</temperature>
 		</planet>
 		<name>HD 38283</name>
+		<name>TYC 9175-83-1</name>
+		<name>Gaia DR2 4650314511916109696</name>
+		<name>HIP 26380</name>
+		<name>Bubup</name>
 		<temperature>5945.0</temperature>
 	</star>
+	<constellation>Mensa</constellation>
 </system>

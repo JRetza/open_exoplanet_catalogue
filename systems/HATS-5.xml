@@ -1,12 +1,13 @@
 <system>
 	<name>HATS-5</name>
-	<rightascension>04 28 53.489</rightascension>
-	<declination>-21 28 54.90</declination>
+	<rightascension>04 28 53.4831</rightascension>
+	<declination>-21 28 55.0626</declination>
 	<distance errorminus="8" errorplus="8">257</distance>
 	<star>
 		<name>HATS-5</name>
 		<name>GSC 5897-00933</name>
 		<name>2MASS 04285348-2128548</name>
+		<name>Gaia DR2 4899428146994060800</name>
 		<mass errorminus="0.028" errorplus="0.028">0.936</mass>
 		<radius errorminus="0.023" errorplus="0.023">0.871</radius>
 		<temperature errorminus="50" errorplus="50">5304</temperature>
@@ -21,6 +22,7 @@
 			<name>HATS-5 b</name>
 			<name>GSC 5897-00933 b</name>
 			<name>2MASS 04285348-2128548 b</name>
+			<name>Gaia DR2 4899428146994060800 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.012" errorplus="0.012">0.237</mass>
 			<radius errorminus="0.025" errorplus="0.025">0.912</radius>
@@ -36,4 +38,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Eridanus</constellation>
 </system>

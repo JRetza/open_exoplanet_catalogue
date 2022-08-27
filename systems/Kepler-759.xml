@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-759</name>
-	<rightascension>19 20 32</rightascension>
-	<declination>+41 22 53</declination>
+	<name>KOI-1061</name>
+	<name>KIC 6037187</name>
+	<rightascension>19 20 31.5554</rightascension>
+	<declination>+41 22 53.3812</declination>
 	<star>
 		<name>Kepler-759</name>
+		<name>KOI-1061</name>
+		<name>KIC 6037187</name>
+		<name>2MASS J19203156+4122534</name>
+		<magB errorminus="0.04" errorplus="0.04">15.28</magB>
+		<magH errorminus="0.021" errorplus="0.021">13.009</magH>
+		<magJ errorminus="0.022" errorplus="0.022">13.327</magJ>
+		<magK errorminus="0.028" errorplus="0.028">12.967</magK>
+		<magR errorminus="0.11" errorplus="0.11">14.48</magR>
+		<magV errorminus="0.07" errorplus="0.07">14.65</magV>
 		<temperature errorminus="133.9" errorplus="94.6">5860.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">1.04</mass>
 		<radius errorminus="0.09" errorplus="0.22">1.04</radius>
 		<metallicity errorminus="0.16" errorplus="0.14">0.06</metallicity>
 		<planet>
 			<name>Kepler-759 b</name>
+			<name>KOI-1061 b</name>
+			<name>KOI-1061.01</name>
+			<name>KIC 6037187 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000208200" errorplus="0.000208200">41.805985000</period>
 			<radius errorminus="0.021" errorplus="0.044">0.203</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

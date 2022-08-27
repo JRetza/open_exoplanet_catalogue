@@ -1,24 +1,37 @@
 <system>
 	<name>Kepler-1249</name>
-	<rightascension>19 47 35</rightascension>
-	<declination>+44 22 18</declination>
+	<name>KOI-2468</name>
+	<name>KIC 8380709</name>
+	<rightascension>19 47 34.7669</rightascension>
+	<declination>+44 22 18.4236</declination>
 	<star>
 		<name>Kepler-1249</name>
+		<name>KOI-2468</name>
+		<name>KIC 8380709</name>
+		<name>2MASS J19473476+4422184</name>
+		<name>Gaia DR2 2078933569080413056</name>
+		<magH errorminus="0.030" errorplus="0.030">13.873</magH>
+		<magJ errorminus="0.026" errorplus="0.026">14.167</magJ>
+		<magK errorminus="0.050" errorplus="0.050">13.828</magK>
 		<temperature errorminus="201.7" errorplus="133.6">6202.0</temperature>
 		<mass errorminus="0.12" errorplus="0.17">1.19</mass>
 		<radius errorminus="0.20" errorplus="0.52">1.28</radius>
 		<metallicity errorminus="0.15" errorplus="0.13">0.06</metallicity>
 		<planet>
 			<name>Kepler-1249 b</name>
+			<name>KOI-2468 b</name>
+			<name>KOI-2468.01</name>
+			<name>KIC 8380709 b</name>
+			<name>Gaia DR2 2078933569080413056 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000288600" errorplus="0.000288600">24.334712700</period>
 			<radius errorminus="0.034" errorplus="0.087">0.212</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-809</name>
-	<rightascension>19 16 20</rightascension>
-	<declination>+48 01 05</declination>
+	<name>KOI-1302</name>
+	<name>KIC 10724369</name>
+	<distance errorminus="20.232" errorplus="20.232">988.631</distance>
+	<rightascension>19 16 20.0707</rightascension>
+	<declination>+48 01 05.2357</declination>
 	<star>
 		<name>Kepler-809</name>
+		<name>KOI-1302</name>
+		<name>KIC 10724369</name>
+		<name>2MASS J19162007+4801052</name>
+		<name>Gaia DR2 2130951464184187392</name>
+		<magH errorminus="0.037" errorplus="0.037">13.237</magH>
+		<magJ errorminus="0.029" errorplus="0.029">13.557</magJ>
+		<magK errorminus="0.03" errorplus="0.03">13.20</magK>
 		<temperature errorminus="78.2" errorplus="78.3">5734.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.99</mass>
 		<radius errorminus="0.08" errorplus="0.18">0.98</radius>
 		<metallicity errorminus="0.15" errorplus="0.14">0.04</metallicity>
 		<planet>
 			<name>Kepler-809 b</name>
+			<name>KOI-1302 b</name>
+			<name>KOI-1302.01</name>
+			<name>KIC 10724369 b</name>
+			<name>Gaia DR2 2130951464184187392 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000182500" errorplus="0.000182500">55.639340000</period>
 			<radius errorminus="0.022" errorplus="0.060">0.269</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,7 +1,7 @@
 <system>
 	<name>HD 2039</name>
-	<rightascension>00 24 20</rightascension>
-	<declination>-56 39 00</declination>
+	<rightascension>00 24 20.2781</rightascension>
+	<declination>-56 39 00.1817</declination>
 	<distance>89.8</distance>
 	<star>
 		<mass>0.98</mass>
@@ -15,6 +15,9 @@
 		<spectraltype>G2/G3 IV-V</spectraltype>
 		<planet>
 			<name>HD 2039 b</name>
+			<name>TYC 8468-177-1 b</name>
+			<name>HIP 1931 b</name>
+			<name>Gaia DR2 4919009555730599936 b</name>
 			<list>Confirmed planets</list>
 			<mass>4.9</mass>
 			<period>1183</period>
@@ -26,6 +29,10 @@
 			<temperature>188.3</temperature>
 		</planet>
 		<name>HD 2039</name>
+		<name>TYC 8468-177-1</name>
+		<name>HIP 1931</name>
+		<name>Gaia DR2 4919009555730599936</name>
 		<temperature>5947.0</temperature>
 	</star>
+	<constellation>Phoenix</constellation>
 </system>

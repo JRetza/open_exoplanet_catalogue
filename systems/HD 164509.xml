@@ -1,7 +1,7 @@
 <system>
 	<name>HD 164509</name>
-	<rightascension>18 01 31</rightascension>
-	<declination>+00 06 16</declination>
+	<rightascension>18 01 31.2275</rightascension>
+	<declination>+00 06 16.4026</declination>
 	<distance>52</distance>
 	<star>
 		<mass>1.13</mass>
@@ -16,6 +16,9 @@
 		<spectraltype>G5V</spectraltype>
 		<planet>
 			<name>HD 164509 b</name>
+			<name>Gaia DR2 4275421969292868224 b</name>
+			<name>TYC 430-2613-1 b</name>
+			<name>HIP 88268 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.48</mass>
 			<period>282.4</period>
@@ -28,6 +31,10 @@
 			<temperature>286.2</temperature>
 		</planet>
 		<name>HD 164509</name>
+		<name>Gaia DR2 4275421969292868224</name>
+		<name>TYC 430-2613-1</name>
+		<name>HIP 88268</name>
 		<temperature>5922.0</temperature>
 	</star>
+	<constellation>Ophiucus</constellation>
 </system>

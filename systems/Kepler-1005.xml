@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1005</name>
-	<rightascension>19 05 09</rightascension>
-	<declination>+43 19 14</declination>
+	<name>KOI-1898</name>
+	<name>KIC 7668663</name>
+	<distance errorminus="4.4987" errorplus="4.4987">577.267</distance>
+	<rightascension>19 05 08.6367</rightascension>
+	<declination>+43 19 13.6814</declination>
 	<star>
 		<name>Kepler-1005</name>
+		<name>KOI-1898</name>
+		<name>KIC 7668663</name>
+		<name>2MASS J19050864+4319136</name>
+		<name>Gaia DR2 2105663727538050688</name>
+		<magH errorminus="0.017" errorplus="0.017">11.788</magH>
+		<magJ errorminus="0.021" errorplus="0.021">12.091</magJ>
+		<magK errorminus="0.014" errorplus="0.014">11.718</magK>
 		<temperature errorminus="67.9" errorplus="68.0">5782.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">1.00</mass>
 		<radius errorminus="0.10" errorplus="0.15">1.06</radius>
 		<metallicity errorminus="0.10" errorplus="0.09">0.02</metallicity>
 		<planet>
 			<name>Kepler-1005 b</name>
+			<name>KOI-1898 b</name>
+			<name>KOI-1898.01</name>
+			<name>KIC 7668663 b</name>
+			<name>Gaia DR2 2105663727538050688 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000013200" errorplus="0.000013200">6.498015250</period>
 			<radius errorminus="0.013" errorplus="0.019">0.134</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

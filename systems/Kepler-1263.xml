@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1263</name>
-	<rightascension>19 05 56</rightascension>
-	<declination>+46 45 09</declination>
+	<name>KOI-2509</name>
+	<name>KIC 9880190</name>
+	<distance errorminus="9.3243" errorplus="9.3243">677.736</distance>
+	<rightascension>19 05 56.0701</rightascension>
+	<declination>+46 45 09.4484</declination>
 	<star>
 		<name>Kepler-1263</name>
+		<name>KOI-2509</name>
+		<name>KIC 9880190</name>
+		<name>2MASS J19055607+4645094</name>
+		<name>Gaia DR2 2130550520397270016</name>
+		<magH errorminus="0.022" errorplus="0.022">13.219</magH>
+		<magJ errorminus="0.023" errorplus="0.023">13.635</magJ>
+		<magK errorminus="0.028" errorplus="0.028">13.080</magK>
 		<temperature errorminus="74.4" errorplus="61.9">5213.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.84</mass>
 		<radius errorminus="0.05" errorplus="0.05">0.80</radius>
 		<metallicity errorminus="0.17" errorplus="0.16">-0.03</metallicity>
 		<planet>
 			<name>Kepler-1263 b</name>
+			<name>KOI-2509 b</name>
+			<name>KOI-2509.01</name>
+			<name>KIC 9880190 b</name>
+			<name>Gaia DR2 2130550520397270016 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000021280" errorplus="0.000021280">4.551399670</period>
 			<radius errorminus="0.011" errorplus="0.025">0.102</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

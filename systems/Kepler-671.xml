@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-671</name>
-	<rightascension>19 37 04</rightascension>
-	<declination>+49 18 51</declination>
+	<name>KOI-769</name>
+	<name>KIC 11460018</name>
+	<distance errorminus="44.7902" errorplus="44.7902">1207.88</distance>
+	<rightascension>19 37 03.7822</rightascension>
+	<declination>+49 18 50.8497</declination>
 	<star>
 		<name>Kepler-671</name>
+		<name>KOI-769</name>
+		<name>KIC 11460018</name>
+		<name>2MASS J19370379+4918507</name>
+		<name>Gaia DR2 2135008387213331456</name>
+		<magH errorminus="0.028" errorplus="0.028">13.756</magH>
+		<magJ errorminus="0.025" errorplus="0.025">14.121</magJ>
+		<magK errorminus="0.05" errorplus="0.05">13.77</magK>
 		<temperature errorminus="91.4" errorplus="74.8">5624.0</temperature>
 		<mass errorminus="0.04" errorplus="0.05">0.97</mass>
 		<radius errorminus="0.07" errorplus="0.17">0.95</radius>
 		<metallicity errorminus="0.14" errorplus="0.14">0.08</metallicity>
 		<planet>
 			<name>Kepler-671 b</name>
+			<name>KOI-769 b</name>
+			<name>KOI-769.01</name>
+			<name>KIC 11460018 b</name>
+			<name>Gaia DR2 2135008387213331456 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000006480" errorplus="0.000006480">4.280958590</period>
 			<radius errorminus="0.018" errorplus="0.044">0.240</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

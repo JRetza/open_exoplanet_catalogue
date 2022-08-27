@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-802</name>
-	<rightascension>19 04 04</rightascension>
-	<declination>+45 00 28</declination>
+	<name>KOI-1273</name>
+	<name>KIC 8806072</name>
+	<distance errorminus="11.8584" errorplus="11.8584">798.467</distance>
+	<rightascension>19 04 03.8048</rightascension>
+	<declination>+45 00 27.9588</declination>
 	<star>
 		<name>Kepler-802</name>
+		<name>KOI-1273</name>
+		<name>KIC 8806072</name>
+		<name>2MASS J19040380+4500279</name>
+		<name>Gaia DR2 2106333879874204288</name>
 		<temperature errorminus="67.2" errorplus="61.6">5507.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.93</mass>
 		<radius errorminus="0.05" errorplus="0.12">0.90</radius>
 		<metallicity errorminus="0.18" errorplus="0.16">0.06</metallicity>
 		<planet>
 			<name>Kepler-802 b</name>
+			<name>KOI-1273 b</name>
+			<name>KOI-1273.01</name>
+			<name>KIC 8806072 b</name>
+			<name>Gaia DR2 2106333879874204288 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000109200" errorplus="0.000109200">40.058747300</period>
 			<radius errorminus="0.036" errorplus="0.042">0.316</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-626</name>
-	<rightascension>19 14 48</rightascension>
-	<declination>+39 42 30</declination>
+	<name>KOI-628</name>
+	<name>KIC 4644604</name>
+	<distance errorminus="6.7081" errorplus="6.7081">647.501</distance>
+	<rightascension>19 14 47.6806</rightascension>
+	<declination>+39 42 29.7664</declination>
 	<star>
 		<name>Kepler-626</name>
+		<name>KOI-628</name>
+		<name>KIC 4644604</name>
+		<name>2MASS J19144767+3942298</name>
+		<name>Gaia DR2 2099728391973441920</name>
 		<temperature errorminus="94.6" errorplus="93.8">5813.0</temperature>
 		<mass errorminus="0.04" errorplus="0.05">1.01</mass>
 		<radius errorminus="0.09" errorplus="0.12">1.05</radius>
 		<metallicity errorminus="0.10" errorplus="0.09">0.01</metallicity>
 		<planet>
 			<name>Kepler-626 b</name>
+			<name>KOI-628 b</name>
+			<name>KOI-628.01</name>
+			<name>KIC 4644604 b</name>
+			<name>Gaia DR2 2099728391973441920 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000023630" errorplus="0.000023630">14.485851990</period>
 			<radius errorminus="0.018" errorplus="0.025">0.204</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

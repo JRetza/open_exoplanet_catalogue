@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-614</name>
-	<rightascension>19 53 32</rightascension>
-	<declination>+46 16 34</declination>
+	<name>KOI-587</name>
+	<name>KIC 9607164</name>
+	<distance errorminus="6.0068" errorplus="6.0068">536.107</distance>
+	<rightascension>19 53 32.3597</rightascension>
+	<declination>+46 16 33.6893</declination>
 	<star>
 		<name>Kepler-614</name>
+		<name>KOI-587</name>
+		<name>KIC 9607164</name>
+		<name>2MASS J19533235+4616337</name>
+		<name>Gaia DR2 2085519781168726912</name>
+		<magH errorminus="0.019" errorplus="0.019">12.720</magH>
+		<magJ errorminus="0.023" errorplus="0.023">13.195</magJ>
+		<magK errorminus="0.023" errorplus="0.023">12.662</magK>
 		<temperature errorminus="126.0" errorplus="186.4">5268.0</temperature>
 		<mass errorminus="0.05" errorplus="0.05">0.85</mass>
 		<radius errorminus="0.05" errorplus="0.07">0.81</radius>
 		<metallicity errorminus="0.17" errorplus="0.15">-0.07</metallicity>
 		<planet>
 			<name>Kepler-614 b</name>
+			<name>KOI-587 b</name>
+			<name>KOI-587.01</name>
+			<name>KIC 9607164 b</name>
+			<name>Gaia DR2 2085519781168726912 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000025970" errorplus="0.000025970">14.034915140</period>
 			<radius errorminus="0.015" errorplus="0.018">0.213</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-853</name>
-	<rightascension>18 55 45</rightascension>
-	<declination>+49 06 37</declination>
+	<name>KOI-1445</name>
+	<name>KIC 11336883</name>
+	<distance errorminus="7.1853" errorplus="7.1853">578.102</distance>
+	<rightascension>18 55 44.8332</rightascension>
+	<declination>+49 06 37.0408</declination>
 	<star>
 		<name>Kepler-853</name>
+		<name>KOI-1445</name>
+		<name>KIC 11336883</name>
+		<name>2MASS J18554483+4906371</name>
+		<name>Gaia DR2 2131859244171951616</name>
+		<magH errorminus="0.020" errorplus="0.020">11.171</magH>
+		<magJ errorminus="0.024" errorplus="0.024">11.406</magJ>
+		<magK errorminus="0.016" errorplus="0.016">11.151</magK>
 		<temperature errorminus="55.2" errorplus="60.5">6350.0</temperature>
 		<mass errorminus="0.08" errorplus="0.14">1.30</mass>
 		<radius errorminus="0.24" errorplus="0.44">1.55</radius>
 		<metallicity errorminus="0.08" errorplus="0.09">0.07</metallicity>
 		<planet>
 			<name>Kepler-853 b</name>
+			<name>KOI-1445 b</name>
+			<name>KOI-1445.01</name>
+			<name>KIC 11336883 b</name>
+			<name>Gaia DR2 2131859244171951616 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000023020" errorplus="0.000023020">7.168924630</period>
 			<radius errorminus="0.025" errorplus="0.043">0.151</radius>
 		</planet>
 	</star>
+	<constellation>Draco</constellation>
 </system>

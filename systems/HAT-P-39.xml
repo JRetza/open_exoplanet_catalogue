@@ -1,7 +1,7 @@
 <system>
 	<name>HAT-P-39</name>
-	<rightascension>07 35 02</rightascension>
-	<declination>+17 49 48</declination>
+	<rightascension>07 35 01.9794</rightascension>
+	<declination>+17 49 48.2348</declination>
 	<distance>642</distance>
 	<star>
 		<mass>1.404</mass>
@@ -15,6 +15,7 @@
 		<planet>
 			<name>HAT-P-39 b</name>
 			<name>2MASS 07350197+1749482</name>
+			<name>Gaia DR2 3169391577586325120 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.599</mass>
 			<radius>1.571</radius>
@@ -31,6 +32,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HAT-P-39</name>
+		<name>Gaia DR2 3169391577586325120</name>
 		<temperature>6430.0</temperature>
 	</star>
+	<constellation>Gemini</constellation>
 </system>

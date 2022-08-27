@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-637</name>
-	<rightascension>19 29 40</rightascension>
-	<declination>+41 25 01</declination>
+	<name>KOI-659</name>
+	<name>KIC 6125481</name>
+	<distance errorminus="9.8315" errorplus="9.8315">804.246</distance>
+	<rightascension>19 29 40.1378</rightascension>
+	<declination>+41 25 00.6919</declination>
 	<star>
 		<name>Kepler-637</name>
+		<name>KOI-659</name>
+		<name>KIC 6125481</name>
+		<name>2MASS J19294013+4125007</name>
+		<name>Gaia DR2 2053626934575934464</name>
 		<temperature errorminus="44.4" errorplus="47.0">6096.0</temperature>
 		<mass errorminus="0.10" errorplus="0.07">1.64</mass>
 		<radius errorminus="0.30" errorplus="0.27">2.56</radius>
 		<metallicity errorminus="0.05" errorplus="0.05">0.38</metallicity>
 		<planet>
 			<name>Kepler-637 b</name>
+			<name>KOI-659 b</name>
+			<name>KOI-659.01</name>
+			<name>KIC 6125481 b</name>
+			<name>Gaia DR2 2053626934575934464 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000053680" errorplus="0.000053680">23.205846230</period>
 			<radius errorminus="0.050" errorplus="0.045">0.424</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

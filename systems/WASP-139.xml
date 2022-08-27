@@ -1,0 +1,33 @@
+<system>
+	<name>WASP-139</name>
+	<rightascension>03 18 14.9435</rightascension>
+	<declination>-41 41 52</declination>
+	<distance>230.0</distance>
+	<star>
+		<name>WASP-139</name>
+		<name>Gaia DR2 4851398799032507776</name>
+		<age>0.5</age>
+		<spectraltype>K0</spectraltype>
+		<temperature>5310.0</temperature>
+		<metallicity>0.2</metallicity>
+		<mass>0.92</mass>
+		<radius>0.80</radius>
+		<planet>
+			<name>WASP-139 b</name>
+			<name>Gaia DR2 4851398799032507776 b</name>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.062</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.5" errorplus="0.5">88.9</inclination>
+			<period errorminus="0.000004" errorplus="0.000004">5.924262</period>
+			<mass errorminus="0.017" errorplus="0.017">0.117</mass>
+			<radius errorminus="0.05" errorplus="0.05">0.8</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+	<constellation>Eridanus</constellation>
+</system>

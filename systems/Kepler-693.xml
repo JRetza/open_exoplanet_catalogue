@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-693</name>
-	<rightascension>18 53 01</rightascension>
-	<declination>+40 21 30</declination>
+	<name>KOI-824</name>
+	<name>KIC 5164255</name>
+	<distance errorminus="57.7131" errorplus="57.7131">1189.34</distance>
+	<rightascension>18 53 00.8526</rightascension>
+	<declination>+40 21 29.6200</declination>
 	<star>
 		<name>Kepler-693</name>
+		<name>KOI-824</name>
+		<name>KIC 5164255</name>
+		<name>2MASS J18530085+4021295</name>
+		<name>Gaia DR2 2103572731299093376</name>
 		<temperature errorminus="77.4" errorplus="78.8">4881.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.76</mass>
 		<radius errorminus="0.04" errorplus="0.04">0.72</radius>
 		<metallicity errorminus="0.18" errorplus="0.17">-0.10</metallicity>
 		<planet>
 			<name>Kepler-693 b</name>
+			<name>KOI-824 b</name>
+			<name>KOI-824.01</name>
+			<name>KIC 5164255 b</name>
+			<name>Gaia DR2 2103572731299093376 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000010720" errorplus="0.000010720">15.375633320</period>
 			<radius errorminus="0.069" errorplus="0.045">0.908</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

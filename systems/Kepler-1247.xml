@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1247</name>
-	<rightascension>19 38 08</rightascension>
-	<declination>+46 37 06</declination>
+	<name>KOI-2461</name>
+	<name>KIC 9837685</name>
+	<distance errorminus="42.6767" errorplus="42.6767">1076.89</distance>
+	<rightascension>19 38 08.0540</rightascension>
+	<declination>+46 37 05.7884</declination>
 	<star>
 		<name>Kepler-1247</name>
+		<name>KOI-2461</name>
+		<name>KIC 9837685</name>
+		<name>2MASS J19380805+4637057</name>
+		<name>Gaia DR2 2128141799661062400</name>
 		<temperature errorminus="112.6" errorplus="116.5">5303.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.86</mass>
 		<radius errorminus="0.05" errorplus="0.06">0.82</radius>
 		<metallicity errorminus="0.16" errorplus="0.14">-0.05</metallicity>
 		<planet>
 			<name>Kepler-1247 b</name>
+			<name>KOI-2461 b</name>
+			<name>KOI-2461.01</name>
+			<name>KIC 9837685 b</name>
+			<name>Gaia DR2 2128141799661062400 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000063630" errorplus="0.000063630">13.712202130</period>
 			<radius errorminus="0.014" errorplus="0.019">0.208</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1075</name>
-	<rightascension>19 10 00</rightascension>
-	<declination>+47 28 09</declination>
+	<name>KOI-2058</name>
+	<name>KIC 10329835</name>
+	<distance errorminus="4.9485" errorplus="4.9485">293.617</distance>
+	<rightascension>19 10 00.2783</rightascension>
+	<declination>+47 28 09.2346</declination>
 	<star>
 		<name>Kepler-1075</name>
+		<name>KOI-2058</name>
+		<name>KIC 10329835</name>
+		<name>2MASS J19100028+4728093</name>
+		<name>Gaia DR2 2130861785267379456</name>
+		<magH errorminus="0.018" errorplus="0.018">12.555</magH>
+		<magJ errorminus="0.022" errorplus="0.022">13.217</magJ>
+		<magK errorminus="0.016" errorplus="0.016">12.415</magK>
 		<temperature errorminus="38.7" errorplus="39.3">3959.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">0.56</mass>
 		<radius errorminus="0.03" errorplus="0.02">0.54</radius>
 		<metallicity errorminus="0.10" errorplus="0.11">-0.17</metallicity>
 		<planet>
 			<name>Kepler-1075 b</name>
+			<name>KOI-2058 b</name>
+			<name>KOI-2058.01</name>
+			<name>KIC 10329835 b</name>
+			<name>Gaia DR2 2130861785267379456 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000002700" errorplus="0.000002700">1.523728160</period>
 			<radius errorminus="0.029" errorplus="0.014">0.127</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

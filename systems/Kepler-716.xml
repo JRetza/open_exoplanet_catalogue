@@ -2,23 +2,39 @@
 	<name>Kepler-716</name>
 	<rightascension>19 21 34</rightascension>
 	<declination>+43 21 50</declination>
+	<distance errorminus="38.11" errorplus="37.17">675.00</distance>
 	<star>
 		<name>Kepler-716</name>
-		<temperature errorminus="72.8" errorplus="52.7">5099.0</temperature>
-		<mass errorminus="0.04" errorplus="0.04">0.83</mass>
 		<radius errorminus="0.04" errorplus="0.04">0.78</radius>
-		<metallicity errorminus="0.17" errorplus="0.16">0.00</metallicity>
+		<magJ errorminus="0.025" errorplus="0.025">13.670</magJ>
+		<magH errorminus="0.025" errorplus="0.025">13.249</magH>
+		<magK errorminus="0.029" errorplus="0.029">13.135</magK>
+		<mass errorminus="0.04" errorplus="0.04">0.83</mass>
+		<temperature errorminus="72.75" errorplus="52.72">5099.00</temperature>
+		<metallicity errorminus="0.167" errorplus="0.159">0.000</metallicity>
 		<planet>
 			<name>Kepler-716 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<new>1</new>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000014490" errorplus="0.000014490">10.371684530</period>
+			<period errorminus="0.00001449" errorplus="0.00001449">10.37168453</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Morton et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
 			<radius errorminus="0.015" errorplus="0.031">0.259</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/05/10</lastupdate>
+			<transittime errorminus="0.001110" errorplus="0.001110">2455005.617960</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-716 c</name>
+			<period>3.96999000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.124</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

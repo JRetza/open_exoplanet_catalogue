@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-982</name>
-	<rightascension>19 13 40</rightascension>
-	<declination>+46 35 26</declination>
+	<name>KOI-1852</name>
+	<name>KIC 9763348</name>
+	<distance errorminus="15.6775" errorplus="15.6775">820.277</distance>
+	<rightascension>19 13 40.2447</rightascension>
+	<declination>+46 35 25.5676</declination>
 	<star>
 		<name>Kepler-982</name>
+		<name>KOI-1852</name>
+		<name>KIC 9763348</name>
+		<name>2MASS J19134024+4635255</name>
+		<name>Gaia DR2 2130393938771375104</name>
+		<magH errorminus="0.021" errorplus="0.021">11.957</magH>
+		<magJ errorminus="0.023" errorplus="0.023">12.203</magJ>
+		<magK errorminus="0.011" errorplus="0.011">11.895</magK>
 		<temperature errorminus="63.0" errorplus="55.0">6139.0</temperature>
 		<mass errorminus="0.05" errorplus="0.07">1.16</mass>
 		<radius errorminus="0.15" errorplus="0.27">1.29</radius>
 		<metallicity errorminus="0.08" errorplus="0.09">0.05</metallicity>
 		<planet>
 			<name>Kepler-982 b</name>
+			<name>KOI-1852 b</name>
+			<name>KOI-1852.01</name>
+			<name>KIC 9763348 b</name>
+			<name>Gaia DR2 2130393938771375104 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000041150" errorplus="0.000041150">15.773822100</period>
 			<radius errorminus="0.024" errorplus="0.042">0.201</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

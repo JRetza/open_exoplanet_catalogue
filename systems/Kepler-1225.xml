@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1225</name>
-	<rightascension>19 22 32</rightascension>
-	<declination>+40 08 13</declination>
+	<name>KOI-2406</name>
+	<name>KIC 5007345</name>
+	<distance errorminus="40.8464" errorplus="40.8464">1401.35</distance>
+	<rightascension>19 22 31.9910</rightascension>
+	<declination>+40 08 13.2003</declination>
 	<star>
 		<name>Kepler-1225</name>
+		<name>KOI-2406</name>
+		<name>KIC 5007345</name>
+		<name>2MASS J19223199+4008131</name>
+		<name>Gaia DR2 2101123534792103168</name>
 		<temperature errorminus="147.7" errorplus="133.4">6140.0</temperature>
 		<mass errorminus="0.09" errorplus="0.14">1.13</mass>
 		<radius errorminus="0.15" errorplus="0.40">1.19</radius>
 		<metallicity errorminus="0.18" errorplus="0.14">0.01</metallicity>
 		<planet>
 			<name>Kepler-1225 b</name>
+			<name>KOI-2406 b</name>
+			<name>KOI-2406.01</name>
+			<name>KIC 5007345 b</name>
+			<name>Gaia DR2 2101123534792103168 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000027530" errorplus="0.000027530">7.010754340</period>
 			<radius errorminus="0.021" errorplus="0.054">0.162</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

@@ -1,0 +1,21 @@
+<system>
+	<name>OGLE-2014-BLG-0676L</name>
+	<rightascension>17 52 24.50</rightascension>
+	<declination>-30 32 54.20</declination>
+	<distance errorminus="830" errorplus="960">2220</distance>
+	<star>
+		<name>OGLE-2014-BLG-0676L</name>
+		<mass errorminus="0.22" errorplus="0.20">0.62</mass>
+		<planet>
+			<name>OGLE-2014-BLG-0676L b</name>
+			<semimajoraxis errorminus="1.46" errorplus="2.16">4.40</semimajoraxis>
+			<mass errorminus="1.12" errorplus="1.02">3.09</mass>
+			<discoverymethod>microlensing</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>18/09/20</lastupdate>
+			<list>Confirmed planets</list>
+			<description>OGLE-2014-BLG-0676L is a cold gas-giant planet orbiting a 0.62 solar mass star.</description>
+		</planet>
+	</star>
+	<constellation>Scorpius</constellation>
+</system>

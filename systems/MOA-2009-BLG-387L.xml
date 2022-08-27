@@ -2,21 +2,22 @@
 	<name>MOA-2009-BLG-387L</name>
 	<rightascension>17 53 51</rightascension>
 	<declination>-33 59 25</declination>
-	<distance>5700</distance>
+	<distance errorminus="2190.00" errorplus="2180.00">5690.00</distance>
 	<star>
-		<mass>0.19</mass>
-		<spectraltype>M</spectraltype>
+		<name>MOA-2009-BLG-387L</name>
+		<mass errorminus="0.12" errorplus="0.30">0.19</mass>
 		<planet>
 			<name>MOA-2009-BLG-387L b</name>
-			<list>Confirmed planets</list>
-			<mass>2.6</mass>
-			<period>1972.3</period>
-			<semimajoraxis>1.8</semimajoraxis>
+			<semimajoraxis errorminus="0.700000" errorplus="0.900000">1.800000</semimajoraxis>
+			<inclination errorminus="12.000" errorplus="20.000">52.000</inclination>
+			<period errorminus="588.00000000" errorplus="785.00000000">1982.00000000</period>
+			<description>This planet was discovered by Batista et al. 2011. This was a ground based discovery. The parameters listed here are those reported by Batista et al. 2011 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="1.60000" errorplus="4.10000">2.60000</mass>
 			<discoverymethod>microlensing</discoverymethod>
-			<lastupdate>11/02/04</lastupdate>
-			<discoveryyear>2011</discoveryyear>
+			<discoveryyear>2010</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/03/19</lastupdate>
 		</planet>
-		<name>MOA-2009-BLG-387L</name>
-		<temperature>3840.0</temperature>
 	</star>
+	<constellation>Scorpius</constellation>
 </system>

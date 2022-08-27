@@ -1,7 +1,7 @@
 <system>
 	<name>WASP-54</name>
-	<rightascension>13 41 49</rightascension>
-	<declination>-00 07 41</declination>
+	<rightascension>13 41 49.0301</rightascension>
+	<declination>-00 07 41.0337</declination>
 	<distance errorminus="30" errorplus="30">200</distance>
 	<star>
 		<mass>1.15</mass>
@@ -18,6 +18,8 @@
 		<spectraltype>F9</spectraltype>
 		<planet>
 			<name>WASP-54 b</name>
+			<name>Gaia DR2 3661983850663908608 b</name>
+			<name>TYC 4967-678-1 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.636</mass>
 			<radius>1.653</radius>
@@ -34,5 +36,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>WASP-54</name>
+		<name>Gaia DR2 3661983850663908608</name>
+		<name>TYC 4967-678-1</name>
 	</star>
+	<constellation>Virgo</constellation>
 </system>

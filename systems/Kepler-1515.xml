@@ -1,24 +1,42 @@
 <system>
 	<name>Kepler-1515</name>
-	<rightascension>19 23 54</rightascension>
-	<declination>+48 10 41</declination>
+	<name>KOI-3683</name>
+	<name>KIC 10795103</name>
+	<distance errorminus="6.6910" errorplus="6.6910">547.765</distance>
+	<rightascension>19 23 53.7420</rightascension>
+	<declination>+48 10 41.3901</declination>
 	<star>
 		<name>Kepler-1515</name>
+		<name>KOI-3683</name>
+		<name>KIC 10795103</name>
+		<name>2MASS J19235374+4810413</name>
+		<name>Gaia DR2 2129311576952316544</name>
+		<name>TYC 3547-2695-1</name>
+		<magB errorminus="0.11" errorplus="0.11">12.03</magB>
+		<magH errorminus="0.032" errorplus="0.032">10.942</magH>
+		<magJ errorminus="0.027" errorplus="0.027">11.163</magJ>
+		<magK errorminus="0.023" errorplus="0.023">10.886</magK>
+		<magV errorminus="0.18" errorplus="0.18">12.10</magV>
 		<temperature errorminus="81.3" errorplus="94.2">6511.0</temperature>
 		<mass errorminus="0.05" errorplus="0.06">1.30</mass>
 		<radius errorminus="0.10" errorplus="0.11">1.41</radius>
 		<metallicity errorminus="0.11" errorplus="0.11">0.07</metallicity>
 		<planet>
 			<name>Kepler-1515 b</name>
+			<name>KOI-3683 b</name>
+			<name>KOI-3683.01</name>
+			<name>KIC 10795103 b</name>
+			<name>Gaia DR2 2129311576952316544 b</name>
+			<name>TYC 3547-2695-1 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000127500" errorplus="0.000127500">214.311416400</period>
 			<radius errorminus="0.057" errorplus="0.069">0.852</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,7 +1,7 @@
 <system>
 	<name>HAT-P-28</name>
-	<rightascension>00 52 00</rightascension>
-	<declination>+34 43 42</declination>
+	<rightascension>00 52 00.1877</rightascension>
+	<declination>+34 43 42.2030</declination>
 	<distance>395</distance>
 	<star>
 		<mass>1.025</mass>
@@ -17,6 +17,7 @@
 		<planet>
 			<name>HAT-P-28 b</name>
 			<name>2MASS J00520018+3443422 b</name>
+			<name>Gaia DR2 363702817083391232 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.626</mass>
 			<radius>1.212</radius>
@@ -32,6 +33,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HAT-P-28</name>
+		<name>Gaia DR2 363702817083391232</name>
 		<temperature>5680.0</temperature>
 	</star>
+	<constellation>Andromeda</constellation>
 </system>

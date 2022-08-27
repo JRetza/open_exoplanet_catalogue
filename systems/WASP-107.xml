@@ -1,0 +1,44 @@
+<system>
+	<name>WASP-107</name>
+	<rightascension>12 33 33</rightascension>
+	<declination>-10 08 46</declination>
+	<distance errorminus="0.30" errorplus="0.30">64.70</distance>
+	<star>
+		<name>WASP-107</name>
+		<radius errorminus="0.02" errorplus="0.02">0.67</radius>
+		<magV errorminus="0.196" errorplus="0.196">11.471</magV>
+		<magJ errorminus="0.021" errorplus="0.021">9.378</magJ>
+		<magH errorminus="0.026" errorplus="0.026">8.777</magH>
+		<magK errorminus="0.023" errorplus="0.023">8.637</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.68</mass>
+		<temperature errorminus="70.00" errorplus="70.00">4425.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.090">0.020</metallicity>
+		<spectraltype>K6</spectraltype>
+		<planet>
+			<name>WASP-107 b</name>
+			<eccentricity errorminus="0.040000" errorplus="0.040000">0.060000</eccentricity>
+			<periastron errorminus="60.0000" errorplus="40.0000">40.0000</periastron>
+			<period>5.72147420</period>
+			<description>This planet was discovered by Anderson et al. 2017. This was a ground based discovery. The parameters listed here are those reported by Piaulet et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00500" errorplus="0.00500">0.09600</mass>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/12/17</lastupdate>
+		</planet>
+		<planet>
+			<name>WASP-107 c</name>
+			<eccentricity errorminus="0.070000" errorplus="0.070000">0.280000</eccentricity>
+			<periastron errorminus="20.0000" errorplus="30.0000">-120.0000</periastron>
+			<period errorminus="16.00000000" errorplus="15.00000000">1088.00000000</period>
+			<description>This planet was discovered by Piaulet et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Piaulet et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.04000" errorplus="0.04000">0.36000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/12/17</lastupdate>
+		</planet>
+	</star>
+	<constellation>Virgo</constellation>
+</system>

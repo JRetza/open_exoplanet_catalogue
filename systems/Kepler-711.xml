@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-711</name>
-	<rightascension>19 49 50</rightascension>
-	<declination>+42 50 24</declination>
+	<name>KOI-878</name>
+	<name>KIC 7303253</name>
+	<distance errorminus="11.4389" errorplus="11.4389">635.768</distance>
+	<rightascension>19 49 50.3993</rightascension>
+	<declination>+42 50 23.6679</declination>
 	<star>
 		<name>Kepler-711</name>
+		<name>KOI-878</name>
+		<name>KIC 7303253</name>
+		<name>2MASS J19495040+4250237</name>
+		<name>Gaia DR2 2078511803294780032</name>
+		<magH errorminus="0.021" errorplus="0.021">13.200</magH>
+		<magJ errorminus="0.022" errorplus="0.022">13.697</magJ>
+		<magK errorminus="0.026" errorplus="0.026">13.061</magK>
 		<temperature errorminus="219.6" errorplus="237.0">5222.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">0.84</mass>
 		<radius errorminus="0.06" errorplus="0.08">0.80</radius>
 		<metallicity errorminus="0.18" errorplus="0.16">-0.04</metallicity>
 		<planet>
 			<name>Kepler-711 b</name>
+			<name>KOI-878 b</name>
+			<name>KOI-878.01</name>
+			<name>KIC 7303253 b</name>
+			<name>Gaia DR2 2078511803294780032 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000066470" errorplus="0.000066470">23.589143980</period>
 			<radius errorminus="0.056" errorplus="0.030">0.304</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

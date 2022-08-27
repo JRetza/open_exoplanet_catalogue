@@ -2,8 +2,8 @@
 	<name>Kepler-192</name>
 	<name>KOI-584</name>
 	<name>KIC 9146018</name>
-	<rightascension>19 11 40</rightascension>
-	<declination>+45 35 34</declination>
+	<rightascension>19 11 40.3000</rightascension>
+	<declination>+45 35 34.4252</declination>
 	<distance>683.40</distance>
 	<star>
 		<magJ errorminus="0.021" errorplus="0.021">12.892</magJ>
@@ -12,6 +12,8 @@
 		<name>Kepler-192</name>
 		<name>KOI-584</name>
 		<name>KIC 9146018</name>
+		<name>2MASS J19114030+4535343</name>
+		<name>Gaia DR2 2130243550494676480</name>
 		<temperature errorminus="100" errorplus="100">5479</temperature>
 		<radius errorminus=".164" errorplus="0.164">1.007</radius>
 		<mass errorminus="0.0350" errorplus="0.0350">0.9050</mass>
@@ -21,6 +23,7 @@
 			<name>KOI-584.01</name>
 			<name>KIC 9146018 b</name>
 			<name>KIC 9146018.01</name>
+			<name>Gaia DR2 2130243550494676480 b</name>
 			<radius errorminus="0.04101" errorplus="0.04101">0.24970</radius>
 			<period errorminus=".000018" errorplus="0.000018">9.926746</period>
 			<transittime errorminus="0.0010200" errorplus="0.0010200">2455008.6850100</transittime>
@@ -37,6 +40,7 @@
 			<name>KOI-584.02</name>
 			<name>KIC 9146018 c</name>
 			<name>KIC 9146018.02</name>
+			<name>Gaia DR2 2130243550494676480 c</name>
 			<radius errorminus="0.04739" errorplus="0.04739">0.25425</radius>
 			<period errorminus=".000076" errorplus="0.000076">21.223400</period>
 			<transittime errorminus="0.0021800" errorplus="0.0021800">2455003.3746000</transittime>
@@ -49,15 +53,19 @@
 		</planet>
 		<planet>
 			<name>Kepler-192 d</name>
+			<name>KOI-584 d</name>
+			<name>KOI-584.03</name>
+			<name>KIC 9146018 d</name>
+			<name>Gaia DR2 2130243550494676480 d</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000043200" errorplus="0.000043200">6.470275790</period>
 			<radius errorminus="0.006" errorplus="0.009">0.091</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

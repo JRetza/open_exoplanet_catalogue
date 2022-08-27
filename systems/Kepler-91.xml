@@ -1,8 +1,9 @@
 <system>
 	<name>Kepler-91</name>
 	<name>KIC 8219268</name>
-	<rightascension>19 02 41</rightascension>
-	<declination>+44 07 00</declination>
+	<name>KOI-2133</name>
+	<rightascension>19 02 41.4979</rightascension>
+	<declination>+44 07 00.2397</declination>
 	<distance errorminus="130" errorplus="150">1030</distance>
 	<star>
 		<magJ errorminus="0.026" errorplus="0.026">10.790</magJ>
@@ -11,6 +12,8 @@
 		<name>Kepler-91</name>
 		<name>KIC 8219268</name>
 		<name>KOI-2133</name>
+		<name>2MASS J19024148+4407002</name>
+		<name>Gaia DR2 2105909326647414400</name>
 		<mass errorminus="0.10" errorplus="0.10">1.31</mass>
 		<radius errorminus="0.16" errorplus="0.16">6.30</radius>
 		<metallicity errorminus="0.07" errorplus="0.07">0.11</metallicity>
@@ -20,6 +23,7 @@
 			<name>KIC 8219268 b</name>
 			<name>KOI-2133.01</name>
 			<name>KOI-2133 b</name>
+			<name>Gaia DR2 2105909326647414400 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.06" errorplus="0.06">0.66</mass>
 			<radius errorminus="0.04" errorplus="0.04">1.40</radius>
@@ -35,5 +39,21 @@
 			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
+		<planet>
+			<name>Kepler-91 b Trojan</name>
+			<list>Controversial</list>
+			<mass errorminus="0.019" errorplus="0.019">0.025</mass>
+			<radius errorminus="0.06" errorplus="0.06">0.26</radius>
+			<period>6.24668005</period>
+			<semimajoraxis>0.0726</semimajoraxis>
+			<inclination>67.37</inclination>
+			<transittime unit="BJD">2454968.3</transittime>
+			<description>A possible Trojan companion to Kepler-91b was identified by Placek et al. (2015). This companion was rejected based on unphysically high brightness temperatures inferred by the model, but Knuth et al. (2017) indicated that the analysis was not taking reflected light fully into account.</description>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<lastupdate>17/11/29</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

@@ -1,0 +1,37 @@
+<system>
+	<name>KELT-18</name>
+	<rightascension>14 26 05.7579</rightascension>
+	<declination>+59 26 39.2888</declination>
+	<distance>331</distance>
+	<star>
+		<name>KELT-18</name>
+		<name>Gaia DR2 1612165353793791488</name>
+		<name>TYC 3865-1173-1</name>
+		<age>1.9</age>
+		<radius>1.908</radius>
+		<mass>1.524</mass>
+		<spectraltype>F4V</spectraltype>
+		<magV errorminus="0.03" errorplus="0.03">10.16</magV>
+		<magB errorminus="0.04" errorplus="0.04">10.62</magB>
+		<temperature>6670.0</temperature>
+		<metallicity>0.09</metallicity>
+		<planet>
+			<name>KELT-18 b</name>
+			<name>Gaia DR2 1612165353793791488 b</name>
+			<name>TYC 3865-1173-1 b</name>
+			<semimajoraxis errorminus="0.00069" errorplus="0.00069">0.0455</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="1.2" errorplus="0.79">88.86</inclination>
+			<period errorminus="0.000003" errorplus="0.000003">2.8717518</period>
+			<mass errorminus="0.11" errorplus="0.11">1.18</mass>
+			<radius errorminus="0.036" errorplus="0.042">1.57</radius>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>17/02/07</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+	<constellation>Ursa Major</constellation>
+</system>

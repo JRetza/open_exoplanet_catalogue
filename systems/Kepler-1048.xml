@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1048</name>
-	<rightascension>18 47 36</rightascension>
-	<declination>+42 09 57</declination>
+	<name>KOI-2005</name>
+	<name>KIC 6665512</name>
+	<distance errorminus="6.0660" errorplus="6.0660">565.036</distance>
+	<rightascension>18 47 35.6033</rightascension>
+	<declination>+42 09 56.6871</declination>
 	<star>
 		<name>Kepler-1048</name>
+		<name>KOI-2005</name>
+		<name>KIC 6665512</name>
+		<name>2MASS J18473560+4209568</name>
+		<name>Gaia DR2 2104704815958848000</name>
+		<magH errorminus="0.023" errorplus="0.023">12.539</magH>
+		<magJ errorminus="0.021" errorplus="0.021">13.131</magJ>
+		<magK errorminus="0.016" errorplus="0.016">12.447</magK>
 		<temperature errorminus="62.4" errorplus="59.4">4651.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.75</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.70</radius>
 		<metallicity errorminus="0.16" errorplus="0.15">0.01</metallicity>
 		<planet>
 			<name>Kepler-1048 b</name>
+			<name>KOI-2005 b</name>
+			<name>KOI-2005.01</name>
+			<name>KIC 6665512 b</name>
+			<name>Gaia DR2 2104704815958848000 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000024150" errorplus="0.000024150">6.921010210</period>
 			<radius errorminus="0.007" errorplus="0.008">0.144</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

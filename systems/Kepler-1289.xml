@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1289</name>
-	<rightascension>19 45 33</rightascension>
-	<declination>+41 02 26</declination>
+	<name>KOI-2614</name>
+	<name>KIC 5807769</name>
+	<distance errorminus="22.4139" errorplus="22.4139">1086.1301</distance>
+	<rightascension>19 45 33.3136</rightascension>
+	<declination>+41 02 25.9954</declination>
 	<star>
 		<name>Kepler-1289</name>
+		<name>KOI-2614</name>
+		<name>KIC 5807769</name>
+		<name>2MASS J19453331+4102260</name>
+		<name>Gaia DR2 2076819276942298496</name>
+		<magH errorminus="0.022" errorplus="0.022">13.109</magH>
+		<magJ errorminus="0.027" errorplus="0.027">13.439</magJ>
+		<magK errorminus="0.028" errorplus="0.028">13.043</magK>
 		<temperature errorminus="268.2" errorplus="245.7">6080.0</temperature>
 		<mass errorminus="0.10" errorplus="0.17">1.10</mass>
 		<radius errorminus="0.18" errorplus="0.37">1.17</radius>
 		<metallicity errorminus="0.15" errorplus="0.13">0.02</metallicity>
 		<planet>
 			<name>Kepler-1289 b</name>
+			<name>KOI-2614 b</name>
+			<name>KOI-2614.01</name>
+			<name>KIC 5807769 b</name>
+			<name>Gaia DR2 2076819276942298496 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000050830" errorplus="0.000050830">7.990196270</period>
 			<radius errorminus="0.021" errorplus="0.044">0.136</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

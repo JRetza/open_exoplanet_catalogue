@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1460</name>
-	<rightascension>19 02 14</rightascension>
-	<declination>+44 00 39</declination>
+	<name>KOI-3298</name>
+	<name>KIC 8151055</name>
+	<distance errorminus="10.0118" errorplus="10.0118">561.987</distance>
+	<rightascension>19 02 13.8773</rightascension>
+	<declination>+44 00 38.8138</declination>
 	<star>
 		<name>Kepler-1460</name>
+		<name>KOI-3298</name>
+		<name>KIC 8151055</name>
+		<name>2MASS J19021387+4400388</name>
+		<name>Gaia DR2 2105886790959182976</name>
+		<magH errorminus="0.034" errorplus="0.034">13.449</magH>
+		<magJ errorminus="0.031" errorplus="0.031">14.093</magJ>
+		<magK errorminus="0.040" errorplus="0.040">13.359</magK>
 		<temperature errorminus="45.0" errorplus="43.6">4422.0</temperature>
 		<mass errorminus="0.05" errorplus="0.03">0.70</mass>
 		<radius errorminus="0.04" errorplus="0.02">0.67</radius>
 		<metallicity errorminus="0.17" errorplus="0.18">-0.02</metallicity>
 		<planet>
 			<name>Kepler-1460 b</name>
+			<name>KOI-3298 b</name>
+			<name>KOI-3298.01</name>
+			<name>KIC 8151055 b</name>
+			<name>Gaia DR2 2105886790959182976 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000218600" errorplus="0.000218600">29.963324700</period>
 			<radius errorminus="0.012" errorplus="0.012">0.175</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

@@ -1,12 +1,16 @@
 <system>
 	<name>KOI-1474</name>
-	<rightascension>19 41 40.30</rightascension>
-	<declination>+51 11 05.2</declination>
+	<name>Kepler-419</name>
+	<name>KIC 12365184</name>
+	<distance errorminus="26.1338" errorplus="26.1338">1041.34</distance>
+	<rightascension>19 41 40.2991</rightascension>
+	<declination>+51 11 05.1660</declination>
 	<star>
 		<name>KOI-1474</name>
 		<name>Kepler-419</name>
 		<name>KIC 12365184</name>
 		<name>2MASS J19414029+5111051</name>
+		<name>Gaia DR2 2135604425595213440</name>
 		<magJ errorminus="0.020" errorplus="0.020">12.088</magJ>
 		<magH errorminus="0.019" errorplus="0.019">11.899</magH>
 		<magK errorminus="0.018" errorplus="0.018">11.859</magK>
@@ -19,6 +23,7 @@
 			<name>KOI-1474.01</name>
 			<name>Kepler-419 b</name>
 			<name>KIC 12365184 b</name>
+			<name>Gaia DR2 2135604425595213440 b</name>
 			<list>Confirmed planets</list>
 			<radius errorminus="0.116" errorplus="0.125">0.964</radius>
 			<mass errorminus="0.3" errorplus="0.3">2.5</mass>
@@ -55,4 +60,5 @@
 			<istransiting>0</istransiting>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

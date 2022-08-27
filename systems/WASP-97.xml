@@ -1,11 +1,14 @@
 <system>
 	<name>WASP-97</name>
-	<rightascension>01 38 25</rightascension>
-	<declination>-55 46 19</declination>
+	<distance errorminus="0.5087" errorplus="0.5087">151.731</distance>
+	<rightascension>01 38 25.0566</rightascension>
+	<declination>-55 46 19.5267</declination>
 	<star>
 		<name>WASP-97</name>
 		<name>1SWASP J013825.04-554619.4</name>
 		<name>2MASS 01382504-5546194</name>
+		<name>TYC 8478-1241-1</name>
+		<name>Gaia DR2 4911563216311083392</name>
 		<mass errorminus="0.06" errorplus="0.06">1.12</mass>
 		<radius errorminus="0.04" errorplus="0.04">1.06</radius>
 		<temperature errorminus="100" errorplus="100">5640</temperature>
@@ -21,6 +24,8 @@
 			<name>WASP-97 b</name>
 			<name>1SWASP J013825.04-554619.4 b</name>
 			<name>2MASS 01382504-5546194 b</name>
+			<name>TYC 8478-1241-1 b</name>
+			<name>Gaia DR2 4911563216311083392 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.05" errorplus="0.05">1.32</mass>
 			<radius errorminus="0.06" errorplus="0.06">1.13</radius>
@@ -37,4 +42,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Eridanus</constellation>
 </system>

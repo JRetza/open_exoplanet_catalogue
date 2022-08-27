@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1589</name>
-	<rightascension>19 37 46</rightascension>
-	<declination>+40 34 18</declination>
+	<name>KOI-4327</name>
+	<name>KIC 5371777</name>
+	<distance errorminus="68.0896" errorplus="68.0896">1579.28</distance>
+	<rightascension>19 37 46.0422</rightascension>
+	<declination>+40 34 17.9384</declination>
 	<star>
 		<name>Kepler-1589</name>
+		<name>KOI-4327</name>
+		<name>KIC 5371777</name>
+		<name>2MASS J19374603+4034180</name>
+		<name>Gaia DR2 2076565908231148928</name>
+		<magH errorminus="0.037" errorplus="0.037">13.549</magH>
+		<magJ errorminus="0.026" errorplus="0.026">13.859</magJ>
+		<magK errorminus="0.047" errorplus="0.047">13.544</magK>
 		<temperature errorminus="232.4" errorplus="169.8">6166.0</temperature>
 		<mass errorminus="0.11" errorplus="0.17">1.18</mass>
 		<radius errorminus="0.18" errorplus="0.50">1.25</radius>
 		<metallicity errorminus="0.14" errorplus="0.15">0.08</metallicity>
 		<planet>
 			<name>Kepler-1589 b</name>
+			<name>KOI-4327 b</name>
+			<name>KOI-4327.01</name>
+			<name>KIC 5371777 b</name>
+			<name>Gaia DR2 2076565908231148928 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000007840" errorplus="0.000007840">0.991665270</period>
 			<radius errorminus="0.015" errorplus="0.039">0.097</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

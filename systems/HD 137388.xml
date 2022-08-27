@@ -1,7 +1,7 @@
 <system>
 	<name>HD 137388</name>
-	<rightascension>15 35 40</rightascension>
-	<declination>-80 12 17</declination>
+	<rightascension>15 35 39.9207</rightascension>
+	<declination>-80 12 16.5384</declination>
 	<distance>38</distance>
 	<star>
 		<mass>0.86</mass>
@@ -18,6 +18,10 @@
 		<planet>
 			<name>HD 137388 b</name>
 			<name>HD 137388 A b</name>
+			<name>Gaia DR2 5778418870846853888 b</name>
+			<name>TYC 9437-1921-1 b</name>
+			<name>HIP 76351 b</name>
+			<name>Karaka b</name>
 			<list>Confirmed planets</list>
 			<mass>0.223</mass>
 			<period>330</period>
@@ -30,6 +34,11 @@
 			<temperature>219.9</temperature>
 		</planet>
 		<name>HD 137388</name>
+		<name>Gaia DR2 5778418870846853888</name>
+		<name>TYC 9437-1921-1</name>
+		<name>HIP 76351</name>
+		<name>Karaka</name>
 		<temperature>5240.0</temperature>
 	</star>
+	<constellation>Apus</constellation>
 </system>

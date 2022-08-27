@@ -1,0 +1,37 @@
+<system>
+	<name>EPIC 211089792</name>
+	<name>K2-29</name>
+	<rightascension>04 10 40.8826</rightascension>
+	<declination>+24 24 06.3018</declination>
+	<distance errorminus="1.3" errorplus="1.3">179.4</distance>
+	<star>
+		<name>EPIC 211089792</name>
+		<name>K2-29</name>
+		<name>2MASS J04104086+2424061</name>
+		<name>Gaia DR2 150054788545735424</name>
+		<name>TYC 1818-1428-1</name>
+		<magV errorminus="0.26" errorplus="0.26">12.56</magV>
+		<spectraltype>G7V</spectraltype>
+		<mass errorminus="0.02" errorplus="0.02">0.94</mass>
+		<radius errorminus="0.01" errorplus="0.01">0.86</radius>
+		<planet>
+			<name>K2-29 b</name>
+			<name>EPIC 211089792 b</name>
+			<semimajoraxis errorminus="0.00024" errorplus="0.00024">0.04217</semimajoraxis>
+			<periastron errorminus="21.0" errorplus="21.0">132.0</periastron>
+			<eccentricity errorminus="0.022" errorplus="0.022">0.066</eccentricity>
+			<longitude errorminus="8.7" errorplus="8.7">1.5</longitude>
+			<inclination errorminus="0.08" errorplus="0.11">86.656</inclination>
+			<period errorminus="0.000002" errorplus="0.000002">3.2588321</period>
+			<mass errorminus="0.04" errorplus="0.04">0.73</mass>
+			<radius errorminus="0.02" errorplus="0.02">1.19</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/06/13</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+	<constellation>Taurus</constellation>
+</system>

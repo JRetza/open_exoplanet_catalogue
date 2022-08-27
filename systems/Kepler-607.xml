@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-607</name>
-	<rightascension>19 24 14</rightascension>
-	<declination>+44 37 57</declination>
+	<name>KOI-577</name>
+	<name>KIC 8558011</name>
+	<distance errorminus="5.5264" errorplus="5.5264">526.981</distance>
+	<rightascension>19 24 13.7214</rightascension>
+	<declination>+44 37 56.5715</declination>
 	<star>
 		<name>Kepler-607</name>
+		<name>KOI-577</name>
+		<name>KIC 8558011</name>
+		<name>2MASS J19241372+4437565</name>
+		<name>Gaia DR2 2126248505058677120</name>
+		<magH errorminus="0.021" errorplus="0.021">12.498</magH>
+		<magJ errorminus="0.025" errorplus="0.025">12.965</magJ>
+		<magK errorminus="0.019" errorplus="0.019">12.426</magK>
 		<temperature errorminus="118.4" errorplus="94.5">5196.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.84</mass>
 		<radius errorminus="0.04" errorplus="0.05">0.80</radius>
 		<metallicity errorminus="0.16" errorplus="0.15">-0.02</metallicity>
 		<planet>
 			<name>Kepler-607 b</name>
+			<name>KOI-577 b</name>
+			<name>KOI-577.02</name>
+			<name>KIC 8558011 b</name>
+			<name>Gaia DR2 2126248505058677120 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000001680" errorplus="0.000001680">0.638163200</period>
 			<radius errorminus="0.006" errorplus="0.005">0.078</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

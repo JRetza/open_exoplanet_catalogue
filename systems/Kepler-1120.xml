@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1120</name>
-	<rightascension>19 23 39</rightascension>
-	<declination>+42 17 12</declination>
+	<name>KOI-2146</name>
+	<name>KIC 6774537</name>
+	<distance errorminus="9.0977" errorplus="9.0977">626.213</distance>
+	<rightascension>19 23 39.4797</rightascension>
+	<declination>+42 17 11.7312</declination>
 	<star>
 		<name>Kepler-1120</name>
+		<name>KOI-2146</name>
+		<name>KIC 6774537</name>
+		<name>2MASS J19233947+4217116</name>
+		<name>Gaia DR2 2101941434002832000</name>
 		<temperature errorminus="67.8" errorplus="70.0">4904.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.78</mass>
 		<radius errorminus="0.04" errorplus="0.03">0.74</radius>
 		<metallicity errorminus="0.16" errorplus="0.15">-0.04</metallicity>
 		<planet>
 			<name>Kepler-1120 b</name>
+			<name>KOI-2146 b</name>
+			<name>KOI-2146.01</name>
+			<name>KIC 6774537 b</name>
+			<name>Gaia DR2 2101941434002832000 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000007470" errorplus="0.000007470">2.949029050</period>
 			<radius errorminus="0.006" errorplus="0.008">0.123</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

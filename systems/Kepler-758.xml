@@ -1,60 +1,83 @@
 <system>
 	<name>Kepler-758</name>
-	<rightascension>19 32 20</rightascension>
-	<declination>+41 08 08</declination>
+	<name>KOI-1060</name>
+	<name>KIC 5880320</name>
+	<distance errorminus="47.2879" errorplus="47.2879">1569.37</distance>
+	<rightascension>19 32 20.3083</rightascension>
+	<declination>+41 08 07.5611</declination>
 	<star>
 		<name>Kepler-758</name>
+		<name>KOI-1060</name>
+		<name>KIC 5880320</name>
+		<name>2MASS J19322030+4108075</name>
+		<name>Gaia DR2 2053552270863859712</name>
+		<magH errorminus="0.025" errorplus="0.025">13.146</magH>
+		<magJ errorminus="0.023" errorplus="0.023">13.370</magJ>
+		<magK errorminus="0.035" errorplus="0.035">13.110</magK>
 		<temperature errorminus="60.6" errorplus="72.2">6228.0</temperature>
 		<mass errorminus="0.08" errorplus="0.12">1.16</mass>
 		<radius errorminus="0.23" errorplus="0.31">1.42</radius>
 		<metallicity errorminus="0.13" errorplus="0.12">-0.10</metallicity>
 		<planet>
 			<name>Kepler-758 b</name>
+			<name>KOI-1060 b</name>
+			<name>KOI-1060.01</name>
+			<name>KIC 5880320 b</name>
+			<name>Gaia DR2 2053552270863859712 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000071420" errorplus="0.000071420">12.109710400</period>
 			<radius errorminus="0.036" errorplus="0.049">0.221</radius>
 		</planet>
 		<planet>
 			<name>Kepler-758 c</name>
+			<name>KOI-1060 c</name>
+			<name>KOI-1060.02</name>
+			<name>KIC 5880320 c</name>
+			<name>Gaia DR2 2053552270863859712 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000038460" errorplus="0.000038460">4.757939860</period>
 			<radius errorminus="0.026" errorplus="0.033">0.151</radius>
 		</planet>
 		<planet>
 			<name>Kepler-758 d</name>
+			<name>KOI-1060 d</name>
+			<name>KOI-1060.03</name>
+			<name>KIC 5880320 d</name>
+			<name>Gaia DR2 2053552270863859712 d</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000228200" errorplus="0.000228200">20.496619700</period>
 			<radius errorminus="0.029" errorplus="0.042">0.189</radius>
 		</planet>
 		<planet>
 			<name>Kepler-758 e</name>
+			<name>KOI-1060 e</name>
+			<name>KOI-1060.04</name>
+			<name>KIC 5880320 e</name>
+			<name>Gaia DR2 2053552270863859712 e</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000103600" errorplus="0.000103600">8.193471900</period>
 			<radius errorminus="0.022" errorplus="0.029">0.136</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

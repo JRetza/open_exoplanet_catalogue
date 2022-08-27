@@ -1,7 +1,7 @@
 <system>
 	<name>KELT-3</name>
 	<rightascension>09 54 34.3880</rightascension>
-	<declination>+40 23 16.981</declination>
+	<declination>+40 23 16.9789</declination>
 	<distance>178</distance>
 	<star>
 		<name>KELT-3</name>
@@ -11,6 +11,7 @@
 		<name>GSC 02996-00683</name>
 		<name>SAO 43097</name>
 		<name>PPM 51568</name>
+		<name>Gaia DR2 806492019492266752</name>
 		<mass>1.282</mass>
 		<radius>1.482</radius>
 		<metallicity>0.047</metallicity>
@@ -29,6 +30,7 @@
 			<name>GSC 02996-00683 b</name>
 			<name>SAO 43097 b</name>
 			<name>PPM 51568 b</name>
+			<name>Gaia DR2 806492019492266752 b</name>
 			<list>Confirmed planets</list>
 			<mass>1.462</mass>
 			<radius>1.358</radius>
@@ -44,4 +46,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Leo Minor</constellation>
 </system>

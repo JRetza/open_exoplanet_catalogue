@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-465</name>
-	<rightascension>18 58 13</rightascension>
-	<declination>+46 03 50</declination>
+	<name>KOI-110</name>
+	<name>KIC 9450647</name>
+	<distance errorminus="7.0745" errorplus="7.0745">561.987</distance>
+	<rightascension>18 58 13.3773</rightascension>
+	<declination>+46 03 49.8232</declination>
 	<star>
 		<name>Kepler-465</name>
+		<name>KOI-110</name>
+		<name>KIC 9450647</name>
+		<name>2MASS J18581337+4603497</name>
+		<name>Gaia DR2 2107236613280607104</name>
+		<magH errorminus="0.019" errorplus="0.019">11.516</magH>
+		<magJ errorminus="0.021" errorplus="0.021">11.735</magJ>
+		<magK errorminus="0.017" errorplus="0.017">11.456</magK>
 		<temperature errorminus="60.4" errorplus="63.4">6310.0</temperature>
 		<mass errorminus="0.03" errorplus="0.04">1.23</mass>
 		<radius errorminus="0.07" errorplus="0.11">1.29</radius>
 		<metallicity errorminus="0.08" errorplus="0.08">0.09</metallicity>
 		<planet>
 			<name>Kepler-465 b</name>
+			<name>KOI-110 b</name>
+			<name>KOI-110.01</name>
+			<name>KIC 9450647 b</name>
+			<name>Gaia DR2 2107236613280607104 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000006550" errorplus="0.000006550">9.940672470</period>
 			<radius errorminus="0.014" errorplus="0.022">0.263</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

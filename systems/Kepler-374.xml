@@ -2,8 +2,8 @@
 	<name>Kepler-374</name>
 	<name>KOI-2220</name>
 	<name>KIC 6871071</name>
-	<rightascension>19 36 33</rightascension>
-	<declination>+42 22 13</declination>
+	<rightascension>19 36 33.1029</rightascension>
+	<declination>+42 22 13.7215</declination>
 	<distance>950.89</distance>
 	<star>
 		<magJ errorminus="0.021" errorplus="0.021">13.503</magJ>
@@ -12,6 +12,8 @@
 		<name>Kepler-374</name>
 		<name>KOI-2220</name>
 		<name>KIC 6871071</name>
+		<name>2MASS J19363310+4222138</name>
+		<name>Gaia DR2 2077745168807120128</name>
 		<temperature errorminus="200" errorplus="200">5977</temperature>
 		<radius errorminus=".474" errorplus="0.474">0.911</radius>
 		<mass errorminus="0.1100" errorplus="0.1100">1.0300</mass>
@@ -21,6 +23,7 @@
 			<name>KOI-2220.01</name>
 			<name>KIC 6871071 c</name>
 			<name>KIC 6871071.01</name>
+			<name>Gaia DR2 2077745168807120128 c</name>
 			<radius errorminus="0.05194" errorplus="0.05194">0.10024</radius>
 			<period errorminus=".000020" errorplus="0.000020">3.282807</period>
 			<transittime errorminus="0.0037500" errorplus="0.0037500">2454964.8997200</transittime>
@@ -37,6 +40,7 @@
 			<name>KOI-2220.02</name>
 			<name>KIC 6871071 d</name>
 			<name>KIC 6871071.02</name>
+			<name>Gaia DR2 2077745168807120128 d</name>
 			<radius errorminus="0.06379" errorplus="0.06379">0.11938</radius>
 			<period errorminus=".000040" errorplus="0.000040">5.028219</period>
 			<transittime errorminus="0.0044700" errorplus="0.0044700">2454967.1074100</transittime>
@@ -53,6 +57,7 @@
 			<name>KOI-2220.03</name>
 			<name>KIC 6871071 b</name>
 			<name>KIC 6871071.03</name>
+			<name>Gaia DR2 2077745168807120128 b</name>
 			<radius errorminus="0.04921" errorplus="0.04921">0.09386</radius>
 			<period errorminus=".000011" errorplus="0.000011">1.897806</period>
 			<transittime errorminus="0.0040700" errorplus="0.0040700">2454965.6785400</transittime>
@@ -64,4 +69,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

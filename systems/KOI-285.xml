@@ -1,13 +1,17 @@
 <system>
 	<name>KOI-285</name>
 	<name>Kepler-92</name>
-	<rightascension>19 16 21</rightascension>
-	<declination>+41 33 47</declination>
+	<name>KIC 6196457</name>
+	<rightascension>19 16 20.6547</rightascension>
+	<declination>+41 33 46.6526</declination>
 	<distance>367.56</distance>
 	<star>
 		<name>KOI-285</name>
 		<name>Kepler-92</name>
 		<name>KIC 6196457</name>
+		<name>2MASS J19162065+4133465</name>
+		<name>Gaia DR2 2102224661326132864</name>
+		<name>TYC 3129-2750-1</name>
 		<mass errorminus="0.030" errorplus="0.020">1.209</mass>
 		<radius errorminus="0.013" errorplus="0.011">1.719</radius>
 		<magB errorminus="0.23" errorplus="0.23">12.50</magB>
@@ -22,6 +26,8 @@
 			<name>KOI-285.01</name>
 			<name>Kepler-92 b</name>
 			<name>KIC 6196457 b</name>
+			<name>Gaia DR2 2102224661326132864 b</name>
+			<name>TYC 3129-2750-1 b</name>
 			<list>Confirmed planets</list>
 			<mass upperlimit="0.162" />
 			<radius errorminus="0.012" errorplus="0.012">0.326</radius>
@@ -41,6 +47,8 @@
 			<name>KOI-285.02</name>
 			<name>Kepler-92 c</name>
 			<name>KIC 6196457 c</name>
+			<name>Gaia DR2 2102224661326132864 c</name>
+			<name>TYC 3129-2750-1 c</name>
 			<list>Confirmed planets</list>
 			<mass upperlimit="0.0890" />
 			<radius errorminus="0.0047" errorplus="0.0047">0.2190</radius>
@@ -60,6 +68,8 @@
 			<name>KOI-285.03</name>
 			<name>Kepler-92 d</name>
 			<name>KIC 6196457 d</name>
+			<name>Gaia DR2 2102224661326132864 d</name>
+			<name>TYC 3129-2750-1 d</name>
 			<radius errorminus="0.0050" errorplus="0.0050">0.1844</radius>
 			<period errorminus="0.0024" errorplus="0.0024">49.3568</period>
 			<eccentricity errorminus="0.04" errorplus="0.34">0.07</eccentricity>
@@ -74,4 +84,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

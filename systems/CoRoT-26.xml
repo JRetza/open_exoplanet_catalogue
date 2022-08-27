@@ -1,11 +1,12 @@
 <system>
 	<name>CoRoT-26</name>
-	<rightascension>18 39 00.13</rightascension>
-	<declination>+06 58 11.71</declination>
+	<rightascension>18 39 00.1185</rightascension>
+	<declination>+06 58 11.3304</declination>
 	<distance errorminus="110" errorplus="205">1670</distance>
 	<star>
 		<name>CoRoT-26</name>
 		<name>2MASS J18390012+0658112</name>
+		<name>Gaia DR2 4286437357841760000</name>
 		<magB errorminus="0.131" errorplus="0.131">16.839</magB>
 		<magV errorminus="0.06" errorplus="0.06">15.756</magV>
 		<magR errorminus="0.17" errorplus="0.17">15.64</magR>
@@ -19,6 +20,7 @@
 		<spectraltype>G5</spectraltype>
 		<planet>
 			<name>CoRoT-26 b</name>
+			<name>Gaia DR2 4286437357841760000 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.05" errorplus="0.05">0.52</mass>
 			<radius errorminus="0.07" errorplus="0.13">1.26</radius>
@@ -33,4 +35,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Ophiucus</constellation>
 </system>

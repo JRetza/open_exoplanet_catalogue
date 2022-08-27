@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1405</name>
-	<rightascension>19 42 44</rightascension>
-	<declination>+39 15 22</declination>
+	<name>KOI-2998</name>
+	<name>KIC 4175630</name>
+	<distance errorminus="88.068" errorplus="88.068">1595.41</distance>
+	<rightascension>19 42 44.3671</rightascension>
+	<declination>+39 15 22.0810</declination>
 	<star>
 		<name>Kepler-1405</name>
+		<name>KOI-2998</name>
+		<name>KIC 4175630</name>
+		<name>2MASS J19424436+3915221</name>
+		<name>Gaia DR2 2076198190312168576</name>
+		<magH errorminus="0.044" errorplus="0.044">14.212</magH>
+		<magJ errorminus="0.028" errorplus="0.028">14.583</magJ>
+		<magK errorminus="0.072" errorplus="0.072">14.237</magK>
 		<temperature errorminus="211.2" errorplus="156.8">5925.0</temperature>
 		<mass errorminus="0.08" errorplus="0.08">1.05</mass>
 		<radius errorminus="0.12" errorplus="0.23">1.07</radius>
 		<metallicity errorminus="0.15" errorplus="0.14">0.03</metallicity>
 		<planet>
 			<name>Kepler-1405 b</name>
+			<name>KOI-2998 b</name>
+			<name>KOI-2998.01</name>
+			<name>KIC 4175630 b</name>
+			<name>Gaia DR2 2076198190312168576 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000139200" errorplus="0.000139200">28.227418400</period>
 			<radius errorminus="0.040" errorplus="0.079">0.353</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

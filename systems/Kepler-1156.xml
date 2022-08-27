@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1156</name>
-	<rightascension>19 15 42</rightascension>
-	<declination>+46 03 27</declination>
+	<name>KOI-2246</name>
+	<name>KIC 9458343</name>
+	<distance errorminus="7.4631" errorplus="7.4631">705.368</distance>
+	<rightascension>19 15 41.7727</rightascension>
+	<declination>+46 03 27.4450</declination>
 	<star>
 		<name>Kepler-1156</name>
+		<name>KOI-2246</name>
+		<name>KIC 9458343</name>
+		<name>2MASS J19154176+4603274</name>
+		<name>Gaia DR2 2127359737653864832</name>
 		<temperature errorminus="59.0" errorplus="67.4">5778.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">1.00</mass>
 		<radius errorminus="0.06" errorplus="0.09">1.00</radius>
 		<metallicity errorminus="0.10" errorplus="0.10">0.02</metallicity>
 		<planet>
 			<name>Kepler-1156 b</name>
+			<name>KOI-2246 b</name>
+			<name>KOI-2246.01</name>
+			<name>KIC 9458343 b</name>
+			<name>Gaia DR2 2127359737653864832 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000064990" errorplus="0.000064990">11.895205110</period>
 			<radius errorminus="0.008" errorplus="0.012">0.118</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

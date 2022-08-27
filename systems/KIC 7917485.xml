@@ -1,0 +1,33 @@
+<system>
+	<name>KIC 7917485</name>
+	<name>Kepler-1648</name>
+	<distance errorminus="40.1867" errorplus="40.1867">1439.2631</distance>
+	<rightascension>19 57 44.3028</rightascension>
+	<declination>+43 37 57.4786</declination>
+	<star>
+		<name>KIC 7917485</name>
+		<name>Kepler-1648</name>
+		<name>2MASS J19574430+4337574</name>
+		<name>Gaia DR2 2075978592919858432</name>
+		<mass>1.63</mass>
+		<spectraltype>A</spectraltype>
+		<temperature>7067.0</temperature>
+		<metallicity>-0.02</metallicity>
+		<planet>
+			<name>KIC 7917485 b</name>
+			<name>Kepler-1648 b</name>
+			<name>Gaia DR2 2075978592919858432 b</name>
+			<semimajoraxis errorminus="0.22" errorplus="0.27">2.03</semimajoraxis>
+			<eccentricity errorminus="0.1" errorplus="0.13">0.15</eccentricity>
+			<period errorminus="20.000000" errorplus="22.000000">840.0</period>
+			<mass errorminus="0.6" errorplus="0.8">11.8</mass>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/08/11</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

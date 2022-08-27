@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1267</name>
-	<rightascension>19 56 41</rightascension>
-	<declination>+43 26 28</declination>
+	<name>KOI-2523</name>
+	<name>KIC 7778767</name>
+	<distance errorminus="63.0849" errorplus="63.0849">1433.49</distance>
+	<rightascension>19 56 40.6882</rightascension>
+	<declination>+43 26 27.9362</declination>
 	<star>
 		<name>Kepler-1267</name>
+		<name>KOI-2523</name>
+		<name>KIC 7778767</name>
+		<name>2MASS J19564068+4326279</name>
+		<name>Gaia DR2 2075971312960643712</name>
+		<magH errorminus="0.041" errorplus="0.041">14.092</magH>
+		<magJ errorminus="0.032" errorplus="0.032">14.411</magJ>
+		<magK errorminus="0.039" errorplus="0.039">13.937</magK>
 		<temperature errorminus="215.9" errorplus="119.7">6096.0</temperature>
 		<mass errorminus="0.11" errorplus="0.11">1.15</mass>
 		<radius errorminus="0.17" errorplus="0.37">1.20</radius>
 		<metallicity errorminus="0.14" errorplus="0.15">0.07</metallicity>
 		<planet>
 			<name>Kepler-1267 b</name>
+			<name>KOI-2523 b</name>
+			<name>KOI-2523.01</name>
+			<name>KIC 7778767 b</name>
+			<name>Gaia DR2 2075971312960643712 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000110400" errorplus="0.000110400">13.031394500</period>
 			<radius errorminus="0.040" errorplus="0.085">0.269</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1110</name>
-	<rightascension>19 27 14</rightascension>
-	<declination>+38 37 22</declination>
+	<name>KOI-2126</name>
+	<name>KIC 3546060</name>
+	<distance errorminus="17.6104" errorplus="17.6104">741.84</distance>
+	<rightascension>19 27 13.9276</rightascension>
+	<declination>+38 37 21.7748</declination>
 	<star>
 		<name>Kepler-1110</name>
+		<name>KOI-2126</name>
+		<name>KIC 3546060</name>
+		<name>2MASS J19271392+3837217</name>
+		<name>Gaia DR2 2052691044021500032</name>
+		<magH errorminus="0.036" errorplus="0.036">13.748</magH>
+		<magJ errorminus="0.035" errorplus="0.035">14.319</magJ>
+		<magK errorminus="0.044" errorplus="0.044">13.604</magK>
 		<temperature errorminus="77.5" errorplus="88.0">4781.0</temperature>
 		<mass errorminus="0.05" errorplus="0.05">0.73</mass>
 		<radius errorminus="0.05" errorplus="0.04">0.70</radius>
 		<metallicity errorminus="0.19" errorplus="0.18">-0.16</metallicity>
 		<planet>
 			<name>Kepler-1110 b</name>
+			<name>KOI-2126 b</name>
+			<name>KOI-2126.01</name>
+			<name>KIC 3546060 b</name>
+			<name>Gaia DR2 2052691044021500032 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000030240" errorplus="0.000030240">9.693120320</period>
 			<radius errorminus="0.023" errorplus="0.034">0.237</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

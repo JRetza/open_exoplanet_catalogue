@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1067</name>
-	<rightascension>19 01 33</rightascension>
-	<declination>+45 02 57</declination>
+	<name>KOI-2039</name>
+	<name>KIC 8804845</name>
+	<distance errorminus="8.4802" errorplus="8.4802">680.735</distance>
+	<rightascension>19 01 32.9789</rightascension>
+	<declination>+45 02 56.5853</declination>
 	<star>
 		<name>Kepler-1067</name>
+		<name>KOI-2039</name>
+		<name>KIC 8804845</name>
+		<name>2MASS J19013297+4502565</name>
+		<name>Gaia DR2 2106374557504930944</name>
+		<magH errorminus="0.036" errorplus="0.036">12.778</magH>
+		<magJ errorminus="0.027" errorplus="0.027">13.105</magJ>
+		<magK errorminus="0.03" errorplus="0.03">12.66</magK>
 		<temperature errorminus="65.9" errorplus="63.0">5592.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.95</mass>
 		<radius errorminus="0.06" errorplus="0.16">0.93</radius>
 		<metallicity errorminus="0.17" errorplus="0.13">0.03</metallicity>
 		<planet>
 			<name>Kepler-1067 b</name>
+			<name>KOI-2039 b</name>
+			<name>KOI-2039.02</name>
+			<name>KIC 8804845 b</name>
+			<name>Gaia DR2 2106374557504930944 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000002730" errorplus="0.000002730">0.762129260</period>
 			<radius errorminus="0.005" errorplus="0.011">0.071</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

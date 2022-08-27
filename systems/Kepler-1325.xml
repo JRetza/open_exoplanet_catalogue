@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1325</name>
-	<rightascension>19 00 04</rightascension>
-	<declination>+42 05 07</declination>
+	<name>KOI-2721</name>
+	<name>KIC 6587105</name>
+	<distance errorminus="22.6543" errorplus="22.6543">1001.2</distance>
+	<rightascension>19 00 04.1324</rightascension>
+	<declination>+42 05 07.2880</declination>
 	<star>
 		<name>Kepler-1325</name>
+		<name>KOI-2721</name>
+		<name>KIC 6587105</name>
+		<name>2MASS J19000413+4205073</name>
+		<name>Gaia DR2 2104094209049086976</name>
 		<temperature errorminus="93.2" errorplus="82.4">5550.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.93</mass>
 		<radius errorminus="0.06" errorplus="0.13">0.91</radius>
 		<metallicity errorminus="0.18" errorplus="0.13">0.01</metallicity>
 		<planet>
 			<name>Kepler-1325 b</name>
+			<name>KOI-2721 b</name>
+			<name>KOI-2721.01</name>
+			<name>KIC 6587105 b</name>
+			<name>Gaia DR2 2104094209049086976 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000233400" errorplus="0.000233400">33.878683800</period>
 			<radius errorminus="0.042" errorplus="0.036">0.255</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

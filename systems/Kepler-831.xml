@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-831</name>
-	<rightascension>19 39 57</rightascension>
-	<declination>+42 43 40</declination>
+	<name>KOI-1379</name>
+	<name>KIC 7211221</name>
+	<distance errorminus="5.6521" errorplus="5.6521">603.865</distance>
+	<rightascension>19 39 56.5153</rightascension>
+	<declination>+42 43 39.6184</declination>
 	<star>
 		<name>Kepler-831</name>
+		<name>KOI-1379</name>
+		<name>KIC 7211221</name>
+		<name>2MASS J19395651+4243396</name>
+		<name>Gaia DR2 2077954866292643840</name>
+		<magH errorminus="0.021" errorplus="0.021">12.227</magH>
+		<magJ errorminus="0.022" errorplus="0.022">12.539</magJ>
+		<magK errorminus="0.019" errorplus="0.019">12.159</magK>
 		<temperature errorminus="59.7" errorplus="74.5">5732.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.99</mass>
 		<radius errorminus="0.05" errorplus="0.07">0.97</radius>
 		<metallicity errorminus="0.10" errorplus="0.09">0.02</metallicity>
 		<planet>
 			<name>Kepler-831 b</name>
+			<name>KOI-1379 b</name>
+			<name>KOI-1379.01</name>
+			<name>KIC 7211221 b</name>
+			<name>Gaia DR2 2077954866292643840 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000012720" errorplus="0.000012720">5.621539410</period>
 			<radius errorminus="0.006" errorplus="0.009">0.113</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,60 +1,83 @@
 <system>
 	<name>Kepler-1388</name>
-	<rightascension>18 53 21</rightascension>
-	<declination>+47 10 28</declination>
+	<name>KOI-2926</name>
+	<name>KIC 10122538</name>
+	<distance errorminus="7.6276" errorplus="7.6276">459.664</distance>
+	<rightascension>18 53 20.6548</rightascension>
+	<declination>+47 10 28.2564</declination>
 	<star>
 		<name>Kepler-1388</name>
+		<name>KOI-2926</name>
+		<name>KIC 10122538</name>
+		<name>2MASS J18532065+4710283</name>
+		<name>Gaia DR2 2107617246162706048</name>
+		<magH errorminus="0.031" errorplus="0.031">13.516</magH>
+		<magJ errorminus="0.030" errorplus="0.030">14.222</magJ>
+		<magK errorminus="0.042" errorplus="0.042">13.343</magK>
 		<temperature errorminus="51.9" errorplus="48.2">4098.0</temperature>
 		<mass errorminus="0.03" errorplus="0.02">0.63</mass>
 		<radius errorminus="0.03" errorplus="0.02">0.61</radius>
 		<metallicity errorminus="0.11" errorplus="0.11">0.02</metallicity>
 		<planet>
 			<name>Kepler-1388 b</name>
+			<name>KOI-2926 b</name>
+			<name>KOI-2926.01</name>
+			<name>KIC 10122538 b</name>
+			<name>Gaia DR2 2107617246162706048 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000087950" errorplus="0.000087950">12.285460300</period>
 			<radius errorminus="0.012" errorplus="0.012">0.231</radius>
 		</planet>
 		<planet>
 			<name>Kepler-1388 c</name>
+			<name>KOI-2926 c</name>
+			<name>KOI-2926.02</name>
+			<name>KIC 10122538 c</name>
+			<name>Gaia DR2 2107617246162706048 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000028800" errorplus="0.000028800">5.536081510</period>
 			<radius errorminus="0.010" errorplus="0.012">0.202</radius>
 		</planet>
 		<planet>
 			<name>Kepler-1388 d</name>
+			<name>KOI-2926 d</name>
+			<name>KOI-2926.03</name>
+			<name>KIC 10122538 d</name>
+			<name>Gaia DR2 2107617246162706048 d</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000171300" errorplus="0.000171300">20.956815800</period>
 			<radius errorminus="0.017" errorplus="0.011">0.255</radius>
 		</planet>
 		<planet>
 			<name>Kepler-1388 e</name>
+			<name>KOI-2926 e</name>
+			<name>KOI-2926.04</name>
+			<name>KIC 10122538 e</name>
+			<name>Gaia DR2 2107617246162706048 e</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000726900" errorplus="0.000726900">37.632708400</period>
 			<radius errorminus="0.013" errorplus="0.012">0.219</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

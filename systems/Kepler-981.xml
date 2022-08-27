@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-981</name>
-	<rightascension>19 16 59.7</rightascension>
-	<declination>+47 39 00</declination>
+	<name>KOI-1851</name>
+	<name>KIC 10464050</name>
+	<distance errorminus="14.85" errorplus="14.85">900.82</distance>
+	<rightascension>19 16 59.7366</rightascension>
+	<declination>+47 39 00.3542</declination>
 	<star>
 		<name>Kepler-981</name>
+		<name>KOI-1851</name>
+		<name>KIC 10464050</name>
+		<name>2MASS J19165973+4739003</name>
+		<name>Gaia DR2 2127914132032810112</name>
+		<magH errorminus="0.018" errorplus="0.018">13.272</magH>
+		<magJ errorminus="0.023" errorplus="0.023">13.574</magJ>
+		<magK errorminus="0.027" errorplus="0.027">13.169</magK>
 		<temperature errorminus="82.9" errorplus="78.2">5718.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.98</mass>
 		<radius errorminus="0.07" errorplus="0.12">0.96</radius>
 		<metallicity errorminus="0.18" errorplus="0.15">0.01</metallicity>
 		<planet>
 			<name>Kepler-981 b</name>
+			<name>KOI-1851 b</name>
+			<name>KOI-1851.01</name>
+			<name>KIC 10464050 b</name>
+			<name>Gaia DR2 2127914132032810112 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000005860" errorplus="0.000005860">4.469757740</period>
 			<radius errorminus="0.016" errorplus="0.027">0.206</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

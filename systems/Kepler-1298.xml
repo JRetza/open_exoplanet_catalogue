@@ -1,24 +1,42 @@
 <system>
 	<name>Kepler-1298</name>
-	<rightascension>18 57 41</rightascension>
-	<declination>+49 06 22</declination>
+	<name>KOI-2632</name>
+	<name>KIC 11337566</name>
+	<distance errorminus="6.9053" errorplus="6.9053">552.761</distance>
+	<rightascension>18 57 41.4593</rightascension>
+	<declination>+49 06 22.3869</declination>
 	<star>
 		<name>Kepler-1298</name>
+		<name>KOI-2632</name>
+		<name>KIC 11337566</name>
+		<name>2MASS J18574145+4906224</name>
+		<name>Gaia DR2 2132178725317511936</name>
+		<name>TYC 3549-2022-1</name>
+		<magB errorminus="0.20" errorplus="0.20">12.22</magB>
+		<magH errorminus="0.032" errorplus="0.032">10.214</magH>
+		<magJ errorminus="0.026" errorplus="0.026">10.415</magJ>
+		<magK errorminus="0.018" errorplus="0.018">10.149</magK>
+		<magV errorminus="0.11" errorplus="0.11">11.39</magV>
 		<temperature errorminus="65.9" errorplus="64.1">6339.0</temperature>
 		<mass errorminus="0.11" errorplus="0.12">1.45</mass>
 		<radius errorminus="0.35" errorplus="0.34">2.00</radius>
 		<metallicity errorminus="0.08" errorplus="0.09">0.13</metallicity>
 		<planet>
 			<name>Kepler-1298 b</name>
+			<name>KOI-2632 b</name>
+			<name>KOI-2632.01</name>
+			<name>KIC 11337566 b</name>
+			<name>Gaia DR2 2132178725317511936 b</name>
+			<name>TYC 3549-2022-1 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000048630" errorplus="0.000048630">7.128119280</period>
 			<radius errorminus="0.021" errorplus="0.021">0.117</radius>
 		</planet>
 	</star>
+	<constellation>Draco</constellation>
 </system>

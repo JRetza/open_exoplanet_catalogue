@@ -1,13 +1,14 @@
 <system>
 	<name>WASP-41</name>
-	<rightascension>12 42 28.497</rightascension>
-	<declination>-30 38 23.55</declination>
+	<rightascension>12 42 28.4949</rightascension>
+	<declination>-30 38 23.5276</declination>
 	<distance errorminus="60" errorplus="60">180</distance>
 	<star>
 		<name>WASP-41</name>
 		<name>TYC 7247-587-1</name>
 		<name>2MASS J12422849-3038235</name>
 		<name>1SWASP J124228.50-303823.5</name>
+		<name>Gaia DR2 6160877943251930368</name>
 		<mass errorminus="0.07" errorplus="0.07">0.93</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.87</radius>
 		<magB errorminus="0.18" errorplus="0.18">12.36</magB>
@@ -24,6 +25,7 @@
 			<name>WASP-41 b</name>
 			<name>TYC 7247-587-1 b</name>
 			<name>2MASS J12422849-3038235 b</name>
+			<name>Gaia DR2 6160877943251930368 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.05" errorplus="0.05">0.94</mass>
 			<radius errorminus="0.03" errorplus="0.03">1.18</radius>
@@ -42,6 +44,7 @@
 			<name>WASP-41 c</name>
 			<name>TYC 7247-587-1 c</name>
 			<name>2MASS J12422849-3038235 c</name>
+			<name>Gaia DR2 6160877943251930368 c</name>
 			<list>Confirmed planets</list>
 			<period errorminus="2" errorplus="2">421</period>
 			<transittime errorminus="3" errorplus="3" unit="BJD">2456011</transittime>
@@ -55,4 +58,5 @@
 			<istransiting>0</istransiting>
 		</planet>
 	</star>
+	<constellation>Centaurus</constellation>
 </system>

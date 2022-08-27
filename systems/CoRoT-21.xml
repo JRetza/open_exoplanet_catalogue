@@ -1,7 +1,8 @@
 <system>
 	<name>CoRoT-21</name>
-	<rightascension>06 44 12.64</rightascension>
-	<declination>-00 17 57.06</declination>
+	<rightascension>06 44 12.6302</rightascension>
+	<declination>-00 17 56.9870</declination>
+	<distance errorminus="237.8" errorplus="237.8">1398.8</distance>
 	<star>
 		<mass>1.29</mass>
 		<radius>1.945</radius>
@@ -15,6 +16,7 @@
 		<spectraltype>FIV8</spectraltype>
 		<planet>
 			<name>CoRoT-21 b</name>
+			<name>Gaia DR2 3107471240236703104 b</name>
 			<list>Confirmed planets</list>
 			<mass>2.26</mass>
 			<radius>1.3</radius>
@@ -30,6 +32,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>CoRoT-21</name>
+		<name>Gaia DR2 3107471240236703104</name>
 		<temperature>6200.0</temperature>
 	</star>
+	<constellation>Monoceros</constellation>
 </system>

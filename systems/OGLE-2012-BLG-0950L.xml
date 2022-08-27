@@ -1,0 +1,22 @@
+<system>
+	<name>OGLE-2012-BLG-0950L</name>
+	<rightascension>18 08 04.62</rightascension>
+	<declination>-29 43 53.7</declination>
+	<distance errorminus="1100" errorplus="800">3000</distance>
+	<star>
+		<name>OGLE-2012-BLG-0950L</name>
+		<mass errorminus="0.16" errorplus="0.12">0.56</mass>
+		<magH errorminus="0.10" errorplus="0.10">17.52</magH>
+		<planet>
+			<name>OGLE-2012-BLG-0950L b</name>
+			<separation errorminus="0.7" errorplus="0.6">2.7</separation>
+			<mass errorminus="0.028" errorplus="0.053">0.11</mass>
+			<discoverymethod>microlensing</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>18/09/20</lastupdate>
+			<list>Confirmed planets</list>
+			<description>OGLE-2012-BLG-0950Lb was the first planet with a mass measurement from only microlens parallax and lens flux.</description>
+		</planet>
+	</star>
+	<constellation>Sagittarius</constellation>
+</system>

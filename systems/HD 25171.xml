@@ -1,7 +1,7 @@
 <system>
 	<name>HD 25171</name>
-	<rightascension>03 55 49</rightascension>
-	<declination>-65 11 12</declination>
+	<rightascension>03 55 49.4402</rightascension>
+	<declination>-65 11 12.0291</declination>
 	<distance>55</distance>
 	<star>
 		<mass>1.09</mass>
@@ -17,6 +17,9 @@
 		<spectraltype>F8V</spectraltype>
 		<planet>
 			<name>HD 25171 b</name>
+			<name>TYC 8874-376-1 b</name>
+			<name>HIP 18387 b</name>
+			<name>Gaia DR2 4670023700215616768 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.95</mass>
 			<period>1845</period>
@@ -28,6 +31,10 @@
 			<temperature>169.7</temperature>
 		</planet>
 		<name>HD 25171</name>
+		<name>TYC 8874-376-1</name>
+		<name>HIP 18387</name>
+		<name>Gaia DR2 4670023700215616768</name>
 		<temperature>6160.0</temperature>
 	</star>
+	<constellation>Reticulum</constellation>
 </system>

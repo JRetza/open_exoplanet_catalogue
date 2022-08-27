@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1516</name>
-	<rightascension>19 25 59</rightascension>
-	<declination>+44 31 25</declination>
+	<name>KOI-3685</name>
+	<name>KIC 8494410</name>
+	<distance errorminus="45.5751" errorplus="45.5751">1413.83</distance>
+	<rightascension>19 25 58.7039</rightascension>
+	<declination>+44 31 24.5631</declination>
 	<star>
 		<name>Kepler-1516</name>
+		<name>KOI-3685</name>
+		<name>KIC 8494410</name>
+		<name>2MASS J19255870+4431246</name>
+		<name>Gaia DR2 2126237857838346368</name>
+		<magH errorminus="0.017" errorplus="0.017">12.947</magH>
+		<magJ errorminus="0.019" errorplus="0.019">13.233</magJ>
+		<magK errorminus="0.021" errorplus="0.021">12.815</magK>
 		<temperature errorminus="142.2" errorplus="92.1">5904.0</temperature>
 		<mass errorminus="0.06" errorplus="0.07">1.04</mass>
 		<radius errorminus="0.12" errorplus="0.23">1.07</radius>
 		<metallicity errorminus="0.17" errorplus="0.16">0.03</metallicity>
 		<planet>
 			<name>Kepler-1516 b</name>
+			<name>KOI-3685 b</name>
+			<name>KOI-3685.02</name>
+			<name>KIC 8494410 b</name>
+			<name>Gaia DR2 2126237857838346368 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000036120" errorplus="0.000036120">7.259319790</period>
 			<radius errorminus="0.017" errorplus="0.044">0.156</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

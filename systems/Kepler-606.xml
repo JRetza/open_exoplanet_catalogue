@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-606</name>
-	<rightascension>19 29 43</rightascension>
-	<declination>+44 22 53</declination>
+	<name>KOI-575</name>
+	<name>KIC 8367113</name>
+	<distance errorminus="41.0103" errorplus="41.0103">1258.34</distance>
+	<rightascension>19 29 42.5711</rightascension>
+	<declination>+44 22 52.6263</declination>
 	<star>
 		<name>Kepler-606</name>
+		<name>KOI-575</name>
+		<name>KIC 8367113</name>
+		<name>2MASS J19294257+4422525</name>
+		<name>Gaia DR2 2126360831342941696</name>
+		<magH errorminus="0.022" errorplus="0.022">13.280</magH>
+		<magJ errorminus="0.024" errorplus="0.024">13.583</magJ>
+		<magK errorminus="0.036" errorplus="0.036">13.202</magK>
 		<temperature errorminus="227.6" errorplus="194.8">6161.0</temperature>
 		<mass errorminus="0.10" errorplus="0.17">1.13</mass>
 		<radius errorminus="0.18" errorplus="0.45">1.22</radius>
 		<metallicity errorminus="0.17" errorplus="0.13">0.01</metallicity>
 		<planet>
 			<name>Kepler-606 b</name>
+			<name>KOI-575 b</name>
+			<name>KOI-575.01</name>
+			<name>KIC 8367113 b</name>
+			<name>Gaia DR2 2126360831342941696 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000079980" errorplus="0.000079980">24.315759920</period>
 			<radius errorminus="0.045" errorplus="0.113">0.295</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

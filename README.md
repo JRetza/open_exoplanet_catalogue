@@ -3,8 +3,7 @@ Open Exoplanet Catalogue
 
 Status update
 --------------
-As you might have notices the Open Exoplanet Catalogue has been in a a dorment state for a few months, recieving only few updates. This is mainly due to a lack of contributors. In the fall, we plan to have about 100 undegraduates in computer science work on the OEC. Their main goal will be to implement an automated way to gather data from various sources on the internet. We will keep the data fully referenced so that it is easy to find out where the data is coming from. We will also allow for manual edits of the accumulated data (as it has been in the past). All of these things together should make the OEC the most complete and most up-to-date exoplanet catalogue out there. In the meantime, please keep your pull request coming! -- Hanno Rein -- June 2016. 
-
+Since June 2020, I have started maintaining the Open Exoplanet Catalogue more actively again. I plan to manually enter data for time sensitive and high profile discoveries. But due to the large number of planets that get discovered these days, I will import data from the NASA Exoplanet Archive for all other planets. See the `oec_continuity` repository for details. Please continue to watch out for errors and submit pull requests!  -- Hanno Rein
 
 About the Open Exoplanet Catalogue
 --------------
@@ -26,10 +25,10 @@ How to access the catalogue using Python
 It is very easy to access the Open Exoplanet Catalogue using python. Here is a short [snippet](https://gist.github.com/hannorein/2a069763cf114f66641c) to print out some basic planet data. No download, no installation and no external libraries are required.
 
 ```python
-# python 2.x
-import xml.etree.ElementTree as ET, urllib, gzip, io
+# python 3.x
+import xml.etree.ElementTree as ET, urllib.request, gzip, io
 url = "https://github.com/OpenExoplanetCatalogue/oec_gzip/raw/master/systems.xml.gz"
-oec = ET.parse(gzip.GzipFile(fileobj=io.BytesIO(urllib.urlopen(url).read())))
+oec = ET.parse(gzip.GzipFile(fileobj=io.BytesIO(urllib.request.urlopen(url).read())))
  
 # Output mass and radius of all planets 
 for planet in oec.findall(".//planet"):
@@ -44,12 +43,12 @@ for system in oec.findall(".//system"):
     print system.findtext("distance"), len(system.findall(".//planet"))
 ```
 
-If you are using python 3, replace the first three lines by 
+If you are using python 2, replace the first three lines by 
 
 ```python
-import xml.etree.ElementTree as ET, urllib.request, gzip, io
+import xml.etree.ElementTree as ET, urllib, gzip, io
 url = "https://github.com/OpenExoplanetCatalogue/oec_gzip/raw/master/systems.xml.gz"
-oec = ET.parse(gzip.GzipFile(fileobj=io.BytesIO(urllib.request.urlopen(url).read())))
+oec = ET.parse(gzip.GzipFile(fileobj=io.BytesIO(urllib.urlopen(url).read())))
 ```
 
 Data Structure
@@ -102,6 +101,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `discoveryyear`	| `planet` | Year of the planet's discovery | yyyy  |
 | `lastupdate`	| `planet` | Date of the last (non-trivial) update | yy/mm/dd   |
 | `spinorbitalignment` | `planet` | Rossiter-McLaughlin Effect. | degree |
+| `constellation` | `system` | Constellation (IAU definition) |  |
 
 Errors
 -------------
@@ -113,14 +113,25 @@ The syntax for upper/lower limits is: `<mass upperlimit="1.0" />`
 
 Constants
 -------------
-There are several constant used in defining the units in the Open Exoplanet Catalogue. The following table can be used to convert them into SI units.
+The Open Exoplanet Catalogue stores information using a few basis units. For stars, mass and radius units are derived from our star, Sol (the Sun). For exoplanets, mass and radius units are derived from the planet Jupiter. 
 
-| Constant used in catalogue | Definition in SI units |
-| -------- | --------------- |
-| Jupiter mass | 1.8991766e+27 kg |
-| Solarmass | 1.9891e+30 kg |
-| Jupiter radius | 69911000 m |
-| Solarradius | 6.96e+08 m |
+The mass of Jupiter, the Sun, and even Earth are so huge that it is more meaningful to simply reference their mass in relation to each other, rather than common SI units. These values are approximate.
+
+Ratio | Value
+--- | ---
+Sol/Jupiter mass | 1047.566
+Jupiter/Earth mass | 317.8284
+Sol/Earth mass | 332,946.1
+
+In many publications, radius measurements are quoted based on Earth’s or Jupiter’s equatorial radius, so we list here the relevant IAU recommended nominal constants.
+
+Constant Name | Value
+--- | ---
+Solar radius | 695,700 km
+Jupiter equatorial radius | 71,492 km
+Earth equatorial radius | 6378.1 km
+
+There are a few more units and standards used: degrees, days, billions of years (gigayears or Gyr), AU, parsecs, sexagesimal degrees (declination), and sexagesimal hour angle (Right Ascension). These are all much more well defined than the mass and radius units above, so we will not produce them here. Please note that the Open Exoplanet Catalogue makes no accommodation for different celestial reference frames.
 
 
 Plots

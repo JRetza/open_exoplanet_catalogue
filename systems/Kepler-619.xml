@@ -1,36 +1,50 @@
 <system>
 	<name>Kepler-619</name>
-	<rightascension>19 23 24</rightascension>
-	<declination>+48 24 58</declination>
+	<name>KOI-601</name>
+	<name>KIC 10973664</name>
+	<distance errorminus="17.0961" errorplus="17.0961">924.556</distance>
+	<rightascension>19 23 23.7818</rightascension>
+	<declination>+48 24 57.6472</declination>
 	<star>
 		<name>Kepler-619</name>
+		<name>KOI-601</name>
+		<name>KIC 10973664</name>
+		<name>2MASS J19232377+4824576</name>
+		<name>Gaia DR2 2129503235571760128</name>
 		<temperature errorminus="113.1" errorplus="106.4">5980.0</temperature>
 		<mass errorminus="0.06" errorplus="0.07">1.09</mass>
 		<radius errorminus="0.11" errorplus="0.23">1.11</radius>
 		<metallicity errorminus="0.15" errorplus="0.14">0.05</metallicity>
 		<planet>
 			<name>Kepler-619 b</name>
+			<name>KOI-601 b</name>
+			<name>KOI-601.01</name>
+			<name>KIC 10973664 b</name>
+			<name>Gaia DR2 2129503235571760128 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000005550" errorplus="0.000005550">5.404272200</period>
 			<radius errorminus="0.028" errorplus="0.058">0.282</radius>
 		</planet>
 		<planet>
 			<name>Kepler-619 c</name>
+			<name>KOI-601 c</name>
+			<name>KOI-601.03</name>
+			<name>KIC 10973664 c</name>
+			<name>Gaia DR2 2129503235571760128 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000001670" errorplus="0.000001670">1.208465030</period>
 			<radius errorminus="0.015" errorplus="0.035">0.151</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

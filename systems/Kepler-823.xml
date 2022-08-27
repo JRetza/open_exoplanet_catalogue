@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-823</name>
-	<rightascension>18 58 20</rightascension>
-	<declination>+39 13 13</declination>
+	<name>KOI-1339</name>
+	<name>KIC 4135665</name>
+	<distance errorminus="44.5962" errorplus="44.5962">1446.97</distance>
+	<rightascension>18 58 19.8121</rightascension>
+	<declination>+39 13 12.7349</declination>
 	<star>
 		<name>Kepler-823</name>
+		<name>KOI-1339</name>
+		<name>KIC 4135665</name>
+		<name>2MASS J18581981+3913127</name>
+		<name>Gaia DR2 2100216609495590912</name>
+		<magH errorminus="0.028" errorplus="0.028">13.246</magH>
+		<magJ errorminus="0.025" errorplus="0.025">13.619</magJ>
+		<magK errorminus="0.03" errorplus="0.03">13.19</magK>
 		<temperature errorminus="122.1" errorplus="122.3">5643.0</temperature>
 		<mass errorminus="0.05" errorplus="0.05">0.98</mass>
 		<radius errorminus="0.08" errorplus="0.18">0.96</radius>
 		<metallicity errorminus="0.14" errorplus="0.14">0.06</metallicity>
 		<planet>
 			<name>Kepler-823 b</name>
+			<name>KOI-1339 b</name>
+			<name>KOI-1339.01</name>
+			<name>KIC 4135665 b</name>
+			<name>Gaia DR2 2100216609495590912 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000017480" errorplus="0.000017480">4.168090820</period>
 			<radius errorminus="0.012" errorplus="0.028">0.140</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

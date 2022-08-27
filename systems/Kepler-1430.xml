@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1430</name>
-	<rightascension>19 18 47</rightascension>
-	<declination>+43 22 20</declination>
+	<name>KOI-3113</name>
+	<name>KIC 7676423</name>
+	<distance errorminus="40.5067" errorplus="40.5067">483.185</distance>
+	<rightascension>19 18 47.3970</rightascension>
+	<declination>+43 22 19.3776</declination>
 	<star>
 		<name>Kepler-1430</name>
+		<name>KOI-3113</name>
+		<name>KIC 7676423</name>
+		<name>2MASS J19184739+4322195</name>
+		<name>Gaia DR2 2102816404740404224</name>
 		<temperature errorminus="59.9" errorplus="46.7">4796.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.77</mass>
 		<radius errorminus="0.04" errorplus="0.02">0.72</radius>
 		<metallicity errorminus="0.18" errorplus="0.20">-0.03</metallicity>
 		<planet>
 			<name>Kepler-1430 b</name>
+			<name>KOI-3113 b</name>
+			<name>KOI-3113.01</name>
+			<name>KIC 7676423 b</name>
+			<name>Gaia DR2 2102816404740404224 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000012730" errorplus="0.000012730">2.460509930</period>
 			<radius errorminus="0.007" errorplus="0.008">0.105</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

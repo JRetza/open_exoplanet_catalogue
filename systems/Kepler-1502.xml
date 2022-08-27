@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1502</name>
-	<rightascension>19 44 26</rightascension>
-	<declination>+39 19 12</declination>
+	<name>KOI-3439</name>
+	<name>KIC 4282191</name>
+	<distance errorminus="50.2747" errorplus="50.2747">1581.53</distance>
+	<rightascension>19 44 25.9022</rightascension>
+	<declination>+39 19 11.7224</declination>
 	<star>
 		<name>Kepler-1502</name>
+		<name>KOI-3439</name>
+		<name>KIC 4282191</name>
+		<name>2MASS J19442589+3919116</name>
+		<name>Gaia DR2 2073199409793428736</name>
+		<magH errorminus="0.025" errorplus="0.025">12.945</magH>
+		<magJ errorminus="0.021" errorplus="0.021">13.174</magJ>
+		<magK errorminus="0.028" errorplus="0.028">12.907</magK>
 		<temperature errorminus="272.1" errorplus="321.2">6666.0</temperature>
 		<mass errorminus="0.17" errorplus="0.23">1.44</mass>
 		<radius errorminus="0.33" errorplus="0.61">1.72</radius>
 		<metallicity errorminus="0.15" errorplus="0.14">0.05</metallicity>
 		<planet>
 			<name>Kepler-1502 b</name>
+			<name>KOI-3439 b</name>
+			<name>KOI-3439.01</name>
+			<name>KIC 4282191 b</name>
+			<name>Gaia DR2 2073199409793428736 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000348500" errorplus="0.000348500">41.708362900</period>
 			<radius errorminus="0.057" errorplus="0.100">0.284</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1012</name>
-	<rightascension>19 17 11</rightascension>
-	<declination>+46 27 29</declination>
+	<name>KOI-1913</name>
+	<name>KIC 9704384</name>
+	<distance errorminus="2.3709" errorplus="2.3709">416.008</distance>
+	<rightascension>19 17 11.0972</rightascension>
+	<declination>+46 27 28.6949</declination>
 	<star>
 		<name>Kepler-1012</name>
+		<name>KOI-1913</name>
+		<name>KIC 9704384</name>
+		<name>2MASS J19171110+4627286</name>
+		<name>Gaia DR2 2127749342727327616</name>
+		<magH errorminus="0.022" errorplus="0.022">11.755</magH>
+		<magJ errorminus="0.021" errorplus="0.021">12.064</magJ>
+		<magK errorminus="0.016" errorplus="0.016">11.664</magK>
 		<temperature errorminus="67.5" errorplus="77.9">5556.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.95</mass>
 		<radius errorminus="0.04" errorplus="0.05">0.91</radius>
 		<metallicity errorminus="0.10" errorplus="0.11">0.05</metallicity>
 		<planet>
 			<name>Kepler-1012 b</name>
+			<name>KOI-1913 b</name>
+			<name>KOI-1913.01</name>
+			<name>KIC 9704384 b</name>
+			<name>Gaia DR2 2127749342727327616 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000011510" errorplus="0.000011510">5.508604390</period>
 			<radius errorminus="0.005" errorplus="0.007">0.115</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

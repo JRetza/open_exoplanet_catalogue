@@ -1,24 +1,42 @@
 <system>
 	<name>Kepler-507</name>
-	<rightascension>19 48 05</rightascension>
-	<declination>+50 24 32</declination>
+	<name>KOI-265</name>
+	<name>KIC 12024120</name>
+	<distance errorminus="3.2634" errorplus="3.2634">396.102</distance>
+	<rightascension>19 48 04.5202</rightascension>
+	<declination>+50 24 32.3899</declination>
 	<star>
 		<name>Kepler-507</name>
+		<name>KOI-265</name>
+		<name>KIC 12024120</name>
+		<name>2MASS J19480452+5024323</name>
+		<name>Gaia DR2 2135314184585149696</name>
+		<name>TYC 3565-417-1</name>
+		<magB errorminus="0.23" errorplus="0.23">12.56</magB>
+		<magH errorminus="0.018" errorplus="0.018">10.731</magH>
+		<magJ errorminus="0.022" errorplus="0.022">10.985</magJ>
+		<magK errorminus="0.017" errorplus="0.017">10.665</magK>
+		<magV errorminus="0.20" errorplus="0.20">12.20</magV>
 		<temperature errorminus="67.9" errorplus="66.1">6113.0</temperature>
 		<mass errorminus="0.05" errorplus="0.07">1.16</mass>
 		<radius errorminus="0.17" errorplus="0.24">1.32</radius>
 		<metallicity errorminus="0.08" errorplus="0.08">0.06</metallicity>
 		<planet>
 			<name>Kepler-507 b</name>
+			<name>KOI-265 b</name>
+			<name>KOI-265.01</name>
+			<name>KIC 12024120 b</name>
+			<name>Gaia DR2 2135314184585149696 b</name>
+			<name>TYC 3565-417-1 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000007070" errorplus="0.000007070">3.568096930</period>
 			<radius errorminus="0.015" errorplus="0.021">0.116</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

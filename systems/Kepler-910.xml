@@ -1,24 +1,37 @@
 <system>
 	<name>Kepler-910</name>
-	<rightascension>19 44 11</rightascension>
-	<declination>+42 44 35</declination>
+	<name>KOI-1618</name>
+	<name>KIC 7215603</name>
+	<distance errorminus="4.9672" errorplus="4.9672">404.891</distance>
+	<rightascension>19 44 11.3667</rightascension>
+	<declination>+42 44 34.7640</declination>
 	<star>
 		<name>Kepler-910</name>
+		<name>KOI-1618</name>
+		<name>KIC 7215603</name>
+		<name>2MASS J19441136+4244348</name>
+		<name>Gaia DR2 2077243138673356928</name>
+		<name>TYC 3144-1130-1</name>
 		<temperature errorminus="71.7" errorplus="78.4">6230.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">1.26</mass>
 		<radius errorminus="0.03" errorplus="0.03">1.50</radius>
 		<metallicity errorminus="0.08" errorplus="0.08">0.12</metallicity>
 		<planet>
 			<name>Kepler-910 b</name>
+			<name>KOI-1618 b</name>
+			<name>KOI-1618.01</name>
+			<name>KIC 7215603 b</name>
+			<name>Gaia DR2 2077243138673356928 b</name>
+			<name>TYC 3144-1130-1 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000008830" errorplus="0.000008830">2.364369010</period>
 			<radius errorminus="0.003" errorplus="0.004">0.073</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

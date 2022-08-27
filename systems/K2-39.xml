@@ -1,0 +1,41 @@
+<system>
+	<name>K2-39</name>
+	<name>EPIC 206247743</name>
+	<rightascension>22 33 28.4135</rightascension>
+	<declination>-09 01 21.9771</declination>
+	<distance>255.0</distance>
+	<star>
+		<name>K2-39</name>
+		<name>EPIC 206247743</name>
+		<name>2MASS J22332842-0901219</name>
+		<name>Gaia DR2 2609222216055014144</name>
+		<name>TYC 5811-835-1</name>
+		<age>3.09</age>
+		<radius>3.88</radius>
+		<mass>1.53</mass>
+		<magV errorminus="0.043" errorplus="0.043">10.872</magV>
+		<magB errorminus="0.054" errorplus="0.054">11.915</magB>
+		<magR errorminus="0.03" errorplus="0.03">10.70</magR>
+		<temperature>4881.0</temperature>
+		<metallicity>0.32</metallicity>
+		<planet>
+			<name>K2-39 b</name>
+			<name>EPIC 206247743 b</name>
+			<name>Gaia DR2 2609222216055014144 b</name>
+			<name>TYC 5811-835-1 b</name>
+			<semimajoraxis errorminus="0.012" errorplus="0.01">0.062</semimajoraxis>
+			<eccentricity errorminus="0.068" errorplus="0.084">0.152</eccentricity>
+			<inclination errorminus="4.0" errorplus="4.0">80.0</inclination>
+			<period errorminus="0.000460" errorplus="0.000460">4.60543</period>
+			<mass errorminus="0.014" errorplus="0.014">0.125</mass>
+			<radius errorminus="0.098" errorplus="0.098">0.73</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>17/02/02</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+	<constellation>Aquarius</constellation>
+</system>

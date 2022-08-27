@@ -1,0 +1,36 @@
+<system>
+	<name>HD 86950</name>
+	<rightascension>10 01 37.6089</rightascension>
+	<declination>-17 19 58.8869</declination>
+	<distance>169.0</distance>
+	<star>
+		<name>HD 86950</name>
+		<name>TYC 6050-1243-1</name>
+		<name>Gaia DR2 5673523262530712832</name>
+		<name>HIP 49129</name>
+		<radius>8.8</radius>
+		<mass>1.66</mass>
+		<spectraltype>K1 III</spectraltype>
+		<magV errorminus="0.01" errorplus="0.01">7.46</magV>
+		<magB errorminus="0.02" errorplus="0.02">8.55</magB>
+		<temperature>4805.0</temperature>
+		<metallicity>0.04</metallicity>
+		<planet>
+			<name>HD 86950 b</name>
+			<name>TYC 6050-1243-1 b</name>
+			<name>Gaia DR2 5673523262530712832 b</name>
+			<name>HIP 49129 b</name>
+			<semimajoraxis errorminus="0.08" errorplus="0.08">2.72</semimajoraxis>
+			<periastron errorminus="70.0" errorplus="70.0">243.0</periastron>
+			<eccentricity errorminus="0.16" errorplus="0.16">0.17</eccentricity>
+			<period errorminus="57.000000" errorplus="57.000000">1270.0</period>
+			<mass errorminus="0.7" errorplus="0.7">3.6</mass>
+			<discoveryyear>2016</discoveryyear>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>16/11/24</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+	<constellation>Hydra</constellation>
+</system>

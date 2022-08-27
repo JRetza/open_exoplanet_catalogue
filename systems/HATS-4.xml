@@ -1,12 +1,13 @@
 <system>
 	<name>HATS-4</name>
-	<rightascension>06 16 26.898</rightascension>
-	<declination>-22 32 48.79</declination>
+	<rightascension>06 16 26.9016</rightascension>
+	<declination>-22 32 48.8150</declination>
 	<distance errorminus="12" errorplus="12">420</distance>
 	<star>
 		<name>HATS-4</name>
 		<name>GSC 6505-00217</name>
 		<name>2MASS 06162689-2232487</name>
+		<name>Gaia DR2 2937583121652951936</name>
 		<mass errorminus="0.020" errorplus="0.020">1.001</mass>
 		<radius errorminus="0.022" errorplus="0.022">0.925</radius>
 		<temperature errorminus="50" errorplus="50">5403</temperature>
@@ -21,6 +22,7 @@
 			<name>HATS-4 b</name>
 			<name>GSC 6505-00217 b</name>
 			<name>2MASS 06162689-2232487 b</name>
+			<name>Gaia DR2 2937583121652951936 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.028" errorplus="0.028">1.323</mass>
 			<radius errorminus="0.037" errorplus="0.037">1.020</radius>
@@ -37,4 +39,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Canis Major</constellation>
 </system>

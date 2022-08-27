@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1463</name>
-	<rightascension>19 37 57</rightascension>
-	<declination>+42 00 25</declination>
+	<name>KOI-3306</name>
+	<name>KIC 6615511</name>
+	<distance errorminus="98.6067" errorplus="98.6067">1769.29</distance>
+	<rightascension>19 37 56.9472</rightascension>
+	<declination>+42 00 24.9513</declination>
 	<star>
 		<name>Kepler-1463</name>
+		<name>KOI-3306</name>
+		<name>KIC 6615511</name>
+		<name>2MASS J19375695+4200249</name>
+		<name>Gaia DR2 2077536673917322368</name>
+		<magH errorminus="0.039" errorplus="0.039">14.216</magH>
+		<magJ errorminus="0.031" errorplus="0.031">14.526</magJ>
+		<magK errorminus="0.058" errorplus="0.058">14.015</magK>
 		<temperature errorminus="125.8" errorplus="93.9">5679.0</temperature>
 		<mass errorminus="0.06" errorplus="0.05">0.96</mass>
 		<radius errorminus="0.08" errorplus="0.16">0.95</radius>
 		<metallicity errorminus="0.19" errorplus="0.15">0.00</metallicity>
 		<planet>
 			<name>Kepler-1463 b</name>
+			<name>KOI-3306 b</name>
+			<name>KOI-3306.01</name>
+			<name>KIC 6615511 b</name>
+			<name>Gaia DR2 2077536673917322368 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000512300" errorplus="0.000512300">25.158640000</period>
 			<radius errorminus="0.017" errorplus="0.029">0.166</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

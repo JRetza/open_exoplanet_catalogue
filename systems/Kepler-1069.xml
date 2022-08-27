@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1069</name>
-	<rightascension>19 23 55</rightascension>
-	<declination>+47 59 20</declination>
+	<name>KOI-2046</name>
+	<name>KIC 10663396</name>
+	<distance errorminus="6.6079" errorplus="6.6079">710.227</distance>
+	<rightascension>19 23 55.0395</rightascension>
+	<declination>+47 59 20.3973</declination>
 	<star>
 		<name>Kepler-1069</name>
+		<name>KOI-2046</name>
+		<name>KIC 10663396</name>
+		<name>2MASS J19235503+4759204</name>
+		<name>Gaia DR2 2129215369685086080</name>
 		<temperature errorminus="104.9" errorplus="88.8">5722.0</temperature>
 		<mass errorminus="0.05" errorplus="0.05">0.99</mass>
 		<radius errorminus="0.08" errorplus="0.17">0.98</radius>
 		<metallicity errorminus="0.16" errorplus="0.14">0.04</metallicity>
 		<planet>
 			<name>Kepler-1069 b</name>
+			<name>KOI-2046 b</name>
+			<name>KOI-2046.01</name>
+			<name>KIC 10663396 b</name>
+			<name>Gaia DR2 2129215369685086080 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000149700" errorplus="0.000149700">23.899029600</period>
 			<radius errorminus="0.012" errorplus="0.028">0.143</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

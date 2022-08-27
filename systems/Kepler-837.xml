@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-837</name>
-	<rightascension>19 00 59</rightascension>
-	<declination>+45 57 01</declination>
+	<name>KOI-1409</name>
+	<name>KIC 9391208</name>
+	<distance errorminus="18.8545" errorplus="18.8545">925.754</distance>
+	<rightascension>19 00 59.2178</rightascension>
+	<declination>+45 57 00.4532</declination>
 	<star>
 		<name>Kepler-837</name>
+		<name>KOI-1409</name>
+		<name>KIC 9391208</name>
+		<name>2MASS J19005920+4557007</name>
+		<name>Gaia DR2 2107265028783828736</name>
+		<magH errorminus="0.03" errorplus="0.03">13.52</magH>
+		<magJ errorminus="0.03" errorplus="0.03">13.95</magJ>
+		<magK errorminus="0.046" errorplus="0.046">13.465</magK>
 		<temperature errorminus="58.5" errorplus="59.0">5403.0</temperature>
 		<mass errorminus="0.06" errorplus="0.05">0.85</mass>
 		<radius errorminus="0.07" errorplus="0.07">0.81</radius>
 		<metallicity errorminus="0.20" errorplus="0.16">-0.18</metallicity>
 		<planet>
 			<name>Kepler-837 b</name>
+			<name>KOI-1409 b</name>
+			<name>KOI-1409.01</name>
+			<name>KIC 9391208 b</name>
+			<name>Gaia DR2 2107265028783828736 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000042930" errorplus="0.000042930">16.560595040</period>
 			<radius errorminus="0.038" errorplus="0.020">0.228</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

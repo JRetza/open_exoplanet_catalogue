@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1038</name>
-	<rightascension>19 55 53</rightascension>
-	<declination>+44 07 57</declination>
+	<name>KOI-1986</name>
+	<name>KIC 8257205</name>
+	<distance errorminus="10.0182" errorplus="10.0182">593.93</distance>
+	<rightascension>19 55 53.3289</rightascension>
+	<declination>+44 07 56.5656</declination>
 	<star>
 		<name>Kepler-1038</name>
+		<name>KOI-1986</name>
+		<name>KIC 8257205</name>
+		<name>2MASS J19555332+4407565</name>
+		<name>Gaia DR2 2079028676836456960</name>
+		<magH errorminus="0.03" errorplus="0.03">12.92</magH>
+		<magJ errorminus="0.027" errorplus="0.027">13.376</magJ>
+		<magK errorminus="0.022" errorplus="0.022">12.782</magK>
 		<temperature errorminus="212.9" errorplus="253.3">5335.0</temperature>
 		<mass errorminus="0.06" errorplus="0.07">0.87</mass>
 		<radius errorminus="0.06" errorplus="0.09">0.83</radius>
 		<metallicity errorminus="0.18" errorplus="0.16">-0.04</metallicity>
 		<planet>
 			<name>Kepler-1038 b</name>
+			<name>KOI-1986 b</name>
+			<name>KOI-1986.01</name>
+			<name>KIC 8257205 b</name>
+			<name>Gaia DR2 2079028676836456960 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000689400" errorplus="0.000689400">148.460338200</period>
 			<radius errorminus="0.035" errorplus="0.046">0.315</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

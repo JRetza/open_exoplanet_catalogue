@@ -1,24 +1,37 @@
 <system>
 	<name>Kepler-806</name>
-	<rightascension>19 44 02</rightascension>
-	<declination>+44 51 12</declination>
+	<name>KOI-1283</name>
+	<name>KIC 8700771</name>
+	<distance errorminus="2.9421" errorplus="2.9421">365.698</distance>
+	<rightascension>19 44 01.6984</rightascension>
+	<declination>+44 51 12.4330</declination>
 	<star>
 		<name>Kepler-806</name>
+		<name>KOI-1283</name>
+		<name>KIC 8700771</name>
+		<name>2MASS J19440169+4451123</name>
+		<name>Gaia DR2 2079752464723012096</name>
+		<name>TYC 3148-919-1</name>
 		<temperature errorminus="67.8" errorplus="59.8">5770.0</temperature>
 		<mass errorminus="0.06" errorplus="0.07">0.99</mass>
 		<radius errorminus="0.18" errorplus="0.34">1.16</radius>
 		<metallicity errorminus="0.15" errorplus="0.07">0.00</metallicity>
 		<planet>
 			<name>Kepler-806 b</name>
+			<name>KOI-1283 b</name>
+			<name>KOI-1283.01</name>
+			<name>KIC 8700771 b</name>
+			<name>Gaia DR2 2079752464723012096 b</name>
+			<name>TYC 3148-919-1 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000033020" errorplus="0.000033020">8.092196420</period>
 			<radius errorminus="0.021" errorplus="0.029">0.102</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

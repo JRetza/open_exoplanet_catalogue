@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1395</name>
-	<rightascension>19 29 21</rightascension>
-	<declination>+47 39 51</declination>
+	<name>KOI-2961</name>
+	<name>KIC 10471515</name>
+	<distance errorminus="7.1471" errorplus="7.1471">499.9</distance>
+	<rightascension>19 29 21.0058</rightascension>
+	<declination>+47 39 51.1047</declination>
 	<star>
 		<name>Kepler-1395</name>
+		<name>KOI-2961</name>
+		<name>KIC 10471515</name>
+		<name>2MASS J19292101+4739511</name>
+		<name>Gaia DR2 2128478044059903872</name>
 		<temperature errorminus="60.6" errorplus="66.8">6138.0</temperature>
 		<mass errorminus="0.03" errorplus="0.04">1.17</mass>
 		<radius errorminus="0.08" errorplus="0.12">1.23</radius>
 		<metallicity errorminus="0.07" errorplus="0.07">0.12</metallicity>
 		<planet>
 			<name>Kepler-1395 b</name>
+			<name>KOI-2961 b</name>
+			<name>KOI-2961.01</name>
+			<name>KIC 10471515 b</name>
+			<name>Gaia DR2 2128478044059903872 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000027200" errorplus="0.000027200">3.784706490</period>
 			<radius errorminus="0.005" errorplus="0.008">0.071</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

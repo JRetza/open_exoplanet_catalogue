@@ -1,38 +1,39 @@
 <system>
 	<name>WASP-45</name>
-	<rightascension>00 20 57</rightascension>
-	<declination>-35 59 54</declination>
+	<rightascension>00 20 56.9940</rightascension>
+	<declination>-35 59 53.7473</declination>
+	<distance errorminus="1.76" errorplus="1.76">212.48</distance>
 	<star>
-		<mass>0.909</mass>
-		<radius>0.945</radius>
-		<magV>12</magV>
-		<magB errorminus="0.43" errorplus="0.43">13.33</magB>
-		<magR errorminus="0.07" errorplus="0.07">12.20</magR>
+		<name>WASP-45</name>
+		<name>Gaia DR2 2308834780352875904</name>
+		<name>TYC 6996-583-1</name>
+		<radius errorminus="0.04" errorplus="0.04">0.85</radius>
+		<magV>12.000</magV>
 		<magJ errorminus="0.024" errorplus="0.024">10.753</magJ>
 		<magH errorminus="0.026" errorplus="0.026">10.365</magH>
 		<magK errorminus="0.021" errorplus="0.021">10.294</magK>
-		<metallicity>0.36</metallicity>
+		<mass errorminus="0.07" errorplus="0.08">0.85</mass>
+		<temperature errorminus="200.00" errorplus="200.00">5150.00</temperature>
+		<metallicity errorminus="0.200" errorplus="0.200">-0.030</metallicity>
 		<spectraltype>K2V</spectraltype>
 		<planet>
 			<name>WASP-45 b</name>
-			<name>TYC 6996-00583-1 b</name>
-			<name>2MASS J00205699-3559537 b</name>
-			<list>Confirmed planets</list>
-			<mass>1.007</mass>
-			<radius>1.16</radius>
-			<period>3.1260876</period>
-			<semimajoraxis>0.04054</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>84.47</inclination>
-			<transittime errorminus="0.00058" errorplus="0.00058" unit="BJD">2455441.26999</transittime>
+			<name>Gaia DR2 2308834780352875904 b</name>
+			<name>TYC 6996-583-1 b</name>
+			<semimajoraxis errorminus="0.001120" errorplus="0.001140">0.039630</semimajoraxis>
+			<inclination errorminus="0.220" errorplus="0.200">85.020</inclination>
+			<period errorminus="0.00000300" errorplus="0.00000300">3.12608900</period>
 			<description>WASP-45 b is a Jupiter mass planet transiting in front of the limb of its host star. Emission from Ca H+K suggests that the star is chromospherically active.</description>
+			<mass errorminus="0.05600" errorplus="0.05800">0.96400</mass>
+			<radius errorminus="0.051" errorplus="0.058">0.946</radius>
+			<temperature errorminus="50" errorplus="50">1153</temperature>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/05/17</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<temperature>1094.2</temperature>
 			<istransiting>1</istransiting>
+			<discoveryyear>2011</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/09/26</lastupdate>
+			<transittime errorminus="0.000310" errorplus="0.000312">2458339.143039</transittime>
 		</planet>
-		<name>WASP-45</name>
-		<temperature>5140.0</temperature>
 	</star>
+	<constellation>Sculptor</constellation>
 </system>

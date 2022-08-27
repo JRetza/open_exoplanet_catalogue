@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-695</name>
-	<rightascension>19 57 16</rightascension>
-	<declination>+40 49 21</declination>
+	<name>KOI-840</name>
+	<name>KIC 5651104</name>
+	<distance errorminus="21.8311" errorplus="21.8311">863.1852</distance>
+	<rightascension>19 57 15.8565</rightascension>
+	<declination>+40 49 20.5751</declination>
 	<star>
 		<name>Kepler-695</name>
+		<name>KOI-840</name>
+		<name>KIC 5651104</name>
+		<name>2MASS J19571586+4049205</name>
+		<name>Gaia DR2 2075107062469670272</name>
 		<temperature errorminus="197.9" errorplus="199.5">5181.0</temperature>
 		<mass errorminus="0.05" errorplus="0.05">0.84</mass>
 		<radius errorminus="0.05" errorplus="0.06">0.80</radius>
 		<metallicity errorminus="0.16" errorplus="0.15">-0.01</metallicity>
 		<planet>
 			<name>Kepler-695 b</name>
+			<name>KOI-840 b</name>
+			<name>KOI-840.01</name>
+			<name>KIC 5651104 b</name>
+			<name>Gaia DR2 2075107062469670272 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000000300" errorplus="0.000000300">3.040330420</period>
 			<radius errorminus="0.050" errorplus="0.063">0.822</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

@@ -1,24 +1,34 @@
 <system>
 	<name>Kepler-1347</name>
-	<rightascension>19 58 38</rightascension>
-	<declination>+40 50 38</declination>
+	<name>KOI-2790</name>
+	<name>KIC 5652893</name>
+	<rightascension>19 58 38.3052</rightascension>
+	<declination>+40 50 37.8690</declination>
 	<star>
 		<name>Kepler-1347</name>
+		<name>KOI-2790</name>
+		<name>KIC 5652893</name>
+		<name>2MASS J19583830+4050378</name>
+		<name>Gaia DR2 2075063150722101376</name>
 		<temperature errorminus="56.0" errorplus="74.5">5193.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.82</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.79</radius>
 		<metallicity errorminus="0.11" errorplus="0.10">-0.11</metallicity>
 		<planet>
 			<name>Kepler-1347 b</name>
+			<name>KOI-2790 b</name>
+			<name>KOI-2790.01</name>
+			<name>KIC 5652893 b</name>
+			<name>Gaia DR2 2075063150722101376 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000070010" errorplus="0.000070010">14.009475280</period>
 			<radius errorminus="0.004" errorplus="0.005">0.092</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

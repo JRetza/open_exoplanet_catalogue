@@ -1,13 +1,17 @@
 <system>
 	<name>Kepler-412</name>
-	<rightascension>19 04 26</rightascension>
-	<declination>+43 40 51</declination>
+	<name>KOI-202</name>
+	<name>KIC 7877496</name>
+	<rightascension>19 04 26.4756</rightascension>
+	<declination>+43 40 51.3515</declination>
 	<distance errorminus="36" errorplus="36">1056</distance>
 	<star>
 		<name>Kepler-412</name>
 		<name>KOI-202</name>
 		<name>2MASS 19042647+4340514</name>
 		<name>KIC 7877496</name>
+		<name>2MASS J19042647+4340514</name>
+		<name>Gaia DR2 2105678089908733824</name>
 		<magB errorminus="0.33" errorplus="0.33">14.41</magB>
 		<magV errorminus="0.24" errorplus="0.24">13.73</magV>
 		<magR errorminus="0.11" errorplus="0.11">14.67</magR>
@@ -27,6 +31,7 @@
 			<name>KOI-202 b</name>
 			<name>KIC 7877496 b</name>
 			<name>2MASS 19042647+4340514 b</name>
+			<name>Gaia DR2 2105678089908733824 b</name>
 			<mass errorminus="0.085" errorplus="0.085">0.939</mass>
 			<radius errorminus="0.043" errorplus="0.043">1.325</radius>
 			<period errorminus="0.000000047" errorplus="0.000000047">1.720861232</period>
@@ -43,4 +48,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

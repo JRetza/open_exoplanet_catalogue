@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-581</name>
-	<rightascension>19 41 44</rightascension>
-	<declination>+40 38 54</declination>
+	<name>KOI-504</name>
+	<name>KIC 5461440</name>
+	<distance errorminus="13.9183" errorplus="13.9183">717.978</distance>
+	<rightascension>19 41 43.8663</rightascension>
+	<declination>+40 38 53.6750</declination>
 	<star>
 		<name>Kepler-581</name>
+		<name>KOI-504</name>
+		<name>KIC 5461440</name>
+		<name>2MASS J19414386+4038536</name>
+		<name>Gaia DR2 2076595869920511104</name>
 		<temperature errorminus="191.8" errorplus="199.7">5772.0</temperature>
 		<mass errorminus="0.07" errorplus="0.08">1.00</mass>
 		<radius errorminus="0.11" errorplus="0.21">1.00</radius>
 		<metallicity errorminus="0.15" errorplus="0.13">0.03</metallicity>
 		<planet>
 			<name>Kepler-581 b</name>
+			<name>KOI-504 b</name>
+			<name>KOI-504.01</name>
+			<name>KIC 5461440 b</name>
+			<name>Gaia DR2 2076595869920511104 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000174400" errorplus="0.000174400">40.606982100</period>
 			<radius errorminus="0.026" errorplus="0.050">0.235</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

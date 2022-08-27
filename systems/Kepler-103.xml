@@ -2,8 +2,8 @@
 	<name>Kepler-103</name>
 	<name>KOI-108</name>
 	<name>KIC 4914423</name>
-	<rightascension>19 15 56.2</rightascension>
-	<declination>+40 03 52</declination>
+	<rightascension>19 15 56.2939</rightascension>
+	<declination>+40 03 52.2858</declination>
 	<distance>476.8</distance>
 	<star>
 		<magB errorminus="0.24" errorplus="0.24">12.68</magB>
@@ -14,6 +14,9 @@
 		<name>Kepler-103</name>
 		<name>KOI-108</name>
 		<name>KIC 4914423</name>
+		<name>2MASS J19155629+4003522</name>
+		<name>Gaia DR2 2101243789577188736</name>
+		<name>TYC 3125-2038-1</name>
 		<temperature errorminus="88" errorplus="88">5845</temperature>
 		<metallicity errorminus="0.11" errorplus="0.11">0.07</metallicity>
 		<mass errorminus="0.07" errorplus="0.07">1.09</mass>
@@ -24,6 +27,8 @@
 			<name>KOI-108.01</name>
 			<name>KOI-108 b</name>
 			<name>KIC 4914423 b</name>
+			<name>Gaia DR2 2101243789577188736 b</name>
+			<name>TYC 3125-2038-1 b</name>
 			<period>15.9654</period>
 			<radius errorminus="0.008202" errorplus="0.008202">0.307109</radius>
 			<mass upperlimit="0.094371" />
@@ -43,6 +48,8 @@
 			<name>KOI-108.02</name>
 			<name>KOI-108 c</name>
 			<name>KIC 4914423 c</name>
+			<name>Gaia DR2 2101243789577188736 c</name>
+			<name>TYC 3125-2038-1 c</name>
 			<period>179.612</period>
 			<radius errorminus="0.012758" errorplus="0.012758">0.468410</radius>
 			<mass upperlimit="0.298842" />
@@ -58,4 +65,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

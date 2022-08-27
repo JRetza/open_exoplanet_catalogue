@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-884</name>
-	<rightascension>19 30 20</rightascension>
-	<declination>+49 55 23</declination>
+	<name>KOI-1531</name>
+	<name>KIC 11764462</name>
+	<distance errorminus="24.1833" errorplus="24.1833">323.698</distance>
+	<rightascension>19 30 20.2576</rightascension>
+	<declination>+49 55 23.3197</declination>
 	<star>
 		<name>Kepler-884</name>
+		<name>KOI-1531</name>
+		<name>KIC 11764462</name>
+		<name>2MASS J19302026+4955233</name>
+		<name>Gaia DR2 2129894833510904448</name>
+		<magH errorminus="0.017" errorplus="0.017">11.595</magH>
+		<magJ errorminus="0.021" errorplus="0.021">11.931</magJ>
+		<magK errorminus="0.018" errorplus="0.018">11.547</magK>
 		<temperature errorminus="52.6" errorplus="62.9">5715.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">1.00</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.94</radius>
 		<metallicity errorminus="0.09" errorplus="0.09">0.05</metallicity>
 		<planet>
 			<name>Kepler-884 b</name>
+			<name>KOI-1531 b</name>
+			<name>KOI-1531.01</name>
+			<name>KIC 11764462 b</name>
+			<name>Gaia DR2 2129894833510904448 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000013590" errorplus="0.000013590">5.699195140</period>
 			<radius errorminus="0.004" errorplus="0.004">0.110</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

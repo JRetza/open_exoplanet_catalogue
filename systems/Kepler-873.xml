@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-873</name>
-	<rightascension>19 45 37</rightascension>
-	<declination>+51 16 17</declination>
+	<name>KOI-1516</name>
+	<name>KIC 12418724</name>
+	<distance errorminus="35.0225" errorplus="35.0225">1223.39</distance>
+	<rightascension>19 45 36.7598</rightascension>
+	<declination>+51 16 16.8001</declination>
 	<star>
 		<name>Kepler-873</name>
+		<name>KOI-1516</name>
+		<name>KIC 12418724</name>
+		<name>2MASS J19453677+5116168</name>
+		<name>Gaia DR2 2135506706499750656</name>
 		<temperature errorminus="135.9" errorplus="97.1">6163.0</temperature>
 		<mass errorminus="0.09" errorplus="0.17">1.18</mass>
 		<radius errorminus="0.18" errorplus="0.53">1.27</radius>
 		<metallicity errorminus="0.14" errorplus="0.14">0.07</metallicity>
 		<planet>
 			<name>Kepler-873 b</name>
+			<name>KOI-1516 b</name>
+			<name>KOI-1516.01</name>
+			<name>KIC 12418724 b</name>
+			<name>Gaia DR2 2135506706499750656 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000073270" errorplus="0.000073270">20.553384400</period>
 			<radius errorminus="0.049" errorplus="0.146">0.335</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

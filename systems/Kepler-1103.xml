@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1103</name>
-	<rightascension>19 09 32</rightascension>
-	<declination>+49 27 09</declination>
+	<name>KOI-2109</name>
+	<name>KIC 11499228</name>
+	<distance errorminus="25.7129" errorplus="25.7129">1385.23</distance>
+	<rightascension>19 09 31.7090</rightascension>
+	<declination>+49 27 08.6228</declination>
 	<star>
 		<name>Kepler-1103</name>
+		<name>KOI-2109</name>
+		<name>KIC 11499228</name>
+		<name>2MASS J19093170+4927086</name>
+		<name>Gaia DR2 2132808608042844160</name>
+		<magH errorminus="0.03" errorplus="0.03">12.78</magH>
+		<magJ errorminus="0.024" errorplus="0.024">13.094</magJ>
+		<magK errorminus="0.026" errorplus="0.026">12.731</magK>
 		<temperature errorminus="106.6" errorplus="106.1">6092.0</temperature>
 		<mass errorminus="0.08" errorplus="0.10">1.11</mass>
 		<radius errorminus="0.13" errorplus="0.31">1.15</radius>
 		<metallicity errorminus="0.18" errorplus="0.14">-0.01</metallicity>
 		<planet>
 			<name>Kepler-1103 b</name>
+			<name>KOI-2109 b</name>
+			<name>KOI-2109.01</name>
+			<name>KIC 11499228 b</name>
+			<name>Gaia DR2 2132808608042844160 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000095430" errorplus="0.000095430">19.791919780</period>
 			<radius errorminus="0.024" errorplus="0.054">0.203</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

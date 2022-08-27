@@ -1,7 +1,7 @@
 <system>
 	<name>HAT-P-29</name>
-	<rightascension>02 12 31</rightascension>
-	<declination>+51 46 44</declination>
+	<rightascension>02 12 31.4784</rightascension>
+	<declination>+51 46 43.5620</declination>
 	<distance>322</distance>
 	<star>
 		<mass>1.207</mass>
@@ -17,6 +17,9 @@
 		<planet>
 			<name>HAT-P-29 b</name>
 			<name>2MASS J02123147+5146435 b</name>
+			<name>Gaia DR2 359058441314838528 b</name>
+			<name>Muspelheim b</name>
+			<name>TYC 3293-1539-1 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.778</mass>
 			<radius>1.107</radius>
@@ -32,6 +35,10 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HAT-P-29</name>
+		<name>Gaia DR2 359058441314838528</name>
+		<name>Muspelheim</name>
+		<name>TYC 3293-1539-1</name>
 		<temperature>6087.0</temperature>
 	</star>
+	<constellation>Perseus</constellation>
 </system>

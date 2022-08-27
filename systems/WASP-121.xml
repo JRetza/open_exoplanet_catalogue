@@ -1,12 +1,13 @@
 <system>
 	<name>WASP-121</name>
-	<rightascension>07 10 24.058</rightascension>
-	<declination>-39 05 50.55</declination>
+	<rightascension>07 10 24.0606</rightascension>
+	<declination>-39 05 50.5705</declination>
 	<distance errorminus="90" errorplus="90">270</distance>
 	<star>
 		<name>WASP-121</name>
 		<name>2MASS 07102406-3905506</name>
 		<name>TYC 7630-352-1</name>
+		<name>Gaia DR2 5565050255701441664</name>
 		<spectraltype>F6 V</spectraltype>
 		<age errorminus="1.0" errorplus="1.0">1.5</age>
 		<temperature errorminus="140" errorplus="140">6459</temperature>
@@ -22,6 +23,7 @@
 			<name>WASP-121 b</name>
 			<name>2MASS 07102406-3905506 b</name>
 			<name>TYC 7630-352-1 b</name>
+			<name>Gaia DR2 5565050255701441664 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.062" errorplus="0.064">1.183</mass>
 			<radius errorminus="0.039" errorplus="0.039">1.807</radius>
@@ -37,4 +39,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Puppis</constellation>
 </system>

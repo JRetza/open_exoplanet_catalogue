@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-986</name>
-	<rightascension>19 32 23</rightascension>
-	<declination>+42 53 47</declination>
+	<name>KOI-1862</name>
+	<name>KIC 7286173</name>
+	<distance errorminus="6.0217" errorplus="6.0217">557.134</distance>
+	<rightascension>19 32 22.5591</rightascension>
+	<declination>+42 53 47.1695</declination>
 	<star>
 		<name>Kepler-986</name>
+		<name>KOI-1862</name>
+		<name>KIC 7286173</name>
+		<name>2MASS J19322256+4253471</name>
+		<name>Gaia DR2 2077811410082955776</name>
+		<magH errorminus="0.019" errorplus="0.019">12.171</magH>
+		<magJ errorminus="0.021" errorplus="0.021">12.513</magJ>
+		<magK errorminus="0.025" errorplus="0.025">12.107</magK>
 		<temperature errorminus="60.9" errorplus="74.2">5642.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.96</mass>
 		<radius errorminus="0.08" errorplus="0.12">0.98</radius>
 		<metallicity errorminus="0.10" errorplus="0.10">0.04</metallicity>
 		<planet>
 			<name>Kepler-986 b</name>
+			<name>KOI-1862 b</name>
+			<name>KOI-1862.01</name>
+			<name>KIC 7286173 b</name>
+			<name>Gaia DR2 2077811410082955776 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000144600" errorplus="0.000144600">56.434993800</period>
 			<radius errorminus="0.017" errorplus="0.026">0.211</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

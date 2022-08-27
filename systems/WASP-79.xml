@@ -1,10 +1,13 @@
 <system>
 	<name>WASP-79</name>
-	<rightascension>04 25 29</rightascension>
-	<declination>-30 36 02</declination>
+	<rightascension>04 25 29.0168</rightascension>
+	<declination>-30 36 01.6109</declination>
 	<distance>240</distance>
 	<star>
 		<name>WASP-79</name>
+		<name>TYC 7038-834-1</name>
+		<name>Gaia DR2 4884779765893739904</name>
+		<name>Montuno</name>
 		<temperature>6600.0</temperature>
 		<mass errorminus="0.09" errorplus="0.09">1.56</mass>
 		<radius errorminus="0.08" errorplus="0.08">1.64</radius>
@@ -22,6 +25,8 @@
 			<name>CD-30 1812 b</name>
 			<name>SAO 195000 b</name>
 			<name>GSC 7038-834 b</name>
+			<name>Gaia DR2 4884779765893739904 b</name>
+			<name>Montuno b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.09" errorplus="0.09">0.90</mass>
 			<radius errorminus="0.11" errorplus="0.11">1.70</radius>
@@ -39,4 +44,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Eridanus</constellation>
 </system>

@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1616</name>
-	<rightascension>19 06 10</rightascension>
-	<declination>+45 18 18</declination>
+	<name>KOI-4585</name>
+	<name>KIC 9009036</name>
+	<distance errorminus="18.5467" errorplus="18.5467">1176.47</distance>
+	<rightascension>19 06 10.4677</rightascension>
+	<declination>+45 18 17.5018</declination>
 	<star>
 		<name>Kepler-1616</name>
+		<name>KOI-4585</name>
+		<name>KIC 9009036</name>
+		<name>2MASS J19061047+4518175</name>
+		<name>Gaia DR2 2106427750679026688</name>
+		<magH errorminus="0.021" errorplus="0.021">12.263</magH>
+		<magJ errorminus="0.022" errorplus="0.022">12.523</magJ>
+		<magK errorminus="0.018" errorplus="0.018">12.228</magK>
 		<temperature errorminus="92.8" errorplus="93.5">6266.0</temperature>
 		<mass errorminus="0.10" errorplus="0.19">1.21</mass>
 		<radius errorminus="0.19" errorplus="0.62">1.34</radius>
 		<metallicity errorminus="0.16" errorplus="0.13">0.02</metallicity>
 		<planet>
 			<name>Kepler-1616 b</name>
+			<name>KOI-4585 b</name>
+			<name>KOI-4585.01</name>
+			<name>KIC 9009036 b</name>
+			<name>Gaia DR2 2106427750679026688 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000069480" errorplus="0.000069480">6.762843770</period>
 			<radius errorminus="0.013" errorplus="0.042">0.091</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

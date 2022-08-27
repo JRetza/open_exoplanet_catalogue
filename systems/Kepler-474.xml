@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-474</name>
-	<rightascension>19 29 17</rightascension>
-	<declination>+43 52 52</declination>
+	<name>KOI-155</name>
+	<name>KIC 8030148</name>
+	<distance errorminus="11.4526" errorplus="11.4526">862.366</distance>
+	<rightascension>19 29 17.1646</rightascension>
+	<declination>+43 52 52.1623</declination>
 	<star>
 		<name>Kepler-474</name>
+		<name>KOI-155</name>
+		<name>KIC 8030148</name>
+		<name>2MASS J19291716+4352522</name>
+		<name>Gaia DR2 2125972321478224896</name>
 		<temperature errorminus="97.6" errorplus="92.6">5785.0</temperature>
 		<mass errorminus="0.05" errorplus="0.05">0.99</mass>
 		<radius errorminus="0.12" errorplus="0.17">1.08</radius>
 		<metallicity errorminus="0.13" errorplus="0.09">-0.01</metallicity>
 		<planet>
 			<name>Kepler-474 b</name>
+			<name>KOI-155 b</name>
+			<name>KOI-155.01</name>
+			<name>KIC 8030148 b</name>
+			<name>Gaia DR2 2125972321478224896 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000003730" errorplus="0.000003730">5.660672940</period>
 			<radius errorminus="0.033" errorplus="0.043">0.273</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

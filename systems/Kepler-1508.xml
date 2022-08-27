@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-1508</name>
-	<rightascension>19 52 29</rightascension>
-	<declination>+40 22 30</declination>
+	<name>KOI-3468</name>
+	<name>KIC 5213404</name>
+	<distance errorminus="33.3031" errorplus="33.3031">1306.85</distance>
+	<rightascension>19 52 28.5274</rightascension>
+	<declination>+40 22 30.1826</declination>
 	<star>
 		<name>Kepler-1508</name>
+		<name>KOI-3468</name>
+		<name>KIC 5213404</name>
+		<name>2MASS J19522853+4022301</name>
+		<name>Gaia DR2 2073768853731839104</name>
 		<temperature errorminus="280.4" errorplus="294.8">6158.0</temperature>
 		<mass errorminus="0.12" errorplus="0.22">1.14</mass>
 		<radius errorminus="0.23" errorplus="0.48">1.22</radius>
 		<metallicity errorminus="0.18" errorplus="0.13">0.01</metallicity>
 		<planet>
 			<name>Kepler-1508 b</name>
+			<name>KOI-3468 b</name>
+			<name>KOI-3468.01</name>
+			<name>KIC 5213404 b</name>
+			<name>Gaia DR2 2073768853731839104 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000549900" errorplus="0.000549900">20.705650400</period>
 			<radius errorminus="0.023" errorplus="0.047">0.119</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

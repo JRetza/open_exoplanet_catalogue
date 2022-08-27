@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-951</name>
-	<rightascension>19 10 57</rightascension>
-	<declination>+38 06 52</declination>
+	<name>KOI-1788</name>
+	<name>KIC 2975770</name>
+	<distance errorminus="3.4852" errorplus="3.4852">386.757</distance>
+	<rightascension>19 10 57.0152</rightascension>
+	<declination>+38 06 52.4925</declination>
 	<star>
 		<name>Kepler-951</name>
+		<name>KOI-1788</name>
+		<name>KIC 2975770</name>
+		<name>2MASS J19105701+3806524</name>
+		<name>Gaia DR2 2099524776162690944</name>
+		<magH errorminus="0.022" errorplus="0.022">12.382</magH>
+		<magJ errorminus="0.021" errorplus="0.021">12.920</magJ>
+		<magK errorminus="0.023" errorplus="0.023">12.251</magK>
 		<temperature errorminus="91.7" errorplus="86.0">4834.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.77</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.73</radius>
 		<metallicity errorminus="0.16" errorplus="0.16">-0.01</metallicity>
 		<planet>
 			<name>Kepler-951 b</name>
+			<name>KOI-1788 b</name>
+			<name>KOI-1788.01</name>
+			<name>KIC 2975770 b</name>
+			<name>Gaia DR2 2099524776162690944 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000084190" errorplus="0.000084190">71.525308450</period>
 			<radius errorminus="0.023" errorplus="0.021">0.499</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

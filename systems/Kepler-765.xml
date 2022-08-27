@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-765</name>
-	<rightascension>18 52 44</rightascension>
-	<declination>+47 09 20</declination>
+	<name>KOI-1086</name>
+	<name>KIC 10122255</name>
+	<distance errorminus="18.7529" errorplus="18.7529">1110.74</distance>
+	<rightascension>18 52 44.3158</rightascension>
+	<declination>+47 09 20.3795</declination>
 	<star>
 		<name>Kepler-765</name>
+		<name>KOI-1086</name>
+		<name>KIC 10122255</name>
+		<name>2MASS J18524430+4709204</name>
+		<name>Gaia DR2 2107617903296016768</name>
+		<magH errorminus="0.024" errorplus="0.024">13.168</magH>
+		<magJ errorminus="0.025" errorplus="0.025">13.487</magJ>
+		<magK errorminus="0.039" errorplus="0.039">13.175</magK>
 		<temperature errorminus="90.0" errorplus="81.2">5901.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">1.05</mass>
 		<radius errorminus="0.10" errorplus="0.23">1.06</radius>
 		<metallicity errorminus="0.15" errorplus="0.14">0.04</metallicity>
 		<planet>
 			<name>Kepler-765 b</name>
+			<name>KOI-1086 b</name>
+			<name>KOI-1086.01</name>
+			<name>KIC 10122255 b</name>
+			<name>Gaia DR2 2107617903296016768 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000129700" errorplus="0.000129700">27.665522600</period>
 			<radius errorminus="0.020" errorplus="0.047">0.217</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

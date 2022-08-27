@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-498</name>
-	<rightascension>19 21 26</rightascension>
-	<declination>+44 31 08</declination>
+	<name>KOI-234</name>
+	<name>KIC 8491277</name>
+	<distance errorminus="16.7578" errorplus="16.7578">964.878</distance>
+	<rightascension>19 21 25.9566</rightascension>
+	<declination>+44 31 07.4419</declination>
 	<star>
 		<name>Kepler-498</name>
+		<name>KOI-234</name>
+		<name>KIC 8491277</name>
+		<name>2MASS J19212595+4431075</name>
+		<name>Gaia DR2 2126984220073270784</name>
+		<magH errorminus="0.022" errorplus="0.022">12.788</magH>
+		<magJ errorminus="0.022" errorplus="0.022">13.180</magJ>
+		<magK errorminus="0.023" errorplus="0.023">12.755</magK>
 		<temperature errorminus="96.9" errorplus="144.5">5744.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">0.98</mass>
 		<radius errorminus="0.08" errorplus="0.16">0.96</radius>
 		<metallicity errorminus="0.17" errorplus="0.14">-0.04</metallicity>
 		<planet>
 			<name>Kepler-498 b</name>
+			<name>KOI-234 b</name>
+			<name>KOI-234.01</name>
+			<name>KIC 8491277 b</name>
+			<name>Gaia DR2 2126984220073270784 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000011730" errorplus="0.000011730">9.613753560</period>
 			<radius errorminus="0.030" errorplus="0.045">0.270</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

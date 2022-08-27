@@ -1,7 +1,7 @@
 <system>
 	<name>HD 12648</name>
-	<rightascension>02 18 59.654</rightascension>
-	<declination>+85 44 10.22</declination>
+	<rightascension>02 18 59.6716</rightascension>
+	<declination>+85 44 10.1731</declination>
 	<distance errorminus="9.0" errorplus="9.0">158.4</distance>
 	<star>
 		<name>HD 12648</name>
@@ -10,6 +10,7 @@
 		<name>BD+85 41</name>
 		<name>PPM 401</name>
 		<name>2MASS J02185973+8544102</name>
+		<name>Gaia DR2 574577774218025600</name>
 		<magB errorminus="0.01" errorplus="0.01">7.90</magB>
 		<magV errorminus="0.01" errorplus="0.01">6.98</magV>
 		<magJ errorminus="0.023" errorplus="0.023">5.302</magJ>
@@ -27,6 +28,7 @@
 			<name>BD+85 41 b</name>
 			<name>PPM 401 b</name>
 			<name>2MASS J02185973+8544102 b</name>
+			<name>Gaia DR2 574577774218025600 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.4" errorplus="0.4" type="msini">2.9</mass>
 			<period errorminus="0.5" errorplus="0.5">133.6</period>
@@ -39,4 +41,5 @@
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 	</star>
+	<constellation>Cepheus</constellation>
 </system>

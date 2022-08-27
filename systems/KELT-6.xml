@@ -1,13 +1,14 @@
 <system>
 	<name>KELT-6</name>
-	<rightascension>13 03 55.648</rightascension>
-	<declination>+30 38 24.18</declination>
+	<rightascension>13 03 55.6468</rightascension>
+	<declination>+30 38 24.2797</declination>
 	<distance errorminus="8" errorplus="8">222</distance>
 	<star>
 		<name>KELT-6</name>
 		<name>TYC 2532-556-1</name>
 		<name>BD+31 2447</name>
 		<name>2MASS J13035564+3038241</name>
+		<name>Gaia DR2 1464700950221781504</name>
 		<mass errorminus="0.058" errorplus="0.058">1.126</mass>
 		<radius errorminus="0.137" errorplus="0.143">1.529</radius>
 		<temperature errorminus="61" errorplus="61">6272</temperature>
@@ -24,6 +25,7 @@
 			<name>KELT-6 b</name>
 			<name>TYC 2532-556-1 b</name>
 			<name>BD+31 2447 b</name>
+			<name>Gaia DR2 1464700950221781504 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.019" errorplus="0.019">0.442</mass>
 			<radius errorminus="0.11" errorplus="0.11">1.18</radius>
@@ -44,6 +46,7 @@
 			<name>KELT-6 c</name>
 			<name>TYC 2532-556-1 c</name>
 			<name>BD+31 2447 c</name>
+			<name>Gaia DR2 1464700950221781504 c</name>
 			<list>Confirmed planets</list>
 			<period errorminus="67" errorplus="81">1276</period>
 			<eccentricity errorminus="0.036" errorplus="0.039">0.21</eccentricity>
@@ -58,4 +61,5 @@
 			<istransiting>0</istransiting>
 		</planet>
 	</star>
+	<constellation>Coma Berenices</constellation>
 </system>

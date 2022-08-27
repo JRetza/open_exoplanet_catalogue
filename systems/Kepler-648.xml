@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-648</name>
-	<rightascension>18 55 36</rightascension>
-	<declination>+45 01 01</declination>
+	<name>KOI-694</name>
+	<name>KIC 8802165</name>
+	<distance errorminus="8.1011" errorplus="8.1011">647.878</distance>
+	<rightascension>18 55 35.9127</rightascension>
+	<declination>+45 01 00.8400</declination>
 	<star>
 		<name>Kepler-648</name>
+		<name>KOI-694</name>
+		<name>KIC 8802165</name>
+		<name>2MASS J18553591+4501007</name>
+		<name>Gaia DR2 2106784610922074496</name>
+		<magH errorminus="0.023" errorplus="0.023">12.520</magH>
+		<magJ errorminus="0.025" errorplus="0.025">12.803</magJ>
+		<magK errorminus="0.023" errorplus="0.023">12.440</magK>
 		<temperature errorminus="51.6" errorplus="55.0">5741.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">1.05</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.98</radius>
 		<metallicity errorminus="0.08" errorplus="0.07">0.21</metallicity>
 		<planet>
 			<name>Kepler-648 b</name>
+			<name>KOI-694 b</name>
+			<name>KOI-694.01</name>
+			<name>KIC 8802165 b</name>
+			<name>Gaia DR2 2106784610922074496 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000020660" errorplus="0.000020660">17.421174900</period>
 			<radius errorminus="0.021" errorplus="0.011">0.287</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

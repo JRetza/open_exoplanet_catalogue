@@ -1,12 +1,16 @@
 <system>
 	<name>KOI-142</name>
-	<rightascension>19 24 35</rightascension>
-	<declination>+40 40 09</declination>
+	<name>Kepler-88</name>
+	<name>KIC 5446285</name>
+	<rightascension>19 24 35.5431</rightascension>
+	<declination>+40 40 09.8098</declination>
 	<distance errorminus="20" errorplus="16">385</distance>
 	<star>
 		<name>KOI-142</name>
 		<name>Kepler-88</name>
 		<name>KIC 5446285</name>
+		<name>2MASS J19243554+4040098</name>
+		<name>Gaia DR2 2101507367429089664</name>
 		<magJ errorminus="0.020" errorplus="0.020">11.882</magJ>
 		<magH errorminus="0.019" errorplus="0.019">11.517</magH>
 		<magK errorminus="0.019" errorplus="0.019">11.454</magK>
@@ -21,6 +25,7 @@
 			<name>KOI-142.01</name>
 			<name>Kepler-88 b</name>
 			<name>KIC 5446285 b</name>
+			<name>Gaia DR2 2101507367429089664 b</name>
 			<list>Confirmed planets</list>
 			<radius errorminus="0.026" errorplus="0.0347">0.37647</radius>
 			<period errorminus="6.4e-05" errorplus="0.00143">10.9542</period>
@@ -43,6 +48,7 @@
 			<name>KOI-142 c</name>
 			<name>Kepler-88 c</name>
 			<name>KIC 5446285 c</name>
+			<name>Gaia DR2 2101507367429089664 c</name>
 			<list>Confirmed planets</list>
 			<period errorminus="0.25" errorplus="0.25">22.1</period>
 			<mass errorminus="0.32" errorplus="0.16">0.76</mass>
@@ -57,5 +63,21 @@
 			<lastupdate>13/04/17</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 		</planet>
+		<planet>
+			<name>KOI-142 d</name>
+			<name>Kepler-88 d</name>
+			<name>KIC 5446285 d</name>
+			<name>Gaia DR2 2101507367429089664 d</name>
+			<eccentricity errorminus="0.030000" errorplus="0.030000">0.410000</eccentricity>
+			<inclination>89.000</inclination>
+			<period errorminus="14.00000000" errorplus="14.00000000">1403.00000000</period>
+			<description>This planet was discovered by Weiss et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Weiss et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.16000" errorplus="0.16000">3.05000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/06/04</lastupdate>
+		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

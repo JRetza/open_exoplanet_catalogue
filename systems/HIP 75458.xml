@@ -1,12 +1,15 @@
 <system>
 	<name>HIP 75458</name>
-	<rightascension>15 24 55</rightascension>
-	<declination>+58 57 57</declination>
+	<rightascension>15 24 55.7746</rightascension>
+	<declination>+58 57 57.8344</declination>
 	<distance>31.5</distance>
 	<star>
 		<name>iota Draconis</name>
 		<name>HIP 75458</name>
 		<name>HD 137759</name>
+		<name>Gaia DR2 1614731957530945280</name>
+		<name>TYC 3875-1620-1</name>
+		<name>Edasich</name>
 		<mass>1.4</mass>
 		<radius>12.8</radius>
 		<magV>3.31</magV>
@@ -22,6 +25,9 @@
 			<name>iota Draconis b</name>
 			<name>HIP 75458 b</name>
 			<name>HD 137759 b</name>
+			<name>Gaia DR2 1614731957530945280 b</name>
+			<name>TYC 3875-1620-1 b</name>
+			<name>Edasich b</name>
 			<list>Confirmed planets</list>
 			<mass>8.82</mass>
 			<period>510.702</period>
@@ -36,4 +42,5 @@
 		</planet>
 		<temperature>4445.0</temperature>
 	</star>
+	<constellation>Draco</constellation>
 </system>

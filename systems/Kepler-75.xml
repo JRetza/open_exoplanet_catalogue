@@ -2,14 +2,17 @@
 	<name>Kepler-75</name>
 	<name>KIC 757450</name>
 	<name>2MASS 19243302+3634385</name>
-	<rightascension>19 24 33</rightascension>
-	<declination>+36 34 39</declination>
+	<name>KOI-889</name>
+	<rightascension>19 24 33.0185</rightascension>
+	<declination>+36 34 38.4774</declination>
 	<distance errorminus="250" errorplus="160">1140</distance>
 	<star>
 		<name>Kepler-75</name>
 		<name>KOI-889</name>
 		<name>KIC 757450</name>
 		<name>2MASS 19243302+3634385</name>
+		<name>2MASS J19243302+3634385</name>
+		<name>Gaia DR2 2050231848829944320</name>
 		<magB>16.2</magB>
 		<magR>14.9</magR>
 		<magJ errorminus="0.021" errorplus="0.021">13.665</magJ>
@@ -27,6 +30,7 @@
 			<name>KOI-889.01</name>
 			<name>KIC 757450 b</name>
 			<name>2MASS 19243302+3634385 b</name>
+			<name>Gaia DR2 2050231848829944320 b</name>
 			<radius errorminus="0.03" errorplus="0.03">1.05</radius>
 			<period errorminus="0.0000034" errorplus="0.0000034">8.8849116</period>
 			<transittime errorminus="0.00012" errorplus="0.00012">2455740.44030</transittime>
@@ -43,4 +47,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

@@ -1,12 +1,16 @@
 <system>
 	<name>KOI-341</name>
-	<rightascension>19 51 50.78</rightascension>
-	<declination>+48 14 39.7</declination>
+	<name>Kepler-414</name>
+	<name>KIC 10878263</name>
+	<distance errorminus="3.0466" errorplus="3.0466">418.445</distance>
+	<rightascension>19 51 50.7704</rightascension>
+	<declination>+48 14 39.7396</declination>
 	<star>
 		<name>KOI-341</name>
 		<name>Kepler-414</name>
 		<name>KIC 10878263</name>
 		<name>2MASS J19515077+4814397</name>
+		<name>Gaia DR2 2086519821353411456</name>
 		<magJ errorminus="0.024" errorplus="0.024">12.087</magJ>
 		<magH errorminus="0.015" errorplus="0.015">11.750</magH>
 		<magK errorminus="0.020" errorplus="0.020">11.698</magK>
@@ -18,6 +22,7 @@
 			<name>Kepler-414 b</name>
 			<name>KOI-341.02</name>
 			<name>KIC 10878263 b</name>
+			<name>Gaia DR2 2086519821353411456 b</name>
 			<list>Confirmed planets</list>
 			<period>4.7</period>
 			<semimajoraxis>0.0529</semimajoraxis>
@@ -34,6 +39,7 @@
 			<name>Kepler-414 c</name>
 			<name>KOI-341.01</name>
 			<name>KIC 10878263 c</name>
+			<name>Gaia DR2 2086519821353411456 c</name>
 			<list>Confirmed planets</list>
 			<period>7.171</period>
 			<semimajoraxis>0.0701</semimajoraxis>
@@ -46,4 +52,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

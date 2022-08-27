@@ -1,36 +1,53 @@
 <system>
 	<name>Kepler-920</name>
-	<rightascension>18 57 11</rightascension>
-	<declination>+49 09 31</declination>
+	<name>KOI-1650</name>
+	<name>KIC 11337372</name>
+	<distance errorminus="27.0066" errorplus="27.0066">1031.14</distance>
+	<rightascension>18 57 11.2748</rightascension>
+	<declination>+49 09 31.2462</declination>
 	<star>
 		<name>Kepler-920</name>
+		<name>KOI-1650</name>
+		<name>KIC 11337372</name>
+		<name>2MASS J18571126+4909312</name>
+		<name>Gaia DR2 2131815577243101696</name>
+		<magH errorminus="0.041" errorplus="0.041">13.649</magH>
+		<magJ errorminus="0.027" errorplus="0.027">14.026</magJ>
+		<magK errorminus="0.036" errorplus="0.036">13.511</magK>
 		<temperature errorminus="59.4" errorplus="62.2">5403.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.89</mass>
 		<radius errorminus="0.05" errorplus="0.07">0.85</radius>
 		<metallicity errorminus="0.19" errorplus="0.15">0.00</metallicity>
 		<planet>
 			<name>Kepler-920 b</name>
+			<name>KOI-1650 b</name>
+			<name>KOI-1650.01</name>
+			<name>KIC 11337372 b</name>
+			<name>Gaia DR2 2131815577243101696 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000022960" errorplus="0.000022960">6.531927040</period>
 			<radius errorminus="0.014" errorplus="0.020">0.216</radius>
 		</planet>
 		<planet>
 			<name>Kepler-920 c</name>
+			<name>KOI-1650 c</name>
+			<name>KOI-1650.02</name>
+			<name>KIC 11337372 c</name>
+			<name>Gaia DR2 2131815577243101696 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000706300" errorplus="0.000706300">100.827411300</period>
 			<radius errorminus="0.025" errorplus="0.052">0.339</radius>
 		</planet>
 	</star>
+	<constellation>Draco</constellation>
 </system>

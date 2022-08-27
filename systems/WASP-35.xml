@@ -1,7 +1,8 @@
 <system>
 	<name>WASP-35</name>
-	<rightascension>05 04 20</rightascension>
-	<declination>-06 13 47</declination>
+	<rightascension>05 04 19.6324</rightascension>
+	<declination>-06 13 47.3761</declination>
+	<distance errorminus="1.9" errorplus="1.9">216.5</distance>
 	<star>
 		<magB errorminus="0.09" errorplus="0.09">11.55</magB>
 		<magV errorminus="0.09" errorplus="0.09">10.94</magV>
@@ -15,6 +16,8 @@
 		<planet>
 			<name>WASP-35 b</name>
 			<name>2MASS J05041962-0613473 b</name>
+			<name>TYC 4762-714-1 b</name>
+			<name>Gaia DR2 3211188618762023424 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.06" errorplus="0.06">0.72</mass>
 			<radius errorminus="0.05" errorplus="0.05">1.32</radius>
@@ -30,6 +33,9 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>WASP-35</name>
+		<name>TYC 4762-714-1</name>
+		<name>Gaia DR2 3211188618762023424</name>
 		<temperature errorminus="90" errorplus="90">5990</temperature>
 	</star>
+	<constellation>Eridanus</constellation>
 </system>

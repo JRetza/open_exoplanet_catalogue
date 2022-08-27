@@ -1,24 +1,38 @@
 <system>
 	<name>Kepler-1601</name>
-	<rightascension>19 02 03</rightascension>
-	<declination>+38 04 47</declination>
+	<name>KOI-4400</name>
+	<name>KIC 2831055</name>
+	<distance errorminus="6.4245" errorplus="6.4245">656.642</distance>
+	<rightascension>19 02 03.1103</rightascension>
+	<declination>+38 04 47.2119</declination>
 	<star>
 		<name>Kepler-1601</name>
+		<name>KOI-4400</name>
+		<name>KIC 2831055</name>
+		<name>2MASS J19020310+3804470</name>
+		<name>Gaia DR2 2099912182214036608</name>
+		<magH errorminus="0.021" errorplus="0.021">12.311</magH>
+		<magJ errorminus="0.020" errorplus="0.020">12.602</magJ>
+		<magK errorminus="0.022" errorplus="0.022">12.216</magK>
 		<temperature errorminus="118.6" errorplus="90.8">5869.0</temperature>
 		<mass errorminus="0.06" errorplus="0.07">1.04</mass>
 		<radius errorminus="0.12" errorplus="0.31">1.07</radius>
 		<metallicity errorminus="0.15" errorplus="0.14">0.05</metallicity>
 		<planet>
 			<name>Kepler-1601 b</name>
+			<name>KOI-4400 b</name>
+			<name>KOI-4400.01</name>
+			<name>KIC 2831055 b</name>
+			<name>Gaia DR2 2099912182214036608 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000015100" errorplus="0.000015100">2.209219510</period>
 			<radius errorminus="0.010" errorplus="0.021">0.073</radius>
 		</planet>
 	</star>
+	<constellation>Lyra</constellation>
 </system>

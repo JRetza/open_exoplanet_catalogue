@@ -1,24 +1,35 @@
 <system>
 	<name>Kepler-527</name>
-	<rightascension>19 23 50</rightascension>
-	<declination>+47 24 23</declination>
+	<name>KOI-333</name>
+	<name>KIC 10337258</name>
+	<distance errorminus="7.8755" errorplus="7.8755">766.636</distance>
+	<rightascension>19 23 49.8997</rightascension>
+	<declination>+47 24 22.5767</declination>
 	<star>
 		<name>Kepler-527</name>
+		<name>KOI-333</name>
+		<name>KIC 10337258</name>
+		<name>2MASS J19234989+4724226</name>
+		<name>Gaia DR2 2129162283888866688</name>
 		<temperature errorminus="136.7" errorplus="115.3">6388.0</temperature>
 		<mass errorminus="0.12" errorplus="0.22">1.28</mass>
 		<radius errorminus="0.24" errorplus="0.69">1.45</radius>
 		<metallicity errorminus="0.16" errorplus="0.12">0.03</metallicity>
 		<planet>
 			<name>Kepler-527 b</name>
+			<name>KOI-333 b</name>
+			<name>KOI-333.01</name>
+			<name>KIC 10337258 b</name>
+			<name>Gaia DR2 2129162283888866688 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<period errorminus="0.000024090" errorplus="0.000024090">13.285356330</period>
 			<radius errorminus="0.041" errorplus="0.120">0.253</radius>
 		</planet>
 	</star>
+	<constellation>Cygnus</constellation>
 </system>

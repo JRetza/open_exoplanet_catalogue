@@ -1,7 +1,7 @@
 <system>
 	<name>HD 73526</name>
-	<rightascension>08 37 16</rightascension>
-	<declination>-41 19 08</declination>
+	<rightascension>08 37 16.4834</rightascension>
+	<declination>-41 19 08.7873</declination>
 	<distance>99</distance>
 	<star>
 		<mass errorminus="0.05" errorplus="0.05">1.08</mass>
@@ -16,6 +16,9 @@
 		<spectraltype>G6 V</spectraltype>
 		<planet>
 			<name>HD 73526 b</name>
+			<name>TYC 7670-3068-1 b</name>
+			<name>Gaia DR2 5528196343922685056 b</name>
+			<name>HIP 42282 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.12" errorplus="0.12">2.35</mass>
 			<period errorminus="0.21" errorplus="0.21">189.65</period>
@@ -29,6 +32,9 @@
 		</planet>
 		<planet>
 			<name>HD 73526 c</name>
+			<name>TYC 7670-3068-1 c</name>
+			<name>Gaia DR2 5528196343922685056 c</name>
+			<name>HIP 42282 c</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.12" errorplus="0.12">2.19</mass>
 			<period errorminus="0.69" errorplus="0.69">376.93</period>
@@ -41,6 +47,10 @@
 			<temperature>293.3</temperature>
 		</planet>
 		<name>HD 73526</name>
+		<name>TYC 7670-3068-1</name>
+		<name>Gaia DR2 5528196343922685056</name>
+		<name>HIP 42282</name>
 		<temperature>5590.0</temperature>
 	</star>
+	<constellation>Vela</constellation>
 </system>
